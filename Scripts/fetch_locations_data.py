@@ -55,8 +55,9 @@ async def main():
 
     df = pd.DataFrame(all_results)
     df.to_csv("openaq_locations_ultrafast.csv", index=False)
-    print(f"\n🔥 DONE! Saved {len(df)} locations to openaq_locations_ultrafast.csv")
+    print(f"\n🔥 DONE! Saved {len(df)} locations to openaq_locations.csv")
 
 
 # Run it
 asyncio.run(main())
+
