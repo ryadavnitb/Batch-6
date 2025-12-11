@@ -1,0 +1,501 @@
+City,Country,Location_Type,latitude,longitude,dist_road,road_count,dist_industry,industry_count,dist_farm,farm_count
+Praskoveya,Russian Federation,Sector_2,44.77698,44.19112,1977.99,15.0,1226.79,9.0,989.89,10.0
+Praskoveya,Russian Federation,City Center,44.7444,44.2031,789.86,6.0,,,1194.8,25.0
+Presidente Dutra,Brazil,Sector_1,-5.25046,-44.49919,1891.22,1.0,,,,
+Presidente Dutra,Brazil,Sector_2,-5.2867,-44.5462,181.36,4.0,,,,
+Presidente Dutra,Brazil,Sector_3,-5.26174,-44.42481,,,,,,
+Presidente Dutra,Brazil,Sector_4,-5.31129,-44.50277,1567.01,27.0,,,,
+Praskoveya,Russian Federation,Sector_3,44.71468,44.20559,619.06,5.0,,,0.0,15.0
+Presidente Dutra,Brazil,City Center,-5.29,-44.49,394.09,52.0,956.55,2.0,,
+Priolo Gargallo,Italy,Sector_1,37.19139,15.21214,,,,,,
+Priolo Gargallo,Italy,Sector_3,37.11844,15.18669,462.84,69.0,1616.14,3.0,1844.93,5.0
+Priolo Gargallo,Italy,Sector_4,37.19088,15.18865,1253.45,17.0,463.99,9.0,1669.25,5.0
+Priolo Gargallo,Italy,City Center,37.1572,15.1802,550.6,126.0,1161.91,7.0,901.45,10.0
+Priolo Gargallo,Italy,Sector_2,37.1863,15.12505,342.77,19.0,,,,
+Przasnysz,Poland,Sector_2,53.08796,20.91148,,,,,,
+Przasnysz,Poland,Sector_3,52.97444,20.91226,4345.25,1.0,,,0.0,191.0
+Przasnysz,Poland,Sector_4,52.98758,20.91517,2077.18,3.0,2272.69,13.0,23.71,233.0
+Przasnysz,Poland,Sector_1,52.9581,20.8244,3609.52,1.0,,,0.0,43.0
+Punaauia,France,Sector_1,-17.67637,-149.65359,,,,,,
+Punaauia,France,Sector_2,-17.59839,-149.62896,1845.33,45.0,,,,
+Punaauia,France,Sector_3,-17.62964,-149.55574,,,,,,
+Punaauia,France,Sector_4,-17.65037,-149.66884,,,,,,
+Punta Gorda,United States of America,City Center,26.9298,-82.0454,215.47,51.0,1.83,45.0,,
+Punta Gorda,United States of America,Sector_1,26.97418,-82.1088,1452.63,2.0,1960.98,4.0,,
+Punta Gorda,United States of America,Sector_2,26.95555,-82.07238,657.54,38.0,458.02,24.0,2533.32,1.0
+Praskoveya,Russian Federation,Sector_4,44.72426,44.17131,2276.61,5.0,,,0.0,21.0
+Punta Gorda,United States of America,Sector_3,26.96491,-82.01798,190.72,30.0,1797.27,7.0,,
+Punaauia,France,City Center,-17.6333,-149.6,683.07,78.0,0.0,3.0,,
+Punta Gorda,United States of America,Sector_4,26.94918,-82.03179,815.45,61.0,790.47,31.0,2017.23,2.0
+Puttlingen,Germany,Sector_1,49.32628,6.92082,166.11,82.0,1300.16,5.0,467.14,56.0
+Puttlingen,Germany,Sector_3,49.31601,6.86636,64.96,52.0,3359.6,1.0,30.44,36.0
+Puttlingen,Germany,Sector_2,49.30297,6.81163,133.59,45.0,570.03,12.0,741.17,26.0
+Przasnysz,Poland,City Center,53.0191,20.8803,0.01,66.0,166.85,101.0,787.08,322.0
+Praskoveya,Russian Federation,Sector_1,44.79657,44.17605,808.54,27.0,865.72,29.0,2959.01,1.0
+Puurs,Belgium,Sector_2,51.07758,4.19909,,,,,,
+Puurs,Belgium,Sector_3,51.1337,4.34008,530.12,59.0,31.0,12.0,1043.71,26.0
+Puttlingen,Germany,Sector_4,49.30339,6.90456,426.9,51.0,1360.19,6.0,286.34,37.0
+Puurs,Belgium,City Center,51.075,4.29,925.85,44.0,807.42,9.0,709.72,145.0
+Puttlingen,Germany,City Center,49.2855,6.8872,375.65,68.0,768.85,9.0,510.13,30.0
+Pyatigorsk,Russian Federation,Sector_2,44.11529,43.06688,1684.81,9.0,1465.42,19.0,,
+Pyatigorsk,Russian Federation,Sector_3,44.03729,43.09941,226.29,71.0,1437.27,3.0,2714.39,2.0
+Pyatigorsk,Russian Federation,Sector_4,44.0262,43.07636,163.59,87.0,469.0,8.0,3187.04,2.0
+Qalyub,Egypt,City Center,30.1792,31.2056,271.49,23.0,,,,
+Pyatigorsk,Russian Federation,City Center,44.0486,43.0594,647.55,96.0,772.38,14.0,,
+Pyatigorsk,Russian Federation,Sector_1,44.04716,43.12156,365.5,89.0,997.72,2.0,594.42,9.0
+Puurs,Belgium,Sector_1,51.10027,4.31203,2254.31,19.0,91.13,8.0,225.23,91.0
+Puurs,Belgium,Sector_4,51.05879,4.32669,130.21,149.0,67.59,18.0,29.95,131.0
+Qalyub,Egypt,Sector_3,30.21379,31.15129,569.39,20.0,,,,
+Qalyub,Egypt,Sector_4,30.1985,31.27459,,,,,,
+Qinzhou,China,City Center,21.95,108.6167,831.86,45.0,1248.22,4.0,,
+Qalyub,Egypt,Sector_2,30.19962,31.14352,738.45,35.0,,,,
+Qalyub,Egypt,Sector_1,30.18703,31.17623,,,,,,
+Qinzhou,China,Sector_1,21.95686,108.5897,1249.75,36.0,2557.91,1.0,,
+Qinzhou,China,Sector_2,21.98302,108.5705,2413.89,2.0,,,,
+Qinzhou,China,Sector_4,21.98252,108.62476,0.71,43.0,841.76,3.0,,
+Raalte,Netherlands,Sector_3,52.41524,6.26436,,,,,,
+Raalte,Netherlands,Sector_2,52.3429,6.34535,3899.1,2.0,3245.56,1.0,166.11,102.0
+Raalte,Netherlands,Sector_1,52.34495,6.27907,,,,,,
+Raalte,Netherlands,Sector_4,52.33635,6.21498,490.55,72.0,1698.27,1.0,197.1,127.0
+Qinzhou,China,Sector_3,21.89479,108.62678,,,,,,
+Radaur,India,City Center,30.0333,77.15,43.89,4.0,2141.32,1.0,,
+Raalte,Netherlands,City Center,52.3858,6.275,1290.04,111.0,669.14,9.0,1307.73,105.0
+Radaur,India,Sector_2,29.98843,77.09039,,,,,,
+Radaur,India,Sector_3,30.00512,77.11187,1027.58,3.0,1167.36,1.0,,
+Radaur,India,Sector_4,29.98241,77.16902,,,,,,
+Radhan,Pakistan,Sector_2,27.18539,67.88109,889.42,1.0,,,,
+Radhan,Pakistan,Sector_3,27.15323,67.96712,1972.76,3.0,,,,
+Radhan,Pakistan,City Center,27.1833,67.95,,,,,,
+Radhan,Pakistan,Sector_4,27.20628,67.98804,183.5,1.0,,,,
+Radovis,Republic of North Macedonia,City Center,41.6383,22.4647,,,,,,
+Radaur,India,Sector_1,29.97789,77.10758,,,,,,
+Radovis,Republic of North Macedonia,Sector_1,41.64778,22.50581,,,,,,
+Radhan,Pakistan,Sector_1,27.21061,67.90174,1264.7,6.0,,,,
+Raismes,France,Sector_1,50.3557,3.45454,1633.44,138.0,629.35,14.0,213.49,28.0
+Raismes,France,City Center,50.3833,3.4833,,,,,,
+Raismes,France,Sector_3,50.40227,3.5723,397.58,136.0,658.33,24.0,1728.91,28.0
+Radovis,Republic of North Macedonia,Sector_2,41.68353,22.39533,,,,,,
+Raismes,France,Sector_2,50.37741,3.5168,181.03,331.0,561.98,33.0,725.83,22.0
+Rajgir,India,City Center,25.0333,85.4167,132.01,13.0,,,1321.21,1.0
+Raismes,France,Sector_4,50.35871,3.51401,,,,,,
+Rajgir,India,Sector_2,25.0416,85.39794,,,,,,
+Rajgir,India,Sector_3,25.06995,85.38313,,,,,,
+Rajgir,India,Sector_4,25.03738,85.49323,148.0,1.0,,,,
+Radovis,Republic of North Macedonia,Sector_4,41.66838,22.49104,,,,,,
+Radovis,Republic of North Macedonia,Sector_3,41.59688,22.44984,,,,,,
+Rajgir,India,Sector_1,24.98241,85.47287,,,,,,
+Ramacca,Italy,Sector_1,37.40931,14.71252,,,,,,
+Ramacca,Italy,Sector_3,37.33994,14.72893,,,,,,
+Ramacca,Italy,Sector_4,37.40028,14.66359,,,,,,
+Ramacca,Italy,Sector_2,37.41104,14.70914,1945.77,9.0,,,2148.16,1.0
+Phoenix,United States of America,City Center,33.4484,-112.074,21.93,584.0,0.0,102.0,,
+Phoenix,United States of America,Sector_1,33.45615,-112.05013,273.3,532.0,217.18,67.0,,
+Phoenix,United States of America,Sector_4,33.43748,-111.99944,190.56,367.0,1577.36,12.0,,
+Phulabani,India,Sector_1,20.48827,84.18294,1538.86,3.0,,,,
+Phulabani,India,Sector_2,20.45658,84.25418,1041.65,8.0,,,,
+Phoenix,United States of America,Sector_2,33.40295,-112.10763,505.1,73.0,0.0,26.0,2056.36,1.0
+Phulabani,India,Sector_4,20.4808,84.18223,2587.64,1.0,,,,
+Piaseczno,Poland,City Center,52.0814,21.024,12.0,127.0,69.74,267.0,765.71,109.0
+Ramacca,Italy,City Center,37.3881,14.6927,220.92,21.0,,,2368.19,1.0
+Phoenix,United States of America,Sector_3,33.43607,-112.05528,95.77,652.0,108.85,59.0,,
+Piaseczno,Poland,Sector_2,52.10002,20.99124,2253.04,144.0,441.7,191.0,14.8,557.0
+Piaseczno,Poland,Sector_4,52.05134,21.00554,1885.97,37.0,95.24,48.0,1188.27,65.0
+Phulabani,India,City Center,20.4667,84.2333,566.93,18.0,,,,
+Pimpri,India,City Center,18.6167,73.8,506.42,160.0,702.13,16.0,753.0,2.0
+Piaseczno,Poland,Sector_3,52.03747,20.99429,263.78,45.0,128.61,38.0,0.0,136.0
+Pimpri,India,Sector_2,18.55755,73.77703,125.99,161.0,539.9,17.0,695.13,4.0
+Pimpri,India,Sector_4,18.60148,73.85485,1855.7,15.0,889.65,4.0,,
+Pindobacu,Brazil,City Center,-10.7417,-40.3608,80.67,6.0,,,,
+Pindobacu,Brazil,Sector_1,-10.78891,-40.34862,,,,,,
+Pindobacu,Brazil,Sector_2,-10.75491,-40.39385,,,,,,
+Pimpri,India,Sector_1,18.63409,73.8172,956.56,157.0,906.18,15.0,,
+Piaseczno,Poland,Sector_1,52.07538,20.99517,1244.2,125.0,599.48,176.0,97.62,259.0
+Pindobacu,Brazil,Sector_4,-10.72511,-40.38232,,,,,,
+Pingyin,China,Sector_1,36.29951,116.37761,1651.76,18.0,,,,
+Pingyin,China,Sector_2,36.22438,116.42615,1173.27,11.0,,,,
+Phulabani,India,Sector_3,20.52061,84.26058,1661.17,1.0,,,,
+Pingyin,China,Sector_3,36.27986,116.42108,518.9,114.0,841.14,8.0,,
+Pingyin,China,Sector_4,36.30998,116.47872,163.39,49.0,972.37,3.0,,
+Pindobacu,Brazil,Sector_3,-10.79988,-40.32588,,,,,,
+Pimpri,India,Sector_3,18.64787,73.82483,420.77,108.0,0.0,4.0,,
+Pingyin,China,City Center,36.2831,116.4453,0.35,147.0,440.36,7.0,,
+Pinheiral,Brazil,Sector_2,-22.52723,-44.04261,932.03,5.0,28.8,1.0,,
+Pinheiral,Brazil,Sector_3,-22.48594,-43.9362,1130.15,16.0,1014.16,2.0,,
+Piravam,India,Sector_1,9.83979,76.48573,349.5,11.0,1786.27,1.0,46.74,18.0
+Pinheiral,Brazil,Sector_4,-22.50955,-43.92932,,,,,,
+Piravam,India,City Center,9.8667,76.5,336.86,21.0,,,0.42,31.0
+Piravam,India,Sector_3,9.86366,76.44404,467.01,5.0,2661.3,1.0,765.14,18.0
+Piravam,India,Sector_4,9.83075,76.49868,271.37,9.0,2478.84,1.0,265.43,12.0
+Piravam,India,Sector_2,9.87403,76.47508,953.77,22.0,1854.92,1.0,0.0,29.0
+Pinheiral,Brazil,City Center,-22.5128,-44.0006,81.94,24.0,3027.55,1.0,,
+Plato,Colombia,Sector_3,9.77072,-74.81095,1804.52,4.0,,,,
+Plato,Colombia,Sector_4,9.82839,-74.81144,2374.25,1.0,,,,
+Poiana Mare,Romania,City Center,43.9167,23.0667,217.63,9.0,134.61,13.0,1759.06,3.0
+Poiana Mare,Romania,Sector_1,43.98092,23.0307,,,,,,
+Poiana Mare,Romania,Sector_2,43.95005,22.99103,973.73,1.0,,,0.0,1.0
+Pinheiral,Brazil,Sector_1,-22.50355,-44.06725,589.84,81.0,1595.1,5.0,,
+Poiana Mare,Romania,Sector_3,43.93461,23.02086,648.54,2.0,2160.33,2.0,449.3,1.0
+Plato,Colombia,Sector_2,9.78811,-74.75967,1338.6,2.0,,,,
+Plato,Colombia,City Center,9.7903,-74.7824,399.99,6.0,,,,
+Polevskoy,Russian Federation,Sector_2,56.48868,60.22538,336.39,23.0,370.79,17.0,2441.31,1.0
+Polevskoy,Russian Federation,Sector_1,56.45861,60.12861,3769.3,1.0,,,,
+Polevskoy,Russian Federation,Sector_4,56.43035,60.0883,,,,,,
+Pontarlier,France,City Center,46.8333,6.25,2342.2,3.0,,,1107.11,3.0
+Pontarlier,France,Sector_1,46.77002,6.21264,,,,,,
+Pontarlier,France,Sector_2,46.80917,6.25551,512.24,13.0,533.19,2.0,2511.25,2.0
+Pontarlier,France,Sector_3,46.8693,6.22861,479.55,19.0,599.71,3.0,125.46,24.0
+Polevskoy,Russian Federation,City Center,56.4422,60.1878,232.07,24.0,426.27,20.0,,
+Pontarlier,France,Sector_4,46.9,6.22931,944.83,26.0,389.79,2.0,725.07,9.0
+Polevskoy,Russian Federation,Sector_3,56.47412,60.19918,3134.4,16.0,1106.85,18.0,,
+Pontiac,United States of America,Sector_2,42.66084,-83.26892,183.13,259.0,201.7,54.0,,
+Plato,Colombia,Sector_1,9.76976,-74.81286,1776.35,4.0,,,,
+Pontiac,United States of America,Sector_3,42.60572,-83.28605,394.19,219.0,0.0,40.0,,
+Pontianak,Indonesia,City Center,-0.0333,109.3333,124.72,98.0,1431.04,1.0,1422.91,1.0
+Pontiac,United States of America,Sector_4,42.64075,-83.321,52.39,277.0,282.39,59.0,,
+Pontianak,Indonesia,Sector_2,-0.05885,109.31949,2793.63,2.0,1560.49,3.0,1606.37,3.0
+Pontianak,Indonesia,Sector_1,-0.06422,109.35043,539.83,42.0,,,825.3,3.0
+Poiana Mare,Romania,Sector_4,43.88422,23.01329,1316.44,7.0,,,0.0,2.0
+Pontianak,Indonesia,Sector_3,-0.0655,109.33942,1553.49,22.0,1116.5,3.0,1032.23,2.0
+Porecatu,Brazil,City Center,-22.7558,-51.3792,999.82,10.0,725.21,2.0,,
+Porecatu,Brazil,Sector_2,-22.81166,-51.394,2331.9,2.0,,,,
+Porecatu,Brazil,Sector_3,-22.73429,-51.39375,1261.98,3.0,2041.38,1.0,,
+Porecatu,Brazil,Sector_4,-22.74995,-51.44009,,,,,,
+Pontiac,United States of America,Sector_1,42.66756,-83.33609,339.64,124.0,0.0,28.0,,
+Pontiac,United States of America,City Center,42.6389,-83.2911,32.07,317.0,0.0,82.0,,
+Pori,Finland,Sector_2,61.48922,21.865,2710.11,50.0,1675.83,29.0,0.0,67.0
+Pori,Finland,Sector_3,61.52476,21.69967,3301.45,5.0,3594.48,2.0,28.92,44.0
+Porecatu,Brazil,Sector_1,-22.71902,-51.42011,,,,,,
+Port Elizabeth,South Africa,City Center,-33.918,25.5701,274.22,127.0,509.84,13.0,,
+Pori,Finland,Sector_4,61.45427,21.65746,601.32,6.0,1549.3,1.0,198.58,53.0
+Port Elizabeth,South Africa,Sector_1,-33.86867,25.60861,282.96,63.0,326.16,3.0,,
+Pontianak,Indonesia,Sector_4,-0.01649,109.29655,,,,,,
+Port Elizabeth,South Africa,Sector_4,-33.88275,25.5701,711.76,57.0,132.38,5.0,,
+Port Neches,United States of America,City Center,29.9913,-93.9585,7.15,39.0,1182.84,5.0,,
+Port Neches,United States of America,Sector_1,29.93391,-93.99515,578.95,120.0,961.48,18.0,601.74,2.0
+Port Neches,United States of America,Sector_2,30.00417,-93.97393,1860.23,13.0,0.0,1.0,,
+Port Neches,United States of America,Sector_3,29.94338,-93.96226,584.4,134.0,1010.11,11.0,,
+Port Neches,United States of America,Sector_4,29.95065,-93.97952,244.65,185.0,685.27,19.0,1958.18,2.0
+Port Talbot,United Kingdom of Great Britain and Northern Ireland,City Center,51.5924,-3.7802,97.26,166.0,163.45,25.0,,
+Port Elizabeth,South Africa,Sector_3,-33.96306,25.53455,1839.29,145.0,249.13,3.0,,
+Port Talbot,United Kingdom of Great Britain and Northern Ireland,Sector_2,51.57746,-3.80804,2996.8,52.0,904.36,22.0,,
+Port Talbot,United Kingdom of Great Britain and Northern Ireland,Sector_3,51.55431,-3.69979,1571.94,25.0,4279.46,1.0,3349.38,1.0
+Port Talbot,United Kingdom of Great Britain and Northern Ireland,Sector_4,51.54828,-3.69345,1420.15,31.0,,,,
+Portales,United States of America,City Center,34.1862,-103.3344,15.49,102.0,211.55,58.0,2468.18,4.0
+Portales,United States of America,Sector_1,34.22813,-103.30351,1530.9,7.0,1994.92,1.0,,
+Portales,United States of America,Sector_2,34.18496,-103.29856,158.36,12.0,,,2602.17,4.0
+Port Elizabeth,South Africa,Sector_2,-33.95212,25.56546,436.74,159.0,1544.51,4.0,,
+Portales,United States of America,Sector_4,34.18182,-103.36685,563.78,34.0,889.97,25.0,0.0,8.0
+Post Falls,United States of America,City Center,47.718,-116.9516,391.56,77.0,191.56,35.0,807.62,15.0
+Pori,Finland,Sector_1,61.46835,21.69394,82.87,49.0,4053.97,3.0,0.0,62.0
+Post Falls,United States of America,Sector_1,47.70469,-116.98257,1010.97,27.0,1604.99,28.0,362.01,10.0
+Post Falls,United States of America,Sector_3,47.69514,-116.96873,2117.1,22.0,2193.87,10.0,2116.17,2.0
+Portales,United States of America,Sector_3,34.15866,-103.28829,556.38,1.0,,,463.66,5.0
+Pouso Alegre,Brazil,City Center,-22.23,-45.9364,16.09,160.0,629.13,6.0,2375.67,1.0
+Pouso Alegre,Brazil,Sector_1,-22.26033,-45.99683,508.32,6.0,1952.48,1.0,607.37,19.0
+Pori,Finland,City Center,61.4833,21.7833,3.51,444.0,510.51,61.0,3426.16,11.0
+Post Falls,United States of America,Sector_2,47.736,-116.99121,1187.66,30.0,606.01,26.0,18.67,21.0
+Pouso Alegre,Brazil,Sector_3,-22.22589,-45.86556,994.83,42.0,2387.24,1.0,,
+Dalnegorsk,Russian Federation,City Center,44.5604,135.5701,421.84,2.0,26.43,11.0,,
+Dalnegorsk,Russian Federation,Sector_1,44.59393,135.56846,,,,,,
+Dalnegorsk,Russian Federation,Sector_2,44.6144,135.53851,,,,,,
+Dalnegorsk,Russian Federation,Sector_3,44.59269,135.61299,,,,,,
+Dalnegorsk,Russian Federation,Sector_4,44.63022,135.56271,,,,,,
+Dar Es Salaam,United Republic of Tanzania,City Center,-6.8235,39.2695,145.03,192.0,0.0,51.0,1139.51,6.0
+Pouso Alegre,Brazil,Sector_4,-22.25975,-45.86816,2214.34,5.0,2418.49,1.0,,
+Dar Es Salaam,United Republic of Tanzania,Sector_2,-6.75496,39.27299,1405.73,12.0,23.1,6.0,,
+Dar Es Salaam,United Republic of Tanzania,Sector_3,-6.79005,39.30841,,,,,,
+Post Falls,United States of America,Sector_4,47.74389,-117.00325,142.88,27.0,0.0,15.0,773.14,21.0
+Port Talbot,United Kingdom of Great Britain and Northern Ireland,Sector_1,51.53197,-3.77158,,,,,,
+Pouso Alegre,Brazil,Sector_2,-22.25077,-45.92753,353.84,114.0,1591.81,7.0,492.09,9.0
+Dar Es Salaam,United Republic of Tanzania,Sector_1,-6.78032,39.30763,,,,,,
+Darbhanga,India,Sector_1,26.13506,85.89471,253.55,19.0,2188.52,1.0,,
+Darbhanga,India,Sector_2,26.14239,85.90417,293.75,20.0,,,,
+Darbhanga,India,Sector_4,26.20472,85.9119,1257.25,12.0,,,,
+Dayton,United States of America,Sector_1,39.71978,-84.18496,1255.77,179.0,1418.05,14.0,,
+Dayton,United States of America,Sector_2,39.73904,-84.20018,139.54,286.0,294.35,44.0,,
+Dayton,United States of America,Sector_3,39.7958,-84.15033,139.28,77.0,1143.64,7.0,0.0,3.0
+Dar Es Salaam,United Republic of Tanzania,Sector_4,-6.76436,39.24158,831.02,67.0,116.98,20.0,,
+Dayton,United States of America,Sector_4,39.77918,-84.16113,7.85,163.0,705.59,40.0,2668.57,1.0
+Deinze,Belgium,Sector_1,50.95875,3.56655,247.8,91.0,1079.64,15.0,0.0,128.0
+Deinze,Belgium,Sector_2,51.01643,3.43822,3888.19,1.0,757.34,2.0,68.66,177.0
+Deinze,Belgium,Sector_3,50.99641,3.57082,1594.14,74.0,1714.56,6.0,0.0,94.0
+Dayton,United States of America,City Center,39.7589,-84.1916,95.09,482.0,7.64,102.0,,
+Deinze,Belgium,City Center,50.9818,3.531,390.71,205.0,1205.36,14.0,1623.7,69.0
+Deinze,Belgium,Sector_4,50.9747,3.57038,1867.23,80.0,1753.9,9.0,116.31,97.0
+Dekernes,Egypt,Sector_2,31.13683,31.63023,2938.07,3.0,,,,
+Dekernes,Egypt,Sector_3,31.11083,31.60882,2792.57,6.0,,,,
+Dekernes,Egypt,Sector_4,31.10229,31.63289,301.04,8.0,,,,
+Delmas,Haiti,City Center,18.5447,-72.3028,93.24,71.0,505.17,7.0,,
+Delmas,Haiti,Sector_1,18.50756,-72.30543,791.25,23.0,1985.69,1.0,,
+Darbhanga,India,City Center,26.1667,85.9,266.05,30.0,2685.35,1.0,,
+Delmas,Haiti,Sector_2,18.59094,-72.31687,933.66,52.0,469.5,14.0,780.48,47.0
+Dekernes,Egypt,City Center,31.0876,31.595,592.38,20.0,,,,
+Dekernes,Egypt,Sector_1,31.10484,31.57718,291.33,15.0,,,,
+Deming,United States of America,Sector_1,32.24909,-107.75851,657.42,18.0,2167.0,1.0,,
+Deming,United States of America,Sector_2,32.32678,-107.79147,768.77,2.0,,,,
+Darbhanga,India,Sector_3,26.13667,85.89467,268.61,16.0,,,,
+Deming,United States of America,Sector_3,32.24059,-107.71097,,,,,,
+Denton,United Kingdom of Great Britain and Northern Ireland,City Center,33.2001,-97.1336,368.91,384.0,420.13,21.0,,
+Delmas,Haiti,Sector_3,18.58039,-72.26594,101.7,32.0,456.85,40.0,505.47,20.0
+Delmas,Haiti,Sector_4,18.51423,-72.2984,874.4,37.0,881.1,14.0,,
+Denton,United Kingdom of Great Britain and Northern Ireland,Sector_2,33.12891,-97.12201,1954.61,30.0,991.56,6.0,,
+Denton,United Kingdom of Great Britain and Northern Ireland,Sector_3,33.15788,-97.08265,360.19,189.0,740.57,3.0,,
+Deming,United States of America,Sector_4,32.24924,-107.77581,640.42,17.0,2816.87,1.0,,
+Destin,United States of America,City Center,30.3935,-86.4958,158.46,64.0,0.0,15.0,,
+Destin,United States of America,Sector_1,30.37613,-86.54483,1917.13,10.0,,,,
+Denton,United Kingdom of Great Britain and Northern Ireland,Sector_1,33.23523,-97.16079,10.82,164.0,737.88,11.0,1288.62,2.0
+Deming,United States of America,City Center,32.2687,-107.7586,1.09,66.0,0.0,5.0,,
+Destin,United States of America,Sector_4,30.36347,-86.50277,,,,,,
+Dhadar,Pakistan,Sector_1,28.27223,75.07896,,,,,,
+Denton,United Kingdom of Great Britain and Northern Ireland,Sector_4,33.24599,-97.11351,422.16,163.0,1281.84,15.0,,
+Dhadar,Pakistan,Sector_2,28.32758,75.03223,760.1,3.0,,,,
+Dhadar,Pakistan,Sector_3,28.31699,75.04168,865.29,1.0,,,,
+Destin,United States of America,Sector_2,30.37407,-86.54727,2249.35,8.0,,,,
+Dharmapuri,India,Sector_1,12.1256,78.1078,2001.01,4.0,,,,
+Destin,United States of America,Sector_3,30.42365,-86.44987,,,,,,
+Dhadar,Pakistan,City Center,28.3305,75.0632,665.3,1.0,,,,
+Dharmapuri,India,Sector_4,12.13011,78.22987,1856.81,1.0,,,,
+Dharmapuri,India,Sector_3,12.16235,78.17852,579.65,24.0,,,,
+Dhadar,Pakistan,Sector_4,28.3242,75.03968,71.58,1.0,,,,
+Digri,Pakistan,City Center,25.1558,69.1113,27.03,5.0,,,,
+Dharmapuri,India,City Center,12.1333,78.1667,194.59,36.0,,,,
+Digri,Pakistan,Sector_3,25.18425,69.09781,447.4,2.0,,,,
+Dharmapuri,India,Sector_2,12.12919,78.14524,970.42,101.0,,,,
+Digri,Pakistan,Sector_4,25.10338,69.05888,,,,,,
+Dipolog,Philippines,Sector_2,8.5675,123.30558,,,,,,
+Dipolog,Philippines,Sector_3,8.59618,123.31905,,,,,,
+Dipolog,Philippines,Sector_4,8.60639,123.37625,1201.48,8.0,,,,
+Dobele,Latvia,City Center,56.625,23.2786,12.67,36.0,61.44,59.0,1583.79,9.0
+Dobele,Latvia,Sector_1,56.59732,23.17623,475.98,3.0,,,,
+Dobele,Latvia,Sector_2,56.62222,23.37343,544.69,7.0,2883.87,5.0,0.0,98.0
+Dobele,Latvia,Sector_3,56.66683,23.37987,4263.62,1.0,,,1578.07,1.0
+Dobele,Latvia,Sector_4,56.6286,23.32631,148.72,8.0,2020.94,18.0,217.71,78.0
+Grandville,United States of America,City Center,42.9098,-85.7631,0.47,112.0,1030.48,3.0,,
+Grandville,United States of America,Sector_1,42.93473,-85.72242,11.08,45.0,597.47,6.0,,
+Grandville,United States of America,Sector_2,42.94168,-85.84089,831.55,7.0,1637.79,1.0,109.95,10.0
+Dipolog,Philippines,City Center,8.5894,123.3414,35.47,46.0,168.33,11.0,1055.88,4.0
+Grandville,United States of America,Sector_4,42.88303,-85.84232,204.11,44.0,2491.55,1.0,1722.95,2.0
+Grave,Netherlands,City Center,51.759,5.7388,249.44,119.0,470.1,5.0,595.77,162.0
+Grandville,United States of America,Sector_3,42.91591,-85.8044,48.81,51.0,2119.99,3.0,1331.79,8.0
+Dipolog,Philippines,Sector_1,8.59258,123.28593,,,,,,
+Digri,Pakistan,Sector_2,25.14048,69.15686,2243.67,1.0,,,,
+Digri,Pakistan,Sector_1,25.18123,69.09688,653.41,2.0,,,,
+Grave,Netherlands,Sector_2,51.80137,5.64635,788.89,94.0,925.07,3.0,0.0,179.0
+Green Valley,United States of America,City Center,31.8543,-110.9937,46.77,58.0,418.59,6.0,,
+Grave,Netherlands,Sector_3,51.73088,5.77964,1839.84,13.0,3091.23,1.0,0.0,160.0
+Green Valley,United States of America,Sector_3,31.90151,-110.95448,2632.44,3.0,678.28,2.0,,
+Green Valley,United States of America,Sector_4,31.89597,-110.97231,1516.04,27.0,1944.37,1.0,,
+Greendale,United States of America,City Center,42.9406,-87.9959,760.04,108.0,27.22,16.0,,
+Green Valley,United States of America,Sector_2,31.8524,-110.97254,237.88,21.0,3144.11,1.0,,
+Greendale,United States of America,Sector_2,42.93138,-87.97451,1949.58,55.0,2002.87,7.0,3283.68,2.0
+Greendale,United States of America,Sector_3,42.87952,-87.97648,1023.29,15.0,1057.42,10.0,837.69,11.0
+Grave,Netherlands,Sector_4,51.81096,5.7212,1325.1,200.0,2323.09,7.0,807.69,77.0
+Greendale,United States of America,Sector_4,42.92362,-88.0246,1135.22,149.0,2535.77,12.0,1719.22,6.0
+Grudziadz,Poland,City Center,53.4841,18.7537,3.91,262.0,96.71,58.0,1847.32,28.0
+Grudziadz,Poland,Sector_1,53.46671,18.78199,1511.77,191.0,35.72,47.0,426.11,129.0
+Grudziadz,Poland,Sector_2,53.43662,18.842,450.79,23.0,,,193.13,48.0
+Grudziadz,Poland,Sector_4,53.4738,18.85783,,,,,,
+Guamo,Colombia,City Center,4.0308,-74.9701,44.23,32.0,344.1,1.0,765.18,1.0
+Guamo,Colombia,Sector_1,3.98597,-74.99047,123.07,2.0,,,,
+Guamo,Colombia,Sector_2,3.98725,-74.99517,652.8,2.0,,,,
+Green Valley,United States of America,Sector_1,31.87473,-110.99578,82.96,47.0,478.81,6.0,,
+Guamo,Colombia,Sector_4,4.02333,-74.99705,316.93,6.0,,,2283.81,1.0
+Grudziadz,Poland,Sector_3,53.49466,18.86727,1381.89,21.0,1348.45,3.0,0.0,84.0
+Guardiagrele,Italy,Sector_1,42.21307,14.24031,30.51,72.0,1263.82,15.0,110.09,356.0
+Guardiagrele,Italy,Sector_2,42.2189,14.19941,962.65,122.0,565.94,14.0,69.63,274.0
+Guardiagrele,Italy,Sector_3,42.24118,14.27569,2376.93,11.0,788.1,14.0,61.69,273.0
+Greendale,United States of America,Sector_1,42.99809,-88.05184,,,,,,
+Guardiagrele,Italy,Sector_4,42.1536,14.19503,,,,,,
+Grave,Netherlands,Sector_1,51.74924,5.78242,,,,,,
+Guildford,United Kingdom of Great Britain and Northern Ireland,Sector_1,51.30319,-0.60299,,,,,,
+Guardiagrele,Italy,City Center,42.1954,14.2198,,,,,,
+Guamo,Colombia,Sector_3,3.9846,-74.9818,782.48,2.0,,,,
+Guildford,United Kingdom of Great Britain and Northern Ireland,City Center,51.2354,-0.5743,,,,,,
+Guildford,United Kingdom of Great Britain and Northern Ireland,Sector_3,51.23945,-0.517,1248.51,70.0,3196.72,4.0,1190.2,127.0
+Gukovo,Russian Federation,Sector_1,48.07185,39.93761,,,,,,
+Gukovo,Russian Federation,City Center,48.0531,39.9311,,,,,,
+Guildford,United Kingdom of Great Britain and Northern Ireland,Sector_2,51.28005,-0.49866,673.48,67.0,283.93,11.0,0.0,87.0
+Gukovo,Russian Federation,Sector_4,48.02678,39.92091,,,,,,
+Gukovo,Russian Federation,Sector_3,48.03124,40.0001,,,,,,
+Gukovo,Russian Federation,Sector_2,48.06473,39.95326,,,,,,
+Havre De Grace,United States of America,Sector_3,39.52273,-76.13093,,,,,,
+Havre De Grace,United States of America,Sector_1,39.59679,-76.07987,,,,,,
+Havre De Grace,United States of America,Sector_2,39.56011,-76.05078,,,,,,
+Hazelwood,United States of America,Sector_1,38.70721,-90.38377,,,,,,
+Guildford,United Kingdom of Great Britain and Northern Ireland,Sector_4,51.29188,-0.61943,,,,,,
+Havre De Grace,United States of America,City Center,39.5493,-76.0916,,,,,,
+Hazelwood,United States of America,City Center,38.7714,-90.3709,,,,,,
+Havre De Grace,United States of America,Sector_4,39.51439,-76.02642,,,,,,
+Hazelwood,United States of America,Sector_2,38.76995,-90.34623,,,,,,
+Heddesheim,Germany,Sector_2,49.47059,8.51238,115.79,469.0,681.36,41.0,540.75,37.0
+Heddesheim,Germany,Sector_3,49.48491,8.56722,1045.29,239.0,336.1,20.0,0.0,69.0
+Heddesheim,Germany,Sector_1,49.5239,8.53395,,,,,,
+Hazelwood,United States of America,Sector_4,38.75049,-90.39765,,,,,,
+Heiligenhaus,Germany,City Center,51.3266,6.9711,,,,,,
+Heddesheim,Germany,Sector_4,49.5043,8.5207,570.25,406.0,112.07,29.0,740.02,24.0
+Hazelwood,United States of America,Sector_3,38.77387,-90.40301,265.76,106.0,143.95,6.0,2965.13,2.0
+Heiligenhaus,Germany,Sector_2,51.34579,6.97634,496.44,34.0,1135.38,24.0,509.53,46.0
+Heddesheim,Germany,City Center,49.5056,8.6036,21.94,145.0,2040.58,8.0,601.08,20.0
+Heiligenhaus,Germany,Sector_3,51.33905,7.00807,1192.53,209.0,971.35,29.0,250.48,48.0
+Hemel Hempstead,United Kingdom of Great Britain and Northern Ireland,Sector_2,51.77009,-0.37665,249.93,45.0,1643.74,1.0,0.0,43.0
+Hemel Hempstead,United Kingdom of Great Britain and Northern Ireland,Sector_3,51.69648,-0.49315,4065.0,2.0,,,1300.48,77.0
+Hemel Hempstead,United Kingdom of Great Britain and Northern Ireland,Sector_4,51.75553,-0.56938,299.94,69.0,1609.67,5.0,1123.87,48.0
+Hicksville,United States of America,City Center,40.7684,-73.5251,3.17,421.0,312.08,18.0,,
+Hemel Hempstead,United Kingdom of Great Britain and Northern Ireland,City Center,51.7537,-0.4752,3.53,213.0,894.79,15.0,2213.21,33.0
+Hicksville,United States of America,Sector_1,40.79896,-73.56387,1387.86,79.0,1785.69,4.0,,
+Hicksville,United States of America,Sector_3,40.71889,-73.52537,795.54,319.0,2021.47,1.0,,
+Hicksville,United States of America,Sector_4,40.79155,-73.4705,323.97,303.0,0.0,6.0,1700.06,1.0
+Hidrolandia,Brazil,City Center,-4.4081,-40.4378,879.91,5.0,,,,
+Hidrolandia,Brazil,Sector_1,-4.38184,-40.42504,,,,,,
+Heiligenhaus,Germany,Sector_4,51.37166,6.96755,130.37,99.0,903.71,20.0,327.12,44.0
+Hicksville,United States of America,Sector_2,40.7888,-73.54552,9.11,308.0,149.54,8.0,,
+Hidrolandia,Brazil,Sector_4,-4.3811,-40.40638,2832.7,1.0,,,1576.15,1.0
+Gyanpur,India,City Center,25.35,82.4667,493.22,3.0,1735.77,1.0,,
+Gyanpur,India,Sector_1,25.35062,82.43958,1090.63,2.0,,,,
+Hemel Hempstead,United Kingdom of Great Britain and Northern Ireland,Sector_1,51.76501,-0.44984,41.38,148.0,230.69,14.0,1632.83,58.0
+Gyanpur,India,Sector_3,25.32851,82.47895,1107.0,3.0,1514.52,1.0,,
+Hidrolandia,Brazil,Sector_3,-4.363,-40.44182,,,,,,
+Gyanpur,India,Sector_4,25.36837,82.47763,1280.63,1.0,,,,
+Haiger,Germany,City Center,50.75,8.2167,104.32,122.0,264.68,18.0,2654.41,3.0
+Gyanpur,India,Sector_2,25.3426,82.48602,118.34,1.0,368.0,1.0,,
+Haiger,Germany,Sector_1,50.7558,8.17545,371.43,177.0,1909.89,8.0,1069.92,12.0
+Haiger,Germany,Sector_4,50.76427,8.17665,931.87,139.0,1778.89,11.0,2119.25,7.0
+Haiger,Germany,Sector_3,50.72807,8.27509,325.55,190.0,1556.68,10.0,,
+Hangzhou,China,City Center,30.2937,120.1614,159.22,428.0,860.04,24.0,1474.24,2.0
+Hangzhou,China,Sector_1,30.30399,120.07923,271.5,387.0,1087.64,72.0,,
+Hangzhou,China,Sector_3,30.29288,120.21192,15.06,591.0,650.02,28.0,2848.89,2.0
+Hidrolandia,Brazil,Sector_2,-4.42614,-40.37114,,,,,,
+Heiligenhaus,Germany,Sector_1,51.30989,6.93702,1236.14,101.0,1236.68,13.0,0.0,76.0
+Harrislee,Germany,Sector_1,54.80663,9.45868,34.91,114.0,497.93,17.0,3749.46,3.0
+Harrislee,Germany,Sector_2,54.82474,9.32777,117.95,27.0,0.0,3.0,505.41,29.0
+Harrislee,Germany,Sector_3,54.82976,9.27213,,,,,,
+Harrislee,Germany,City Center,54.8,9.3833,1391.57,81.0,176.88,3.0,624.44,44.0
+Hangzhou,China,Sector_4,30.25924,120.22489,243.57,321.0,792.5,22.0,1553.67,3.0
+Harrislee,Germany,Sector_4,54.81917,9.42709,755.55,61.0,763.33,8.0,1766.95,9.0
+Harrison,United States of America,Sector_1,30.47245,-89.0811,2402.09,3.0,,,,
+Harrison,United States of America,City Center,30.4091,-89.0436,990.73,46.0,744.33,12.0,,
+Harrison,United States of America,Sector_3,30.39195,-89.1198,1031.28,6.0,,,,
+Harur,India,City Center,12.0667,78.5,75.4,7.0,,,,
+Harur,India,Sector_1,12.08675,78.52208,165.63,1.0,,,,
+Harur,India,Sector_2,12.04676,78.52594,2302.24,2.0,,,,
+Harrison,United States of America,Sector_2,30.45581,-89.01772,,,,,,
+Haiger,Germany,Sector_2,50.70595,8.27975,272.96,126.0,1570.04,11.0,,
+Harrison,United States of America,Sector_4,30.40931,-88.96915,,,,,,
+Hangzhou,China,Sector_2,30.34784,120.18841,135.57,300.0,95.86,62.0,,
+Harur,India,Sector_3,12.06049,78.45956,928.49,9.0,,,,
+Hasbergen,Germany,Sector_3,52.20971,7.86939,1112.21,49.0,3083.78,3.0,3.8,181.0
+Hasbergen,Germany,Sector_4,52.22396,7.9719,2419.84,21.0,1453.55,11.0,581.41,137.0
+Hasbergen,Germany,City Center,52.2333,7.9333,1776.12,29.0,1710.19,8.0,0.0,125.0
+Harur,India,Sector_4,12.00935,78.48687,2830.78,1.0,,,,
+Haubourdin,France,Sector_2,50.60044,3.0474,1.25,306.0,358.41,6.0,68.11,22.0
+Haubourdin,France,Sector_3,50.64721,2.95665,21.7,179.0,1133.43,5.0,212.63,68.0
+Haubourdin,France,City Center,50.6083,2.9914,504.15,258.0,260.86,28.0,609.55,42.0
+Taunton,United States of America,City Center,51.0211,-3.1047,110.93,340.0,149.52,40.0,1349.53,71.0
+Taunton,United States of America,Sector_1,51.02672,-3.14281,91.68,127.0,1038.02,18.0,367.09,224.0
+Taunton,United States of America,Sector_2,51.00334,-3.09804,1069.77,184.0,720.06,18.0,0.0,119.0
+Taunton,United States of America,Sector_3,50.99449,-3.11986,2027.38,66.0,239.32,6.0,244.22,232.0
+Hasbergen,Germany,Sector_2,52.18842,7.94843,1606.03,22.0,259.63,5.0,12.92,156.0
+Hasbergen,Germany,Sector_1,52.26875,7.94897,159.55,83.0,1003.21,22.0,7.1,129.0
+Haubourdin,France,Sector_1,50.62706,2.99159,1737.97,273.0,82.48,26.0,0.0,20.0
+Taunton,United States of America,Sector_4,51.00235,-3.16708,691.6,32.0,2646.19,1.0,0.0,297.0
+Tauranga,New Zealand,Sector_3,-37.71268,176.18869,278.41,101.0,2511.88,1.0,1606.62,21.0
+Tauranga,New Zealand,Sector_4,-37.71892,176.13367,367.6,195.0,380.32,26.0,953.04,7.0
+Tay Ninh,Viet Nam,City Center,11.3,106.1,180.74,59.0,1130.95,16.0,,
+Tay Ninh,Viet Nam,Sector_1,11.24244,106.144,512.67,32.0,2160.17,1.0,1999.49,1.0
+Tauranga,New Zealand,City Center,-37.6861,176.1667,119.16,268.0,152.47,57.0,2241.95,2.0
+Haubourdin,France,Sector_4,50.57028,3.01507,568.35,154.0,898.35,4.0,22.54,58.0
+Tay Ninh,Viet Nam,Sector_3,11.29702,106.14929,1136.85,29.0,2001.7,1.0,,
+Tay Ninh,Viet Nam,Sector_4,11.34245,106.14147,746.35,27.0,,,,
+Taybad,Iran (Islamic Republic of),City Center,34.74,60.7756,252.2,107.0,,,,
+Taybad,Iran (Islamic Republic of),Sector_2,34.72196,60.79334,802.28,52.0,,,1075.57,1.0
+Tay Ninh,Viet Nam,Sector_2,11.34416,106.07167,29.79,7.0,,,,
+Tauranga,New Zealand,Sector_2,-37.72409,176.15454,1030.0,227.0,1218.27,14.0,1504.07,5.0
+Taybad,Iran (Islamic Republic of),Sector_4,34.72453,60.72536,850.18,1.0,,,0.0,2.0
+Teano,Italy,Sector_1,41.23753,14.04012,2438.59,7.0,,,1865.67,3.0
+Taybad,Iran (Islamic Republic of),Sector_1,34.68261,60.77713,,,,,,
+Teano,Italy,Sector_3,41.20077,14.07097,2909.03,26.0,3130.69,1.0,890.43,25.0
+Teano,Italy,Sector_4,41.23167,14.08403,521.64,68.0,2554.21,1.0,3110.11,2.0
+Tekkali,India,City Center,18.6167,84.2333,179.85,37.0,,,1576.04,1.0
+Tauranga,New Zealand,Sector_1,-37.66043,176.20248,178.38,209.0,0.0,48.0,,
+Taybad,Iran (Islamic Republic of),Sector_3,34.7851,60.83375,2233.17,11.0,2532.22,1.0,292.22,1.0
+Tekkali,India,Sector_3,18.62631,84.19011,131.49,1.0,,,,
+Tekkali,India,Sector_4,18.56082,84.24179,85.87,14.0,2133.62,1.0,,
+Teodoro Sampaio,Brazil,City Center,-22.5325,-52.1675,375.46,26.0,,,1293.79,1.0
+Teodoro Sampaio,Brazil,Sector_1,-22.5355,-52.12842,2601.66,1.0,,,,
+Teodoro Sampaio,Brazil,Sector_2,-22.46501,-52.19387,1660.42,1.0,,,,
+Teodoro Sampaio,Brazil,Sector_3,-22.58556,-52.20035,,,,,,
+Tekkali,India,Sector_1,18.59122,84.1882,159.39,12.0,,,,
+Tekkali,India,Sector_2,18.63581,84.18519,697.95,2.0,,,,
+Teano,Italy,City Center,41.2513,14.0665,205.03,42.0,943.81,1.0,,
+Tepeaca,Mexico,Sector_1,18.95374,-97.84494,655.35,8.0,,,1817.24,3.0
+Tepeaca,Mexico,City Center,18.9667,-97.9,29.39,31.0,,,802.22,4.0
+Tepeaca,Mexico,Sector_3,18.97172,-97.86542,2569.72,2.0,,,0.0,4.0
+Tequila,Mexico,City Center,20.8833,-103.8333,10.87,12.0,38.12,12.0,1504.05,3.0
+Teodoro Sampaio,Brazil,Sector_4,-22.5272,-52.14606,759.27,21.0,,,845.38,1.0
+Tequila,Mexico,Sector_1,20.94047,-103.79171,,,,,,
+Tequila,Mexico,Sector_2,20.84226,-103.87445,1700.48,15.0,,,,
+Tequila,Mexico,Sector_4,20.8624,-103.76196,578.64,3.0,,,,
+Tepeaca,Mexico,Sector_2,19.01458,-97.8962,1068.47,6.0,,,1107.62,3.0
+Teano,Italy,Sector_2,41.22727,14.0441,1367.85,9.0,,,423.4,20.0
+Teramo,Italy,Sector_2,42.62216,13.62673,2231.45,22.0,,,866.12,3.0
+Teramo,Italy,Sector_3,42.62956,13.71226,2612.5,10.0,3616.7,1.0,2510.07,5.0
+Teramo,Italy,Sector_4,42.70178,13.69517,3452.07,1.0,1699.26,1.0,,
+Thai Nguyen,Viet Nam,City Center,21.5928,105.8442,114.21,54.0,50.33,14.0,,
+Thai Nguyen,Viet Nam,Sector_1,21.55277,105.84187,18.22,21.0,1466.8,2.0,,
+Thai Nguyen,Viet Nam,Sector_2,21.60276,105.86517,477.82,27.0,1698.62,3.0,,
+Thai Nguyen,Viet Nam,Sector_3,21.59523,105.89074,894.15,31.0,,,,
+Tepeaca,Mexico,Sector_4,18.991,-97.91651,167.29,34.0,,,1024.67,4.0
+Tequila,Mexico,Sector_3,20.87378,-103.79597,295.64,2.0,,,,
+Teramo,Italy,Sector_1,42.67208,13.77035,614.79,92.0,2132.76,4.0,0.0,183.0
+Tianjin,China,Sector_2,39.13405,117.19891,27.86,429.0,63.17,45.0,,
+Tianjin,China,Sector_3,39.11726,117.19493,47.28,396.0,84.29,38.0,,
+Tianjin,China,Sector_4,39.15196,117.22521,381.9,305.0,671.96,11.0,,
+Timisoara,Romania,City Center,45.7494,21.2272,256.19,764.0,689.69,50.0,,
+Timisoara,Romania,Sector_1,45.78909,21.27376,2000.21,40.0,2016.43,15.0,1008.51,2.0
+Timisoara,Romania,Sector_2,45.76355,21.15687,335.79,18.0,47.53,14.0,0.0,5.0
+Timisoara,Romania,Sector_3,45.74058,21.29092,158.77,93.0,664.93,32.0,0.0,23.0
+Tianjin,China,City Center,39.1422,117.1767,92.75,405.0,83.79,31.0,,
+Tianjin,China,Sector_1,39.13862,117.21477,198.86,430.0,83.89,32.0,,
+Toboso,Philippines,City Center,10.7144,123.5162,88.43,5.0,,,1972.97,1.0
+Toboso,Philippines,Sector_2,10.73678,123.55753,,,,,,
+Toboso,Philippines,Sector_3,10.67406,123.5498,,,,,,
+Toboso,Philippines,Sector_4,10.7565,123.56965,,,,,,
+Teramo,Italy,City Center,42.65,13.6833,133.05,190.0,411.95,2.0,,
+Tokorozawa,Japan,City Center,35.7992,139.469,655.6,59.0,886.11,8.0,1042.05,157.0
+Tokorozawa,Japan,Sector_2,35.7627,139.54184,62.55,86.0,2110.21,1.0,42.92,180.0
+Tokorozawa,Japan,Sector_3,35.81051,139.39876,94.3,75.0,951.33,17.0,125.54,157.0
+Toboso,Philippines,Sector_1,10.66818,123.50378,1381.14,3.0,,,,
+Timisoara,Romania,Sector_4,45.74857,21.31914,1263.74,20.0,2453.48,1.0,127.26,15.0
+Toluca,Mexico,City Center,19.2883,-99.6672,55.35,612.0,527.91,4.0,2355.86,1.0
+Toluca,Mexico,Sector_1,19.26011,-99.71422,486.68,65.0,678.43,1.0,880.93,19.0
+Tokorozawa,Japan,Sector_4,35.78494,139.49659,842.35,85.0,577.22,24.0,99.35,422.0
+Thai Nguyen,Viet Nam,Sector_4,21.60116,105.88128,710.06,30.0,,,,
+Toluca,Mexico,Sector_4,19.22738,-99.6283,278.03,61.0,,,,
+Tokorozawa,Japan,Sector_1,35.78042,139.48835,800.36,78.0,187.41,24.0,152.73,331.0
+Toluca,Mexico,Sector_2,19.35345,-99.64795,5.43,87.0,1731.67,2.0,,
+Toluca,Mexico,Sector_3,19.26066,-99.60751,40.54,267.0,528.91,13.0,256.83,12.0
+Itapissuma,Brazil,Sector_3,-7.73049,-34.91588,2744.24,2.0,,,,
+Itarantim,Brazil,City Center,-15.6597,-40.0656,216.31,32.0,,,,
+Itarantim,Brazil,Sector_1,-15.59081,-40.07085,1140.99,1.0,,,,
+Itapissuma,Brazil,Sector_1,-7.74405,-34.84702,2531.77,1.0,,,,
+Itarantim,Brazil,Sector_3,-15.62807,-40.10509,,,,,,
+Itarantim,Brazil,Sector_2,-15.6021,-40.07133,571.54,1.0,,,,
+Itumbiara,Brazil,City Center,-18.4192,-49.2153,31.15,118.0,,,1439.82,1.0
+Itumbiara,Brazil,Sector_1,-18.36785,-49.2362,424.54,15.0,294.55,3.0,,
+Itumbiara,Brazil,Sector_2,-18.45308,-49.22615,1488.34,6.0,,,,
+Itumbiara,Brazil,Sector_3,-18.42746,-49.25586,908.1,44.0,2235.67,4.0,,
+Itumbiara,Brazil,Sector_4,-18.39322,-49.27273,1002.34,22.0,641.37,3.0,,
+Ixtaczoquitlan,Mexico,City Center,18.85,-97.0667,373.16,57.0,482.7,13.0,,
+Itapissuma,Brazil,Sector_2,-7.7478,-34.86022,1882.37,6.0,,,2266.91,1.0
+Itapissuma,Brazil,Sector_4,-7.83155,-34.88411,1681.07,3.0,,,,
+Itarantim,Brazil,Sector_4,-15.63757,-40.06546,310.03,20.0,,,,
+Ixtaczoquitlan,Mexico,Sector_3,18.80717,-97.01592,599.31,14.0,,,0.0,2.0
+Ixtaczoquitlan,Mexico,Sector_4,18.84145,-97.08752,832.61,87.0,308.72,13.0,,
+Izalco,El Salvador,Sector_1,13.73498,-89.72714,608.53,71.0,1385.73,4.0,8.04,20.0
+Ixtaczoquitlan,Mexico,Sector_2,18.90266,-97.02566,485.94,19.0,527.1,5.0,565.38,7.0
+Izalco,El Salvador,Sector_2,13.74794,-89.6998,882.62,30.0,750.11,4.0,65.21,27.0
+Izalco,El Salvador,Sector_4,13.79258,-89.7237,2432.27,1.0,2003.48,1.0,55.8,15.0
+Izalco,El Salvador,City Center,13.7447,-89.6731,323.4,17.0,181.59,2.0,342.21,17.0
+Itapissuma,Brazil,City Center,-7.7764,-34.8922,280.37,28.0,2430.14,1.0,1990.66,1.0
+Izalco,El Salvador,Sector_3,13.79033,-89.70614,461.59,4.0,,,448.8,21.0
+Ixtaczoquitlan,Mexico,Sector_1,18.86301,-97.04929,55.52,27.0,105.13,14.0,1780.77,1.0
