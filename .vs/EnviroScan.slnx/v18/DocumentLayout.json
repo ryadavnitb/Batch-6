@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kalin\\EnviroScan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kalin\\EnviroScan\\Batch-6\\physical_features_500_locations.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Batch-6\\physical_features_500_locations.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kalin\\EnviroScan\\data_collection.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data_collection.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "physical_features_500_locations.ipynb",
+              "DocumentMoniker": "C:\\Users\\kalin\\EnviroScan\\Batch-6\\physical_features_500_locations.ipynb",
+              "RelativeDocumentMoniker": "Batch-6\\physical_features_500_locations.ipynb",
+              "ToolTip": "C:\\Users\\kalin\\EnviroScan\\Batch-6\\physical_features_500_locations.ipynb",
+              "RelativeToolTip": "Batch-6\\physical_features_500_locations.ipynb",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAiwCUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T13:21:05.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data_collection.ipynb",
+              "DocumentMoniker": "C:\\Users\\kalin\\EnviroScan\\data_collection.ipynb",
+              "RelativeDocumentMoniker": "data_collection.ipynb",
+              "ToolTip": "C:\\Users\\kalin\\EnviroScan\\data_collection.ipynb",
+              "RelativeToolTip": "data_collection.ipynb",
+              "ViewState": "AgIAAHkDAAAAAAAAAAAiwJMDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T13:18:50.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
