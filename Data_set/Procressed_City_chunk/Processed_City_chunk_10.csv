@@ -1,0 +1,2347 @@
+City,Road_Count,Industrial_Count,Farmland_Count,Landfill_Count,Dump_Site_Count,Recycling_Count,Green_Area_Count
+Lewiston,0,0,0,0,0,0,0
+Lomme,0,0,0,0,0,0,0
+Lubaczow,0,0,0,0,0,0,0
+Luxor,0,0,0,0,0,0,0
+Aanekoski,0,0,0,0,0,0,0
+Alekseyevka,0,0,0,0,0,0,0
+Abakaliki,0,0,0,0,0,0,0
+Agueda,0,0,0,0,0,0,0
+Albury,0,0,0,0,0,0,0
+Alipur Duar,0,0,0,0,0,0,0
+Altdorf,0,0,0,0,0,0,0
+Angoche,0,0,0,0,0,0,0
+Arlon,0,0,0,0,0,0,0
+Attur,0,0,0,0,0,0,0
+Dogondoutchi,0,0,0,0,0,0,0
+Dezhou,0,0,0,0,0,0,0
+Eibergen,0,0,0,0,0,0,0
+Eslov,0,0,0,0,0,0,0
+Evry,0,0,0,0,0,0,0
+Eskasem,0,0,0,0,0,0,0
+Fort Madison,0,0,0,0,0,0,0
+Flower Mound,0,0,0,0,0,0,0
+General Roca,0,0,0,0,0,0,0
+Cluses,0,0,0,0,0,0,0
+Colomiers,0,0,0,0,0,0,0
+Cran Gevrier,0,0,0,0,0,0,0
+Collierville,0,0,0,0,0,0,0
+Cravinhos,0,0,0,0,0,0,0
+Mankera,0,0,0,0,0,0,0
+Culpeper,0,0,0,0,0,0,0
+Marcq En Baroeul,0,0,0,0,0,0,0
+Hagerstown,0,0,0,0,0,0,0
+Graaff Reinet,0,0,0,0,0,0,0
+Handan,0,0,0,0,0,0,0
+Hervey Bay,0,0,0,0,0,0,0
+Jamtara,0,0,0,0,0,0,0
+Kadipaten,0,0,0,0,0,0,0
+Kalyani,0,0,0,0,0,0,0
+Kamnik,0,0,0,0,0,0,0
+Jeluko,0,0,0,0,0,0,0
+Hillcrest Heights,0,0,0,0,0,0,0
+Ilebo,0,0,0,0,0,0,0
+Hollola,0,0,0,0,0,0,0
+Schleiden,0,0,0,0,0,0,0
+Schwyz,0,0,0,0,0,0,0
+Sanghar,0,0,0,0,0,0,0
+Sendenhorst,0,0,0,0,0,0,0
+Santa Maria,0,0,0,0,0,0,0
+Santa Rosa De Viterbo,0,0,0,0,0,0,0
+Someshwar,0,0,0,0,0,0,0
+Son En Breugel,0,0,0,0,0,0,0
+Stains,0,0,0,0,0,0,0
+Sturgis,0,0,0,0,0,0,0
+Sulejowek,0,0,0,0,0,0,0
+Kiboga,0,0,0,0,0,0,0
+Kormend,0,0,0,0,0,0,0
+Koryazhma,0,0,0,0,0,0,0
+Langedijk,0,0,0,0,0,0,0
+Kozan,0,0,0,0,0,0,0
+Kramat,0,0,0,0,0,0,0
+Aalen,0,0,0,0,0,0,0
+Lathrop,0,0,0,0,0,0,0
+Alausi,0,0,0,0,0,0,0
+Aden,0,0,0,0,0,0,0
+Amherst,0,0,0,0,0,0,0
+Apeldoorn,0,0,0,0,0,0,0
+Dharangaon,0,0,0,0,0,0,0
+Davlekanovo,0,0,0,0,0,0,0
+Dondaicha,0,0,0,0,0,0,0
+Dearborn,0,0,0,0,0,0,0
+Epe,0,0,0,0,0,0,0
+Koping,0,0,0,0,0,0,0
+Federal Way,0,0,0,0,0,0,0
+Kikwit,0,0,0,0,0,0,0
+Lalin,0,0,0,0,0,0,0
+Les Lilas,0,0,0,0,0,0,0
+Lilienthal,0,0,0,0,0,0,0
+Lushunkou,0,0,0,0,0,0,0
+Lotung,0,0,0,0,0,0,0
+Loncoche,0,0,0,0,0,0,0
+La Ligua,0,0,0,0,0,0,0
+Neropolis,0,0,0,0,0,0,0
+Maham,0,0,0,0,0,0,0
+Magugu,0,0,0,0,0,0,0
+New Britain,0,0,0,0,0,0,0
+New Bedford,0,0,0,0,0,0,0
+New Castle,0,0,0,0,0,0,0
+North Merrick,0,0,0,0,0,0,0
+Nshamba,0,0,0,0,0,0,0
+Novellara,0,0,0,0,0,0,0
+Ocotlan,0,0,0,0,0,0,0
+Goaigoaza,0,0,0,0,0,0,0
+Goiana,0,0,0,0,0,0,0
+Guapimirim,0,0,0,0,0,0,0
+Guspini,0,0,0,0,0,0,0
+Hedaru,0,0,0,0,0,0,0
+Hefei,0,0,0,0,0,0,0
+Hillerod,0,0,0,0,0,0,0
+Ibatiba,0,0,0,0,0,0,0
+Ibbenburen,0,0,0,0,0,0,0
+Igarape,0,0,0,0,0,0,0
+Itzehoe,0,0,0,0,0,0,0
+Indramayu,0,0,0,0,0,0,0
+Jingdezhen,0,0,0,0,0,0,0
+Kantabanji,0,0,0,0,0,0,0
+Karnal,0,0,0,0,0,0,0
+Karak,0,0,0,0,0,0,0
+Marks,0,0,0,0,0,0,0
+Mehrabpur,0,0,0,0,0,0,0
+Morgantown,0,0,0,0,0,0,0
+Munsingen,0,0,0,0,0,0,0
+North Miami,0,0,0,0,0,0,0
+Ngaoundere,0,0,0,0,0,0,0
+North New Hyde Park,0,0,0,0,0,0,0
+Northview,0,0,0,0,0,0,0
+Okara,0,0,0,0,0,0,0
+Oyan,0,0,0,0,0,0,0
+Oliveira De Azemeis,0,0,0,0,0,0,0
+Polazna,0,0,0,0,0,0,0
+Poptun,0,0,0,0,0,0,0
+Prior Lake,0,0,0,0,0,0,0
+Rajapur,0,0,0,0,0,0,0
+Yellamanchili,0,0,0,0,0,0,0
+Rambha,0,0,0,0,0,0,0
+Zacualtipan,0,0,0,0,0,0,0
+Yemanzhelinsk,0,0,0,0,0,0,0
+Farnborough,0,0,0,0,0,0,0
+Fayetteville,0,0,0,0,0,0,0
+Basarabi,0,0,0,0,0,0,0
+Colesberg,0,0,0,0,0,0,0
+Marinette,0,0,0,0,0,0,0
+Mayen,0,0,0,0,0,0,0
+Metuchen,0,0,0,0,0,0,0
+Mountain Home,0,0,0,0,0,0,0
+Mtwango,0,0,0,0,0,0,0
+Najran,0,0,0,0,0,0,0
+Nakhon Ratchasima,0,0,0,0,0,0,0
+Nanchang,0,0,0,0,0,0,0
+Milak,0,0,0,0,0,0,0
+Mombaca,0,0,0,0,0,0,0
+Monopoli,0,0,0,0,0,0,0
+Montignoso,0,0,0,0,0,0,0
+Aioi,0,0,0,0,0,0,0
+Alagoinhas,0,0,0,0,0,0,0
+Altos,0,0,0,0,0,0,0
+Altagracia De Orituco,0,0,0,0,0,0,0
+Assis,0,0,0,0,0,0,0
+Atlixco,0,0,0,0,0,0,0
+Auchel,0,0,0,0,0,0,0
+Arad,0,0,0,0,0,0,0
+Avezzano,0,0,0,0,0,0,0
+Barbalha,0,0,0,0,0,0,0
+Azzano Decimo,0,0,0,0,0,0,0
+Bamiantong,0,0,0,0,0,0,0
+Bang Mun Nak,0,0,0,0,0,0,0
+Bantay,0,0,0,0,0,0,0
+Barrinha,0,0,0,0,0,0,0
+Bassila,0,0,0,0,0,0,0
+Batangafo,0,0,0,0,0,0,0
+Benghazi,0,0,0,0,0,0,0
+Bergheim,0,0,0,0,0,0,0
+Bihar,0,0,0,0,0,0,0
+Brumado,0,0,0,0,0,0,0
+Bobbili,0,0,0,0,0,0,0
+Buchloe,0,0,0,0,0,0,0
+Cornaredo,0,0,0,0,0,0,0
+Creteil,0,0,0,0,0,0,0
+Camden,0,0,0,0,0,0,0
+Castro Valley,0,0,0,0,0,0,0
+Cayey,0,0,0,0,0,0,0
+Chandur Bazar,0,0,0,0,0,0,0
+Blagoveshchenka,0,0,0,0,0,0,0
+Birsfelden,0,0,0,0,0,0,0
+Botosani,0,0,0,0,0,0,0
+Brcko,0,0,0,0,0,0,0
+Chiknayakanhalli,0,0,0,0,0,0,0
+Daur,0,0,0,0,0,0,0
+Diepenbeek,0,0,0,0,0,0,0
+Beloha,0,0,0,0,0,0,0
+Dengzhou,0,0,0,0,0,0,0
+Bhadasar,0,0,0,0,0,0,0
+Bilkha,0,0,0,0,0,0,0
+Overland Park,0,0,0,0,0,0,0
+Pastos Bons,0,0,0,0,0,0,0
+Port Pirie,0,0,0,0,0,0,0
+Piracuruca,0,0,0,0,0,0,0
+Petrovsk Zabaykalskiy,0,0,0,0,0,0,0
+Qidong,0,0,0,0,0,0,0
+Puerto Boyaca,0,0,0,0,0,0,0
+Raypur,0,0,0,0,0,0,0
+Reitz,0,0,0,0,0,0,0
+Roanoke,0,0,0,0,0,0,0
+Rondonopolis,0,0,0,0,0,0,0
+Rosemount,0,0,0,0,0,0,0
+Salamiyah,0,0,0,0,0,0,0
+San Pedro Del Pinatar,0,0,0,0,0,0,0
+Sandhausen,0,0,0,0,0,0,0
+Auriflama,0,0,0,0,0,0,0
+Bachi Yurt,0,0,0,0,0,0,0
+Athieme,0,0,0,0,0,0,0
+Bajitpur,0,0,0,0,0,0,0
+Belaya Kalitva,0,0,0,0,0,0,0
+Bailen,0,0,0,0,0,0,0
+Bandar,0,0,0,0,0,0,0
+Bhag,0,0,0,0,0,0,0
+Bessemer,0,0,0,0,0,0,0
+Afogados Da Ingazeira,0,0,0,0,0,0,0
+Sayalgudi,0,0,0,0,0,0,0
+Alpignano,0,0,0,0,0,0,0
+Almendralejo,0,0,0,0,0,0,0
+Shiroishi,0,0,0,0,0,0,0
+Shahpur City,0,0,0,0,0,0,0
+Simpang Rengam,0,0,0,0,0,0,0
+Sinsheim,0,0,0,0,0,0,0
+Phillipsburg,0,0,0,0,0,0,0
+Pomona,0,0,0,0,0,0,0
+Soyo,0,0,0,0,0,0,0
+Starovelichkovskaya,0,0,0,0,0,0,0
+Sulphur Springs,0,0,0,0,0,0,0
+Port Harcourt,0,0,0,0,0,0,0
+Qafsah,0,0,0,0,0,0,0
+Prijepolje,0,0,0,0,0,0,0
+Sikonge,0,0,0,0,0,0,0
+Slagelse,0,0,0,0,0,0,0
+Solano,0,0,0,0,0,0,0
+Scafati,0,0,0,0,0,0,0
+Serpong,0,0,0,0,0,0,0
+Salzkotten,0,0,0,0,0,0,0
+Samdari,0,0,0,0,0,0,0
+Red Bluff,0,0,0,0,0,0,0
+Rockwall,0,0,0,0,0,0,0
+Orbassano,0,0,0,0,0,0,0
+Pardubice,0,0,0,0,0,0,0
+Kannapolis,0,0,0,0,0,0,0
+Kedungwaru,0,0,0,0,0,0,0
+Kelapa Sawit,0,0,0,0,0,0,0
+Kesla,0,0,0,0,0,0,0
+Khadki,0,0,0,0,0,0,0
+Yatou,0,0,0,0,0,0,0
+Yaypan,0,0,0,0,0,0,0
+Barranca,0,0,0,0,0,0,0
+Bayan,0,0,0,0,0,0,0
+Bekobod,0,0,0,0,0,0,0
+Berja,0,0,0,0,0,0,0
+Calle Blancos,0,0,0,0,0,0,0
+Bhanjanagar,0,0,0,0,0,0,0
+Bharwari,0,0,0,0,0,0,0
+Briceni,0,0,0,0,0,0,0
+Camargo,0,0,0,0,0,0,0
+Campanha,0,0,0,0,0,0,0
+Chambersburg,0,0,0,0,0,0,0
+Casatenovo,0,0,0,0,0,0,0
+Chengannur,0,0,0,0,0,0,0
+Chiguayante,0,0,0,0,0,0,0
+Chilac,0,0,0,0,0,0,0
+Chitapur,0,0,0,0,0,0,0
+Cajica,0,0,0,0,0,0,0
+Cesky Krumlov,0,0,0,0,0,0,0
+Cortland,0,0,0,0,0,0,0
+Clichy,0,0,0,0,0,0,0
+Dabeiba,0,0,0,0,0,0,0
+Cranbrook,0,0,0,0,0,0,0
+Buren,0,0,0,0,0,0,0
+Busselton,0,0,0,0,0,0,0
+East Greenwich,0,0,0,0,0,0,0
+Dasmarinas,0,0,0,0,0,0,0
+Delcevo,0,0,0,0,0,0,0
+El Arenal,0,0,0,0,0,0,0
+Eningen,0,0,0,0,0,0,0
+Dokri,0,0,0,0,0,0,0
+Espirito Santo Do Pinhal,0,0,0,0,0,0,0
+Esslingen,0,0,0,0,0,0,0
+Faxinal,0,0,0,0,0,0,0
+Maulvi Bazar,0,0,0,0,0,0,0
+Mehkar,0,0,0,0,0,0,0
+Milagres,0,0,0,0,0,0,0
+Merchtem,0,0,0,0,0,0,0
+Mouila,0,0,0,0,0,0,0
+West Plains,0,0,0,0,0,0,0
+Munster,0,0,0,0,0,0,0
+Wuhu,0,0,0,0,0,0,0
+Whyalla,0,0,0,0,0,0,0
+Yinchuan,0,0,0,0,0,0,0
+Yomitan,0,0,0,0,0,0,0
+Toritama,0,0,0,0,0,0,0
+Troitsk,0,0,0,0,0,0,0
+Turiacu,0,0,0,0,0,0,0
+Tuguegarao,0,0,0,0,0,0,0
+Turnu Magurele,0,0,0,0,0,0,0
+Vandalia,0,0,0,0,0,0,0
+Vysokyy,0,0,0,0,0,0,0
+Waki,0,0,0,0,0,0,0
+Varazdin,0,0,0,0,0,0,0
+Warrenville,0,0,0,0,0,0,0
+Wattignies,0,0,0,0,0,0,0
+Gitarama,0,0,0,0,0,0,0
+Goose Creek,0,0,0,0,0,0,0
+Gorham,0,0,0,0,0,0,0
+Gros Morne,0,0,0,0,0,0,0
+Ilo,0,0,0,0,0,0,0
+Hopkinton,0,0,0,0,0,0,0
+Hosur,0,0,0,0,0,0,0
+Huanuco,0,0,0,0,0,0,0
+Idaho Falls,0,0,0,0,0,0,0
+Fussa,0,0,0,0,0,0,0
+Gewane,0,0,0,0,0,0,0
+Otaru,0,0,0,0,0,0,0
+Havixbeck,0,0,0,0,0,0,0
+Tawau,0,0,0,0,0,0,0
+Taylorsville,0,0,0,0,0,0,0
+Tempio Pausania,0,0,0,0,0,0,0
+Thohoyandou,0,0,0,0,0,0,0
+Tondon,0,0,0,0,0,0,0
+Tsaratanana,0,0,0,0,0,0,0
+Tsuyama,0,0,0,0,0,0,0
+Tulangan,0,0,0,0,0,0,0
+Tungi,0,0,0,0,0,0,0
+Ueno,0,0,0,0,0,0,0
+Utran,0,0,0,0,0,0,0
+Vedelago,0,0,0,0,0,0,0
+Santos,0,0,0,0,0,0,0
+Sao Bento,0,0,0,0,0,0,0
+Malambo,0,0,0,0,0,0,0
+Sao Joaquim Do Monte,0,0,0,0,0,0,0
+Westbury,0,0,0,0,0,0,0
+Maloyaroslavets,0,0,0,0,0,0,0
+Whittier,0,0,0,0,0,0,0
+Wierden,0,0,0,0,0,0,0
+Wilmslow,0,0,0,0,0,0,0
+Wilnsdorf,0,0,0,0,0,0,0
+Xoxocotlan,0,0,0,0,0,0,0
+Xiangxiang,0,0,0,0,0,0,0
+Saravena,0,0,0,0,0,0,0
+Yachimata,0,0,0,0,0,0,0
+Sauk Rapids,0,0,0,0,0,0,0
+Seagoville,0,0,0,0,0,0,0
+Seydisehir,0,0,0,0,0,0,0
+Sid,0,0,0,0,0,0,0
+Sidhpura,0,0,0,0,0,0,0
+Airdrie,0,0,0,0,0,0,0
+Changping,0,0,0,0,0,0,0
+Alajuelita,0,0,0,0,0,0,0
+Czeladz,0,0,0,0,0,0,0
+Cifuentes,0,0,0,0,0,0,0
+Zaidpur,0,0,0,0,0,0,0
+Zwiesel,0,0,0,0,0,0,0
+Zeven,0,0,0,0,0,0,0
+Brownsville,0,0,0,0,0,0,0
+Yuli,0,0,0,0,0,0,0
+Castelfiorentino,0,0,0,0,0,0,0
+Calarca,0,0,0,0,0,0,0
+Bryansk,0,0,0,0,0,0,0
+Bansi,0,0,0,0,0,0,0
+Banska Stiavnica,0,0,0,0,0,0,0
+Olot,0,0,0,0,0,0,0
+Oyabe,0,0,0,0,0,0,0
+Pithapuram,0,0,0,0,0,0,0
+Pratapgarh,0,0,0,0,0,0,0
+Plzen,0,0,0,0,0,0,0
+Pompeu,0,0,0,0,0,0,0
+Coyuca,0,0,0,0,0,0,0
+Raahe,0,0,0,0,0,0,0
+Pasir Gudang,0,0,0,0,0,0,0
+Curumani,0,0,0,0,0,0,0
+Pau Dos Ferros,0,0,0,0,0,0,0
+Pathein,0,0,0,0,0,0,0
+Pescantina,0,0,0,0,0,0,0
+Romulus,0,0,0,0,0,0,0
+Steinheim,0,0,0,0,0,0,0
+Kaoma,0,0,0,0,0,0,0
+Taikang,0,0,0,0,0,0,0
+Tamandare,0,0,0,0,0,0,0
+Tarragona,0,0,0,0,0,0,0
+Tancheng,0,0,0,0,0,0,0
+Walsall,0,0,0,0,0,0,0
+Dubbo,0,0,0,0,0,0,0
+Dunyapur,0,0,0,0,0,0,0
+Duque De Caxias,0,0,0,0,0,0,0
+Elk Plain,0,0,0,0,0,0,0
+Dongli,0,0,0,0,0,0,0
+Falkoping,0,0,0,0,0,0,0
+Farap,0,0,0,0,0,0,0
+Berriozabal,0,0,0,0,0,0,0
+Bignona,0,0,0,0,0,0,0
+Along,0,0,0,0,0,0,0
+Bodo,0,0,0,0,0,0,0
+Ambah,0,0,0,0,0,0,0
+Arjawinangun,0,0,0,0,0,0,0
+Abreu E Lima,0,0,0,0,0,0,0
+Acaponeta,0,0,0,0,0,0,0
+Asti,0,0,0,0,0,0,0
+Ashdod,0,0,0,0,0,0,0
+Atenco,0,0,0,0,0,0,0
+Auburndale,0,0,0,0,0,0,0
+Bad Durkheim,0,0,0,0,0,0,0
+Thatcham,0,0,0,0,0,0,0
+The Crossings,0,0,0,0,0,0,0
+Tenkasi,0,0,0,0,0,0,0
+Tokoroa,0,0,0,0,0,0,0
+Terra Rica,0,0,0,0,0,0,0
+Ubatuba,0,0,0,0,0,0,0
+Koganei,0,0,0,0,0,0,0
+Tourcoing,0,0,0,0,0,0,0
+Kingsteignton,0,0,0,0,0,0,0
+Kudamatsu,0,0,0,0,0,0,0
+Krasnousolskiy,0,0,0,0,0,0,0
+Krasnogorskiy,0,0,0,0,0,0,0
+Labuan,0,0,0,0,0,0,0
+Lackawanna,0,0,0,0,0,0,0
+Lagoa Santa,0,0,0,0,0,0,0
+Lingdong,0,0,0,0,0,0,0
+Lonavale,0,0,0,0,0,0,0
+Lovec,0,0,0,0,0,0,0
+Akabira,0,0,0,0,0,0,0
+Amalias,0,0,0,0,0,0,0
+Metehara,0,0,0,0,0,0,0
+Motul,0,0,0,0,0,0,0
+Mustang,0,0,0,0,0,0,0
+Nakuru,0,0,0,0,0,0,0
+Nagayo,0,0,0,0,0,0,0
+Daultala,0,0,0,0,0,0,0
+Diamond Harbour,0,0,0,0,0,0,0
+Dighwara,0,0,0,0,0,0,0
+Elmont,0,0,0,0,0,0,0
+Fukaya,0,0,0,0,0,0,0
+Garhi Khairo,0,0,0,0,0,0,0
+Furstenfeldbruck,0,0,0,0,0,0,0
+Inkster,0,0,0,0,0,0,0
+Hinesville,0,0,0,0,0,0,0
+Jedrzejow,0,0,0,0,0,0,0
+Kalamata,0,0,0,0,0,0,0
+Eldorado,0,0,0,0,0,0,0
+Esfahan,0,0,0,0,0,0,0
+Etaples,0,0,0,0,0,0,0
+Ferkessedougou,0,0,0,0,0,0,0
+Kennesaw,0,0,0,0,0,0,0
+Kernersville,0,0,0,0,0,0,0
+Urdzhar,0,0,0,0,0,0,0
+Unterhaching,0,0,0,0,0,0,0
+Uzunkopru,0,0,0,0,0,0,0
+Valladolid,0,0,0,0,0,0,0
+Vapi,0,0,0,0,0,0,0
+Vero Beach,0,0,0,0,0,0,0
+Varel,0,0,0,0,0,0,0
+Thomasville,0,0,0,0,0,0,0
+Thonon Les Bains,0,0,0,0,0,0,0
+Tianmen,0,0,0,0,0,0,0
+Troyes,0,0,0,0,0,0,0
+Tudela,0,0,0,0,0,0,0
+Tunghsiao,0,0,0,0,0,0,0
+Viraganur,0,0,0,0,0,0,0
+Kushikino,0,0,0,0,0,0,0
+Vostryakovo,0,0,0,0,0,0,0
+Vyazemskiy,0,0,0,0,0,0,0
+La Condamine,0,0,0,0,0,0,0
+Laguna Woods,0,0,0,0,0,0,0
+Las Cruces,0,0,0,0,0,0,0
+Levelland,0,0,0,0,0,0,0
+Lianzhou,0,0,0,0,0,0,0
+Likasi,0,0,0,0,0,0,0
+Lira,0,0,0,0,0,0,0
+Lokot,0,0,0,0,0,0,0
+Lubsko,0,0,0,0,0,0,0
+Lower Hutt,0,0,0,0,0,0,0
+Macaubas,0,0,0,0,0,0,0
+Macclesfield,0,0,0,0,0,0,0
+Magetan,0,0,0,0,0,0,0
+Makhachkala,0,0,0,0,0,0,0
+Chigasaki,0,0,0,0,0,0,0
+Coria Del Rio,0,0,0,0,0,0,0
+Cuprija,0,0,0,0,0,0,0
+Bolshevo,0,0,0,0,0,0,0
+Boyarka,0,0,0,0,0,0,0
+Bongouanou,0,0,0,0,0,0,0
+Branford,0,0,0,0,0,0,0
+Buraydah,0,0,0,0,0,0,0
+Busembatia,0,0,0,0,0,0,0
+Cardoso,0,0,0,0,0,0,0
+Centereach,0,0,0,0,0,0,0
+Chacarita,0,0,0,0,0,0,0
+Kiamba,0,0,0,0,0,0,0
+Klintsy,0,0,0,0,0,0,0
+Kopargaon,0,0,0,0,0,0,0
+Koraput,0,0,0,0,0,0,0
+Kandete,0,0,0,0,0,0,0
+Korb,0,0,0,0,0,0,0
+Kantang,0,0,0,0,0,0,0
+Kangaba,0,0,0,0,0,0,0
+Kesabpur,0,0,0,0,0,0,0
+Kankipadu,0,0,0,0,0,0,0
+Kadan,0,0,0,0,0,0,0
+Kaminokawa,0,0,0,0,0,0,0
+Krasnozavodsk,0,0,0,0,0,0,0
+Fond Du Lac,0,0,0,0,0,0,0
+Gbarnga,0,0,0,0,0,0,0
+Encinitas,0,0,0,0,0,0,0
+Firminy,0,0,0,0,0,0,0
+Eloy,0,0,0,0,0,0,0
+Euclid,0,0,0,0,0,0,0
+Gahanna,0,0,0,0,0,0,0
+Guaraciaba Do Norte,0,0,0,0,0,0,0
+Haines City,0,0,0,0,0,0,0
+Halden,0,0,0,0,0,0,0
+Hermosa,0,0,0,0,0,0,0
+Hillsdale,0,0,0,0,0,0,0
+Ilskiy,0,0,0,0,0,0,0
+Indi,0,0,0,0,0,0,0
+Jaca,0,0,0,0,0,0,0
+Jhajjar,0,0,0,0,0,0,0
+Jhawarian,0,0,0,0,0,0,0
+Kailahun,0,0,0,0,0,0,0
+Frattamaggiore,0,0,0,0,0,0,0
+George Town,0,0,0,0,0,0,0
+Nanding,0,0,0,0,0,0,0
+Obosi,0,0,0,0,0,0,0
+Nzerekore,0,0,0,0,0,0,0
+Shirvan,0,0,0,0,0,0,0
+Silyanah,0,0,0,0,0,0,0
+Singaparna,0,0,0,0,0,0,0
+Slavutych,0,0,0,0,0,0,0
+Khangarh,0,0,0,0,0,0,0
+Jhunjhunun,0,0,0,0,0,0,0
+Talegaon Dabhade,0,0,0,0,0,0,0
+Jiancheng,0,0,0,0,0,0,0
+Jinsha,0,0,0,0,0,0,0
+Solonytsivka,0,0,0,0,0,0,0
+Srem,0,0,0,0,0,0,0
+Lawrenceburg,0,0,0,0,0,0,0
+Lengshuitan,0,0,0,0,0,0,0
+Stollberg,0,0,0,0,0,0,0
+Lotte,0,0,0,0,0,0,0
+Maicao,0,0,0,0,0,0,0
+Lujan,0,0,0,0,0,0,0
+Manaoag,0,0,0,0,0,0,0
+Mandaguacu,0,0,0,0,0,0,0
+Mjolby,0,0,0,0,0,0,0
+Mangotsfield,0,0,0,0,0,0,0
+Mauldin,0,0,0,0,0,0,0
+Meiningen,0,0,0,0,0,0,0
+Meilu,0,0,0,0,0,0,0
+Kreminna,0,0,0,0,0,0,0
+Kyela,0,0,0,0,0,0,0
+Marti,0,0,0,0,0,0,0
+La Serena,0,0,0,0,0,0,0
+Montevista,0,0,0,0,0,0,0
+Mbale,0,0,0,0,0,0,0
+Novelda,0,0,0,0,0,0,0
+Morro Bay,0,0,0,0,0,0,0
+Na Wa,0,0,0,0,0,0,0
+Pristina,0,0,0,0,0,0,0
+Pulau Sebang,0,0,0,0,0,0,0
+Purnia,0,0,0,0,0,0,0
+Rabak,0,0,0,0,0,0,0
+Qianjiang,0,0,0,0,0,0,0
+Raffadali,0,0,0,0,0,0,0
+Port Louis,0,0,0,0,0,0,0
+Langelsheim,0,0,0,0,0,0,0
+Lansdowne,0,0,0,0,0,0,0
+Madang,0,0,0,0,0,0,0
+Marche En Famenne,0,0,0,0,0,0,0
+Mari,0,0,0,0,0,0,0
+Liyang,0,0,0,0,0,0,0
+Lopik,0,0,0,0,0,0,0
+Losser,0,0,0,0,0,0,0
+Macau,0,0,0,0,0,0,0
+Kizel,0,0,0,0,0,0,0
+Peiting,0,0,0,0,0,0,0
+Palmetto Estates,0,0,0,0,0,0,0
+Wernau,0,0,0,0,0,0,0
+West Fargo,0,0,0,0,0,0,0
+Wipperfurth,0,0,0,0,0,0,0
+Wisch,0,0,0,0,0,0,0
+Yanan,0,0,0,0,0,0,0
+Xiaoshi,0,0,0,0,0,0,0
+Nara,0,0,0,0,0,0,0
+Nau,0,0,0,0,0,0,0
+Nazarovo,0,0,0,0,0,0,0
+Nimbahera,0,0,0,0,0,0,0
+Nongstoin,0,0,0,0,0,0,0
+North Auburn,0,0,0,0,0,0,0
+Nurtingen,0,0,0,0,0,0,0
+Ohringen,0,0,0,0,0,0,0
+Goes,0,0,0,0,0,0,0
+Gjirokaster,0,0,0,0,0,0,0
+Sadabad,0,0,0,0,0,0,0
+Juquitiba,0,0,0,0,0,0,0
+Saint Amand Les Eaux,0,0,0,0,0,0,0
+Saint George,0,0,0,0,0,0,0
+Jati,0,0,0,0,0,0,0
+Samorin,0,0,0,0,0,0,0
+Kaithal,0,0,0,0,0,0,0
+Kall,0,0,0,0,0,0,0
+Kalutara,0,0,0,0,0,0,0
+Irkutsk,0,0,0,0,0,0,0
+Glencoe,0,0,0,0,0,0,0
+Lambarene,0,0,0,0,0,0,0
+Langenzenn,0,0,0,0,0,0,0
+Luza,0,0,0,0,0,0,0
+Leonding,0,0,0,0,0,0,0
+Maisuru,0,0,0,0,0,0,0
+Mogadishu,0,0,0,0,0,0,0
+Meghraj,0,0,0,0,0,0,0
+Muramatsu,0,0,0,0,0,0,0
+Mwingi,0,0,0,0,0,0,0
+Sahagun,0,0,0,0,0,0,0
+Sai Buri,0,0,0,0,0,0,0
+Raposa,0,0,0,0,0,0,0
+Rio Piracicaba,0,0,0,0,0,0,0
+San Michele Al Tagliamento,0,0,0,0,0,0,0
+Santo Antonio Da Platina,0,0,0,0,0,0,0
+Satun,0,0,0,0,0,0,0
+Sint Gillis Waas,0,0,0,0,0,0,0
+Shanhetun,0,0,0,0,0,0,0
+Seara,0,0,0,0,0,0,0
+Yazd,0,0,0,0,0,0,0
+Yen Bai,0,0,0,0,0,0,0
+Ylojarvi,0,0,0,0,0,0,0
+Yuba City,0,0,0,0,0,0,0
+Zanesville,0,0,0,0,0,0,0
+Ziguinchor,0,0,0,0,0,0,0
+Zolochiv,0,0,0,0,0,0,0
+Goryachiy Klyuch,0,0,0,0,0,0,0
+Guilford,0,0,0,0,0,0,0
+Glenn Dale,0,0,0,0,0,0,0
+Hamada,0,0,0,0,0,0,0
+Gympie,0,0,0,0,0,0,0
+Gulariya,0,0,0,0,0,0,0
+Haverstraw,0,0,0,0,0,0,0
+Hecelchakan,0,0,0,0,0,0,0
+Heidenheim,0,0,0,0,0,0,0
+Inskoy,0,0,0,0,0,0,0
+Jaunpur,0,0,0,0,0,0,0
+Jasper,0,0,0,0,0,0,0
+Jining,0,0,0,0,0,0,0
+Kalamansig,0,0,0,0,0,0,0
+Kandry,0,0,0,0,0,0,0
+Kamakhyanagar,0,0,0,0,0,0,0
+Kauhajoki,0,0,0,0,0,0,0
+Kawasaki,0,0,0,0,0,0,0
+Dawukou,0,0,0,0,0,0,0
+Rzeszow,0,0,0,0,0,0,0
+Disa,0,0,0,0,0,0,0
+Santa Rita Do Sapucai,0,0,0,0,0,0,0
+Kisogawa,0,0,0,0,0,0,0
+Kopeysk,0,0,0,0,0,0,0
+Koryukivka,0,0,0,0,0,0,0
+Kothen,0,0,0,0,0,0,0
+Kosice,0,0,0,0,0,0,0
+La Calera,0,0,0,0,0,0,0
+Szentes,0,0,0,0,0,0,0
+Uyo,0,0,0,0,0,0,0
+Unhel,0,0,0,0,0,0,0
+Viborg,0,0,0,0,0,0,0
+Valenton,0,0,0,0,0,0,0
+Victoriaville,0,0,0,0,0,0,0
+Villepinte,0,0,0,0,0,0,0
+Visoko,0,0,0,0,0,0,0
+Villiers,0,0,0,0,0,0,0
+Waterbury,0,0,0,0,0,0,0
+Webb City,0,0,0,0,0,0,0
+Summerville,0,0,0,0,0,0,0
+Ausa,0,0,0,0,0,0,0
+Ayase,0,0,0,0,0,0,0
+Bad Gandersheim,0,0,0,0,0,0,0
+Balakliya,0,0,0,0,0,0,0
+Bergkamen,0,0,0,0,0,0,0
+Agde,0,0,0,0,0,0,0
+Blankenburg,0,0,0,0,0,0,0
+Bossangoa,0,0,0,0,0,0,0
+Bireun,0,0,0,0,0,0,0
+Aleksandrow Kujawski,0,0,0,0,0,0,0
+Alor Gajah,0,0,0,0,0,0,0
+Akkudah,0,0,0,0,0,0,0
+Aliwal North,0,0,0,0,0,0,0
+Ambikapur,0,0,0,0,0,0,0
+Araraquara,0,0,0,0,0,0,0
+Ashoknagar,0,0,0,0,0,0,0
+Sigmaringen,0,0,0,0,0,0,0
+Terdal,0,0,0,0,0,0,0
+Tettnang,0,0,0,0,0,0,0
+Ticul,0,0,0,0,0,0,0
+Ukmerge,0,0,0,0,0,0,0
+Ulaanbaatar,0,0,0,0,0,0,0
+Tumbes,0,0,0,0,0,0,0
+Valdez,0,0,0,0,0,0,0
+Staryye Atagi,0,0,0,0,0,0,0
+Spring,0,0,0,0,0,0,0
+Stranraer,0,0,0,0,0,0,0
+Strongsville,0,0,0,0,0,0,0
+Stelle,0,0,0,0,0,0,0
+Surazh,0,0,0,0,0,0,0
+Taketoyo,0,0,0,0,0,0,0
+Tandil,0,0,0,0,0,0,0
+Tanay,0,0,0,0,0,0,0
+Taquarituba,0,0,0,0,0,0,0
+Saurikh,0,0,0,0,0,0,0
+Schleswig,0,0,0,0,0,0,0
+Shimonoseki,0,0,0,0,0,0,0
+Si Bun Ruang,0,0,0,0,0,0,0
+Sita Road,0,0,0,0,0,0,0
+Sokode,0,0,0,0,0,0,0
+Sokone,0,0,0,0,0,0,0
+Sada,0,0,0,0,0,0,0
+Southend On Sea,0,0,0,0,0,0,0
+Sukhoy Log,0,0,0,0,0,0,0
+Gose,0,0,0,0,0,0,0
+Guano,0,0,0,0,0,0,0
+Halisahar,0,0,0,0,0,0,0
+Helensburgh,0,0,0,0,0,0,0
+Helden,0,0,0,0,0,0,0
+Hilversum,0,0,0,0,0,0,0
+Huangyan,0,0,0,0,0,0,0
+Hrebinka,0,0,0,0,0,0,0
+Hunza,0,0,0,0,0,0,0
+Gabu,0,0,0,0,0,0,0
+Gibraltar,0,0,0,0,0,0,0
+Gandu,0,0,0,0,0,0,0
+Itatiba,0,0,0,0,0,0,0
+Janauba,0,0,0,0,0,0,0
+Jesenice,0,0,0,0,0,0,0
+Johor Bahru,0,0,0,0,0,0,0
+Jhalu,0,0,0,0,0,0,0
+Kalilangan,0,0,0,0,0,0,0
+Kawambwa,0,0,0,0,0,0,0
+Motherwell,0,0,0,0,0,0,0
+Namasuba,0,0,0,0,0,0,0
+Mount Hagen,0,0,0,0,0,0,0
+Mount Gambier,0,0,0,0,0,0,0
+Nawada,0,0,0,0,0,0,0
+Natal,0,0,0,0,0,0,0
+Nepalganj,0,0,0,0,0,0,0
+Malakal,0,0,0,0,0,0,0
+Magarao,0,0,0,0,0,0,0
+Loughton,0,0,0,0,0,0,0
+Manresa,0,0,0,0,0,0,0
+Mazatenango,0,0,0,0,0,0,0
+Leningradskiy,0,0,0,0,0,0,0
+Meudon,0,0,0,0,0,0,0
+Lichtenburg,0,0,0,0,0,0,0
+Mezotur,0,0,0,0,0,0,0
+Kumano,0,0,0,0,0,0,0
+Kyenjojo,0,0,0,0,0,0,0
+Pianezza,0,0,0,0,0,0,0
+Piranshahr,0,0,0,0,0,0,0
+Priyutovo,0,0,0,0,0,0,0
+Pulheim,0,0,0,0,0,0,0
+Ramgarh,0,0,0,0,0,0,0
+Rheinfelden,0,0,0,0,0,0,0
+Paragould,0,0,0,0,0,0,0
+Penapolis,0,0,0,0,0,0,0
+Petlad,0,0,0,0,0,0,0
+Olbia,0,0,0,0,0,0,0
+Kotte,0,0,0,0,0,0,0
+Kuopio,0,0,0,0,0,0,0
+Le Pecq,0,0,0,0,0,0,0
+Lebedyan,0,0,0,0,0,0,0
+Legaspi,0,0,0,0,0,0,0
+Mabama,0,0,0,0,0,0,0
+Albox,0,0,0,0,0,0,0
+Aldershot,0,0,0,0,0,0,0
+Allonnes,0,0,0,0,0,0,0
+Asaka,0,0,0,0,0,0,0
+Ejura,0,0,0,0,0,0,0
+Daxian,0,0,0,0,0,0,0
+Estepona,0,0,0,0,0,0,0
+Fairbanks,0,0,0,0,0,0,0
+Fareham,0,0,0,0,0,0,0
+Frameries,0,0,0,0,0,0,0
+Fraijanes,0,0,0,0,0,0,0
+Covington,0,0,0,0,0,0,0
+Cromwell,0,0,0,0,0,0,0
+Cuautitlan Izcalli,0,0,0,0,0,0,0
+Mae Ramat,0,0,0,0,0,0,0
+Malavalli,0,0,0,0,0,0,0
+Manjacaze,0,0,0,0,0,0,0
+Daska,0,0,0,0,0,0,0
+Date,0,0,0,0,0,0,0
+Desert Hot Springs,0,0,0,0,0,0,0
+Dijon,0,0,0,0,0,0,0
+Dwarka,0,0,0,0,0,0,0
+Gretna,0,0,0,0,0,0,0
+Herne Bay,0,0,0,0,0,0,0
+Horlivka,0,0,0,0,0,0,0
+Haibowan,0,0,0,0,0,0,0
+Hoskote,0,0,0,0,0,0,0
+Huber Heights,0,0,0,0,0,0,0
+Hurricane,0,0,0,0,0,0,0
+Inongo,0,0,0,0,0,0,0
+Intibuca,0,0,0,0,0,0,0
+Jalalpur Jattan,0,0,0,0,0,0,0
+Kalocsa,0,0,0,0,0,0,0
+Jiutepec,0,0,0,0,0,0,0
+Mateszalka,0,0,0,0,0,0,0
+Kampenhout,0,0,0,0,0,0,0
+Menzelinsk,0,0,0,0,0,0,0
+Nadym,0,0,0,0,0,0,0
+Nava,0,0,0,0,0,0,0
+Nea Smirni,0,0,0,0,0,0,0
+Noisy Le Sec,0,0,0,0,0,0,0
+North Smithfield,0,0,0,0,0,0,0
+Nyeri,0,0,0,0,0,0,0
+Rantoul,0,0,0,0,0,0,0
+Ogawara,0,0,0,0,0,0,0
+Rio De Mouro,0,0,0,0,0,0,0
+Rodgau,0,0,0,0,0,0,0
+Oyskhara,0,0,0,0,0,0,0
+Palma Del Rio,0,0,0,0,0,0,0
+Paszto,0,0,0,0,0,0,0
+Pho Thong,0,0,0,0,0,0,0
+Pisticci,0,0,0,0,0,0,0
+Premnitz,0,0,0,0,0,0,0
+Puerto Penasco,0,0,0,0,0,0,0
+Pulwama,0,0,0,0,0,0,0
+Radcliff,0,0,0,0,0,0,0
+Benevento,0,0,0,0,0,0,0
+Beyne Heusay,0,0,0,0,0,0,0
+Bolhrad,0,0,0,0,0,0,0
+Boma,0,0,0,0,0,0,0
+Ankazoabo,0,0,0,0,0,0,0
+Baharampur,0,0,0,0,0,0,0
+Barbar,0,0,0,0,0,0,0
+Arzachena,0,0,0,0,0,0,0
+Ascope,0,0,0,0,0,0,0
+Augusta,0,0,0,0,0,0,0
+Avon Lake,0,0,0,0,0,0,0
+Bac Lieu,0,0,0,0,0,0,0
+Bad Waldsee,0,0,0,0,0,0,0
+Baguanos,0,0,0,0,0,0,0
+Ribeirao Do Pinhal,0,0,0,0,0,0,0
+Onojo,0,0,0,0,0,0,0
+Oshnaviyeh,0,0,0,0,0,0,0
+Pathardi,0,0,0,0,0,0,0
+Norwalk,0,0,0,0,0,0,0
+Nova Odesa,0,0,0,0,0,0,0
+Oldsmar,0,0,0,0,0,0,0
+Pontevedra,0,0,0,0,0,0,0
+Yiannitsa,0,0,0,0,0,0,0
+Zamora,0,0,0,0,0,0,0
+Zavolzhye,0,0,0,0,0,0,0
+Wuchi,0,0,0,0,0,0,0
+West Islip,0,0,0,0,0,0,0
+Yantongshan,0,0,0,0,0,0,0
+White Settlement,0,0,0,0,0,0,0
+Wetzlar,0,0,0,0,0,0,0
+Wickliffe,0,0,0,0,0,0,0
+Rottweil,0,0,0,0,0,0,0
+Saint Andre,0,0,0,0,0,0,0
+Sakete,0,0,0,0,0,0,0
+Sorsk,0,0,0,0,0,0,0
+Yeghvard,0,0,0,0,0,0,0
+Yelbarga,0,0,0,0,0,0,0
+Zaria,0,0,0,0,0,0,0
+Yichang,0,0,0,0,0,0,0
+Zavodoukovsk,0,0,0,0,0,0,0
+Zhangye,0,0,0,0,0,0,0
+Zunyi,0,0,0,0,0,0,0
+Zvenigovo,0,0,0,0,0,0,0
+Abhayapuri,0,0,0,0,0,0,0
+Aflu,0,0,0,0,0,0,0
+Shreveport,0,0,0,0,0,0,0
+Sibiu,0,0,0,0,0,0,0
+Sao Jose Da Coroa Grande,0,0,0,0,0,0,0
+Sorso,0,0,0,0,0,0,0
+Sira,0,0,0,0,0,0,0
+De Lier,0,0,0,0,0,0,0
+Delitzsch,0,0,0,0,0,0,0
+Divo,0,0,0,0,0,0,0
+Doesburg,0,0,0,0,0,0,0
+Tikamgarh,0,0,0,0,0,0,0
+Tlaxcala,0,0,0,0,0,0,0
+Tomelloso,0,0,0,0,0,0,0
+Tula,0,0,0,0,0,0,0
+Upleta,0,0,0,0,0,0,0
+Umarga,0,0,0,0,0,0,0
+Vaals,0,0,0,0,0,0,0
+Vartej,0,0,0,0,0,0,0
+Vatutine,0,0,0,0,0,0,0
+Vawkavysk,0,0,0,0,0,0,0
+Victoria Point,0,0,0,0,0,0,0
+Waterford,0,0,0,0,0,0,0
+Waycross,0,0,0,0,0,0,0
+Wencheng,0,0,0,0,0,0,0
+Weston Super Mare,0,0,0,0,0,0,0
+Wolfratshausen,0,0,0,0,0,0,0
+Wrzesnia,0,0,0,0,0,0,0
+Zadonsk,0,0,0,0,0,0,0
+Zanjan,0,0,0,0,0,0,0
+Zdunska Wola,0,0,0,0,0,0,0
+Bawana,0,0,0,0,0,0,0
+Bellevue,0,0,0,0,0,0,0
+Bina Etawa,0,0,0,0,0,0,0
+Bodh Gaya,0,0,0,0,0,0,0
+Bojnurd,0,0,0,0,0,0,0
+Botlikh,0,0,0,0,0,0,0
+Buru Un,0,0,0,0,0,0,0
+Bururi,0,0,0,0,0,0,0
+Angono,0,0,0,0,0,0,0
+Amadora,0,0,0,0,0,0,0
+Casa Nova,0,0,0,0,0,0,0
+Conway,0,0,0,0,0,0,0
+Nasaud,0,0,0,0,0,0,0
+Cutler Ridge,0,0,0,0,0,0,0
+Shrigonda,0,0,0,0,0,0,0
+Nitra,0,0,0,0,0,0,0
+Sinjar,0,0,0,0,0,0,0
+Spitak,0,0,0,0,0,0,0
+Tienen,0,0,0,0,0,0,0
+Thasra,0,0,0,0,0,0,0
+Tlacolula,0,0,0,0,0,0,0
+Sunnyside,0,0,0,0,0,0,0
+Sur,0,0,0,0,0,0,0
+Svetogorsk,0,0,0,0,0,0,0
+Suwanee,0,0,0,0,0,0,0
+Surgut,0,0,0,0,0,0,0
+Tampico,0,0,0,0,0,0,0
+Terrytown,0,0,0,0,0,0,0
+Thung Song,0,0,0,0,0,0,0
+Tobias Barreto,0,0,0,0,0,0,0
+Tracy,0,0,0,0,0,0,0
+Ueki,0,0,0,0,0,0,0
+Ulm,0,0,0,0,0,0,0
+Dingolfing,0,0,0,0,0,0,0
+Dolgoprudnyy,0,0,0,0,0,0,0
+Maracacume,0,0,0,0,0,0,0
+Khotkovo,0,0,0,0,0,0,0
+Kleinmachnow,0,0,0,0,0,0,0
+Kanchanaburi,0,0,0,0,0,0,0
+Kraainem,0,0,0,0,0,0,0
+Kunri,0,0,0,0,0,0,0
+La Virginia,0,0,0,0,0,0,0
+Mattoon,0,0,0,0,0,0,0
+Mbekenyera,0,0,0,0,0,0,0
+Menasha,0,0,0,0,0,0,0
+Szigetvar,0,0,0,0,0,0,0
+Tabanan,0,0,0,0,0,0,0
+Tacna,0,0,0,0,0,0,0
+Taloda,0,0,0,0,0,0,0
+Tarub,0,0,0,0,0,0,0
+Tecamac,0,0,0,0,0,0,0
+Teloloapan,0,0,0,0,0,0,0
+Torello,0,0,0,0,0,0,0
+Tiptur,0,0,0,0,0,0,0
+Trinitapoli,0,0,0,0,0,0,0
+Trieste,0,0,0,0,0,0,0
+Tsushima,0,0,0,0,0,0,0
+Uji,0,0,0,0,0,0,0
+Uravakonda,0,0,0,0,0,0,0
+Ventersburg,0,0,0,0,0,0,0
+Vladikavkaz,0,0,0,0,0,0,0
+Walnut Park,0,0,0,0,0,0,0
+Watsonville,0,0,0,0,0,0,0
+Weeze,0,0,0,0,0,0,0
+Bad Neustadt,0,0,0,0,0,0,0
+Codo,0,0,0,0,0,0,0
+Barkhera,0,0,0,0,0,0,0
+Bedum,0,0,0,0,0,0,0
+Bischofshofen,0,0,0,0,0,0,0
+Bonen,0,0,0,0,0,0,0
+Bouguenais,0,0,0,0,0,0,0
+Brovary,0,0,0,0,0,0,0
+Cam Pha,0,0,0,0,0,0,0
+Calamba,0,0,0,0,0,0,0
+Brownwood,0,0,0,0,0,0,0
+Castel San Giovanni,0,0,0,0,0,0,0
+Pueblo Nuevo,0,0,0,0,0,0,0
+Rajgarh,0,0,0,0,0,0,0
+Saint Avertin,0,0,0,0,0,0,0
+Saint Die,0,0,0,0,0,0,0
+Matto,0,0,0,0,0,0,0
+Milford,0,0,0,0,0,0,0
+Moita,0,0,0,0,0,0,0
+Mineola,0,0,0,0,0,0,0
+East Stroudsburg,0,0,0,0,0,0,0
+Mughal Sarai,0,0,0,0,0,0,0
+Ecija,0,0,0,0,0,0,0
+Daudnagar,0,0,0,0,0,0,0
+Daugavpils,0,0,0,0,0,0,0
+Dolneni,0,0,0,0,0,0,0
+Pochutla,0,0,0,0,0,0,0
+Ramshir,0,0,0,0,0,0,0
+Elkton,0,0,0,0,0,0,0
+Merrimack,0,0,0,0,0,0,0
+Muika,0,0,0,0,0,0,0
+New Amsterdam,0,0,0,0,0,0,0
+Newburgh,0,0,0,0,0,0,0
+Olpad,0,0,0,0,0,0,0
+Pakisaji,0,0,0,0,0,0,0
+Paris,0,0,0,0,0,0,0
+Paslek,0,0,0,0,0,0,0
+Praia,0,0,0,0,0,0,0
+Qianguo,0,0,0,0,0,0,0
+Sokol,0,0,0,0,0,0,0
+Shcherbinka,0,0,0,0,0,0,0
+Surajgarh,0,0,0,0,0,0,0
+Syracuse,0,0,0,0,0,0,0
+Taboao Da Serra,0,0,0,0,0,0,0
+Tanta,0,0,0,0,0,0,0
+Tasgaon,0,0,0,0,0,0,0
+Geesthacht,0,0,0,0,0,0,0
+Golyshmanovo,0,0,0,0,0,0,0
+Itupiranga,0,0,0,0,0,0,0
+Bo,0,0,0,0,0,0,0
+Jamai,0,0,0,0,0,0,0
+Brandon,0,0,0,0,0,0,0
+Campulung,0,0,0,0,0,0,0
+Castel Maggiore,0,0,0,0,0,0,0
+Castelfranco Di Sotto,0,0,0,0,0,0,0
+Abbeville,0,0,0,0,0,0,0
+Aix Les Bains,0,0,0,0,0,0,0
+Arzano,0,0,0,0,0,0,0
+Ashiya,0,0,0,0,0,0,0
+Bad Urach,0,0,0,0,0,0,0
+Bad Windsheim,0,0,0,0,0,0,0
+Bakhchysaray,0,0,0,0,0,0,0
+Bantul,0,0,0,0,0,0,0
+Dano,0,0,0,0,0,0,0
+Diu,0,0,0,0,0,0,0
+Cullinan,0,0,0,0,0,0,0
+Curchorem,0,0,0,0,0,0,0
+Formia,0,0,0,0,0,0,0
+Chiavari,0,0,0,0,0,0,0
+Hameenlinna,0,0,0,0,0,0,0
+Ha Noi,0,0,0,0,0,0,0
+Khowai,0,0,0,0,0,0,0
+Harlow,0,0,0,0,0,0,0
+Kiomboi,0,0,0,0,0,0,0
+Kollam,0,0,0,0,0,0,0
+Kunming,0,0,0,0,0,0,0
+La Grange Park,0,0,0,0,0,0,0
+Ladenburg,0,0,0,0,0,0,0
+Las Palmas,0,0,0,0,0,0,0
+Magione,0,0,0,0,0,0,0
+Lindenberg,0,0,0,0,0,0,0
+Maria La Baja,0,0,0,0,0,0,0
+Pulawy,0,0,0,0,0,0,0
+Rietberg,0,0,0,0,0,0,0
+Sanjwal,0,0,0,0,0,0,0
+Sao Joao De Meriti,0,0,0,0,0,0,0
+Mustafakemalpasa,0,0,0,0,0,0,0
+Niigata,0,0,0,0,0,0,0
+Novovoronezh,0,0,0,0,0,0,0
+Agua Branca,0,0,0,0,0,0,0
+Nonantola,0,0,0,0,0,0,0
+Allen Park,0,0,0,0,0,0,0
+Amarwara,0,0,0,0,0,0,0
+Serro,0,0,0,0,0,0,0
+Sibu,0,0,0,0,0,0,0
+Pinhal Novo,0,0,0,0,0,0,0
+Solihull,0,0,0,0,0,0,0
+Spanaway,0,0,0,0,0,0,0
+Slawi,0,0,0,0,0,0,0
+Suibara,0,0,0,0,0,0,0
+Dongtai,0,0,0,0,0,0,0
+Shijonawate,0,0,0,0,0,0,0
+Erechim,0,0,0,0,0,0,0
+Gediz,0,0,0,0,0,0,0
+El Cajon,0,0,0,0,0,0,0
+Alderwood Manor,0,0,0,0,0,0,0
+Anadyr,0,0,0,0,0,0,0
+Appleton,0,0,0,0,0,0,0
+Augusto Correa,0,0,0,0,0,0,0
+Armavir,0,0,0,0,0,0,0
+Avarua,0,0,0,0,0,0,0
+Aylesbury,0,0,0,0,0,0,0
+Avigliano,0,0,0,0,0,0,0
+Constanta,0,0,0,0,0,0,0
+Correntina,0,0,0,0,0,0,0
+Cottage Grove,0,0,0,0,0,0,0
+College Station,0,0,0,0,0,0,0
+Curup,0,0,0,0,0,0,0
+Gulpilhares,0,0,0,0,0,0,0
+Gondang,0,0,0,0,0,0,0
+Hanyang,0,0,0,0,0,0,0
+Hibbing,0,0,0,0,0,0,0
+Herzogenaurach,0,0,0,0,0,0,0
+Hofgeismar,0,0,0,0,0,0,0
+Ikungi,0,0,0,0,0,0,0
+Impruneta,0,0,0,0,0,0,0
+Jhelum,0,0,0,0,0,0,0
+Jinotepe,0,0,0,0,0,0,0
+Kalmunai,0,0,0,0,0,0,0
+Kazanlak,0,0,0,0,0,0,0
+Kaspiysk,0,0,0,0,0,0,0
+Delicias,0,0,0,0,0,0,0
+Rotenburg,0,0,0,0,0,0,0
+Ruiz,0,0,0,0,0,0,0
+Safety Harbor,0,0,0,0,0,0,0
+Courcouronnes,0,0,0,0,0,0,0
+Sao Jose Dos Campos,0,0,0,0,0,0,0
+Bedele,0,0,0,0,0,0,0
+Campana,0,0,0,0,0,0,0
+Bruges,0,0,0,0,0,0,0
+Boksitogorsk,0,0,0,0,0,0,0
+Canandaigua,0,0,0,0,0,0,0
+Canidelo,0,0,0,0,0,0,0
+Caravaggio,0,0,0,0,0,0,0
+Carlow,0,0,0,0,0,0,0
+Chitradurga,0,0,0,0,0,0,0
+Palladam,0,0,0,0,0,0,0
+Pedra Branca,0,0,0,0,0,0,0
+Morales,0,0,0,0,0,0,0
+Makat,0,0,0,0,0,0,0
+Langgons,0,0,0,0,0,0,0
+Mandan,0,0,0,0,0,0,0
+Husi,0,0,0,0,0,0,0
+Huy,0,0,0,0,0,0,0
+Ipua,0,0,0,0,0,0,0
+Ischia,0,0,0,0,0,0,0
+Jawa,0,0,0,0,0,0,0
+Jiaohe,0,0,0,0,0,0,0
+Joetsu,0,0,0,0,0,0,0
+Kaliyaganj,0,0,0,0,0,0,0
+Karcag,0,0,0,0,0,0,0
+Key West,0,0,0,0,0,0,0
+Guacui,0,0,0,0,0,0,0
+Haimen,0,0,0,0,0,0,0
+Gubbio,0,0,0,0,0,0,0
+Hempstead,0,0,0,0,0,0,0
+Freienbach,0,0,0,0,0,0,0
+Fresnes,0,0,0,0,0,0,0
+Geretsried,0,0,0,0,0,0,0
+Gazni,0,0,0,0,0,0,0
+Hue,0,0,0,0,0,0,0
+Hukeri,0,0,0,0,0,0,0
+Decin,0,0,0,0,0,0,0
+Eilenburg,0,0,0,0,0,0,0
+Frechen,0,0,0,0,0,0,0
+Ferrol,0,0,0,0,0,0,0
+Gandia,0,0,0,0,0,0,0
+Neiva,0,0,0,0,0,0,0
+Niihama,0,0,0,0,0,0,0
+Odorheiu Secuiesc,0,0,0,0,0,0,0
+Sonepur,0,0,0,0,0,0,0
+Sremska Mitrovica,0,0,0,0,0,0,0
+South Shields,0,0,0,0,0,0,0
+Suluq,0,0,0,0,0,0,0
+Tera,0,0,0,0,0,0,0
+Teykovo,0,0,0,0,0,0,0
+Tsukuba,0,0,0,0,0,0,0
+Turlock,0,0,0,0,0,0,0
+Tuxtla Gutierrez,0,0,0,0,0,0,0
+Tuxtla,0,0,0,0,0,0,0
+Tynda,0,0,0,0,0,0,0
+Uniao,0,0,0,0,0,0,0
+Tarki,0,0,0,0,0,0,0
+Tartu,0,0,0,0,0,0,0
+Vanersborg,0,0,0,0,0,0,0
+Vandalur,0,0,0,0,0,0,0
+Kankakee,0,0,0,0,0,0,0
+Verrieres Le Buisson,0,0,0,0,0,0,0
+Kavaje,0,0,0,0,0,0,0
+Kohtla Jarve,0,0,0,0,0,0,0
+Konstantynow Lodzki,0,0,0,0,0,0,0
+Kibondo,0,0,0,0,0,0,0
+Kogon,0,0,0,0,0,0,0
+Kokomo,0,0,0,0,0,0,0
+La Teste De Buch,0,0,0,0,0,0,0
+Kuttanallur,0,0,0,0,0,0,0
+Le Bourget,0,0,0,0,0,0,0
+Langxiang,0,0,0,0,0,0,0
+Likhovskoy,0,0,0,0,0,0,0
+Linqu,0,0,0,0,0,0,0
+Limbe,0,0,0,0,0,0,0
+Lujiang,0,0,0,0,0,0,0
+Lusacan,0,0,0,0,0,0,0
+Ipira,0,0,0,0,0,0,0
+Kencong,0,0,0,0,0,0,0
+Jakarta,0,0,0,0,0,0,0
+Pho Chai,0,0,0,0,0,0,0
+Pop,0,0,0,0,0,0,0
+Palu,0,0,0,0,0,0,0
+Periyakulam,0,0,0,0,0,0,0
+Paiania,0,0,0,0,0,0,0
+Faizpur,0,0,0,0,0,0,0
+Fatehpur Sikri,0,0,0,0,0,0,0
+Jertih,0,0,0,0,0,0,0
+Highview,0,0,0,0,0,0,0
+Hajdusamson,0,0,0,0,0,0,0
+Serravalle Pistoiese,0,0,0,0,0,0,0
+Vigneux Sur Seine,0,0,0,0,0,0,0
+Villacidro,0,0,0,0,0,0,0
+Wadi Musa,0,0,0,0,0,0,0
+Wazirganj,0,0,0,0,0,0,0
+Warangal,0,0,0,0,0,0,0
+Weinheim,0,0,0,0,0,0,0
+Westland,0,0,0,0,0,0,0
+Bastos,0,0,0,0,0,0,0
+Batu Berendam,0,0,0,0,0,0,0
+Bayrut,0,0,0,0,0,0,0
+Buford,0,0,0,0,0,0,0
+Burghausen,0,0,0,0,0,0,0
+Caluire Et Cuire,0,0,0,0,0,0,0
+Ban Chang,0,0,0,0,0,0,0
+Canoinhas,0,0,0,0,0,0,0
+Basseterre,0,0,0,0,0,0,0
+Best,0,0,0,0,0,0,0
+Cap Haitien,0,0,0,0,0,0,0
+Capela Do Alto,0,0,0,0,0,0,0
+Changanacheri,0,0,0,0,0,0,0
+Aruja,0,0,0,0,0,0,0
+Braganca,0,0,0,0,0,0,0
+Aubiere,0,0,0,0,0,0,0
+Caacupe,0,0,0,0,0,0,0
+Caaguazu,0,0,0,0,0,0,0
+Campo Verde,0,0,0,0,0,0,0
+Cabrero,0,0,0,0,0,0,0
+Bagheria,0,0,0,0,0,0,0
+Arumuganeri,0,0,0,0,0,0,0
+Akhmim,0,0,0,0,0,0,0
+Moldova Noua,0,0,0,0,0,0,0
+Monforte De Lemos,0,0,0,0,0,0,0
+Mouscron,0,0,0,0,0,0,0
+Mursan,0,0,0,0,0,0,0
+Nagai,0,0,0,0,0,0,0
+Nampa,0,0,0,0,0,0,0
+Nimaparha,0,0,0,0,0,0,0
+Kuang,0,0,0,0,0,0,0
+Massapequa Park,0,0,0,0,0,0,0
+Kulim,0,0,0,0,0,0,0
+Lajedo,0,0,0,0,0,0,0
+Legnica,0,0,0,0,0,0,0
+Lakeville,0,0,0,0,0,0,0
+Manica,0,0,0,0,0,0,0
+Lombard,0,0,0,0,0,0,0
+Lucca,0,0,0,0,0,0,0
+Lousa,0,0,0,0,0,0,0
+Liverpool,0,0,0,0,0,0,0
+Leipzig,0,0,0,0,0,0,0
+Makasar,0,0,0,0,0,0,0
+Koflach,0,0,0,0,0,0,0
+Navahrudak,0,0,0,0,0,0,0
+Komsomolskiy,0,0,0,0,0,0,0
+Negrar,0,0,0,0,0,0,0
+Murska Sobota,0,0,0,0,0,0,0
+Miercurea Ciuc,0,0,0,0,0,0,0
+Moline,0,0,0,0,0,0,0
+Monsefu,0,0,0,0,0,0,0
+Pitea,0,0,0,0,0,0,0
+Phra Pradaeng,0,0,0,0,0,0,0
+Pogradec,0,0,0,0,0,0,0
+Cottonwood Heights,0,0,0,0,0,0,0
+Chatan,0,0,0,0,0,0,0
+Chilly Mazarin,0,0,0,0,0,0,0
+Cuernavaca,0,0,0,0,0,0,0
+Chulman,0,0,0,0,0,0,0
+Cihuatlan,0,0,0,0,0,0,0
+Guiguinto,0,0,0,0,0,0,0
+Glinde,0,0,0,0,0,0,0
+Itambacuri,0,0,0,0,0,0,0
+Heubach,0,0,0,0,0,0,0
+Yicheng,0,0,0,0,0,0,0
+Yugawara,0,0,0,0,0,0,0
+Zwolle,0,0,0,0,0,0,0
+Zaltbommel,0,0,0,0,0,0,0
+Wiesmoor,0,0,0,0,0,0,0
+Woodinville,0,0,0,0,0,0,0
+Hellevoetsluis,0,0,0,0,0,0,0
+Harpanahalli,0,0,0,0,0,0,0
+Highland Village,0,0,0,0,0,0,0
+Igaracu Do Tiete,0,0,0,0,0,0,0
+Ilheus,0,0,0,0,0,0,0
+Kendale Lakes,0,0,0,0,0,0,0
+Kemise,0,0,0,0,0,0,0
+Karimnagar,0,0,0,0,0,0,0
+Kerpen,0,0,0,0,0,0,0
+Reutlingen,0,0,0,0,0,0,0
+Rancaekek,0,0,0,0,0,0,0
+Poncitlan,0,0,0,0,0,0,0
+Puyallup,0,0,0,0,0,0,0
+Ozu,0,0,0,0,0,0,0
+Pacho,0,0,0,0,0,0,0
+Palma Campania,0,0,0,0,0,0,0
+Parker,0,0,0,0,0,0,0
+Teignmouth,0,0,0,0,0,0,0
+Thai Binh,0,0,0,0,0,0,0
+Tlalmanalco,0,0,0,0,0,0,0
+Tonbridge,0,0,0,0,0,0,0
+Torquay,0,0,0,0,0,0,0
+Turmero,0,0,0,0,0,0,0
+Trebic,0,0,0,0,0,0,0
+Urbiztondo,0,0,0,0,0,0,0
+Vulcan,0,0,0,0,0,0,0
+Sutton Coldfield,0,0,0,0,0,0,0
+Walcz,0,0,0,0,0,0,0
+Tachikawa,0,0,0,0,0,0,0
+Bariri,0,0,0,0,0,0,0
+Bhilai,0,0,0,0,0,0,0
+Bend,0,0,0,0,0,0,0
+Borda Da Mata,0,0,0,0,0,0,0
+Bilbao,0,0,0,0,0,0,0
+Carira,0,0,0,0,0,0,0
+Castillejos,0,0,0,0,0,0,0
+Cincinnati,0,0,0,0,0,0,0
+Cerete,0,0,0,0,0,0,0
+Clermont,0,0,0,0,0,0,0
+Kurud,0,0,0,0,0,0,0
+Latehar,0,0,0,0,0,0,0
+Kyle,0,0,0,0,0,0,0
+Lauderhill,0,0,0,0,0,0,0
+Miami Springs,0,0,0,0,0,0,0
+Montecristi,0,0,0,0,0,0,0
+Moirang,0,0,0,0,0,0,0
+Mount Darwin,0,0,0,0,0,0,0
+Nanaimo,0,0,0,0,0,0,0
+Neufahrn,0,0,0,0,0,0,0
+Nanfeng,0,0,0,0,0,0,0
+Nisko,0,0,0,0,0,0,0
+Oignies,0,0,0,0,0,0,0
+Doha,0,0,0,0,0,0,0
+Addis Abeba,0,0,0,0,0,0,0
+Ashington,0,0,0,0,0,0,0
+Annau,0,0,0,0,0,0,0
+Asino,0,0,0,0,0,0,0
+Altena,0,0,0,0,0,0,0
+Astara,0,0,0,0,0,0,0
+Dedougou,0,0,0,0,0,0,0
+Derzhavinsk,0,0,0,0,0,0,0
+Desoto,0,0,0,0,0,0,0
+Detmold,0,0,0,0,0,0,0
+El Cerrito,0,0,0,0,0,0,0
+Sedhiou,0,0,0,0,0,0,0
+Fortin,0,0,0,0,0,0,0
+Selho,0,0,0,0,0,0,0
+Coalinga,0,0,0,0,0,0,0
+Semnan,0,0,0,0,0,0,0
+Senago,0,0,0,0,0,0,0
+Sevierville,0,0,0,0,0,0,0
+Shatura,0,0,0,0,0,0,0
+Simmerath,0,0,0,0,0,0,0
+South Jordan,0,0,0,0,0,0,0
+Barra Do Bugres,0,0,0,0,0,0,0
+Autlan,0,0,0,0,0,0,0
+Austintown,0,0,0,0,0,0,0
+Sturovo,0,0,0,0,0,0,0
+Basavakalyan,0,0,0,0,0,0,0
+Amarpatan,0,0,0,0,0,0,0
+Amta,0,0,0,0,0,0,0
+Arauco,0,0,0,0,0,0,0
+Yarumal,0,0,0,0,0,0,0
+Yingkou,0,0,0,0,0,0,0
+Chingshui,0,0,0,0,0,0,0
+Chebarkul,0,0,0,0,0,0,0
+Charlton,0,0,0,0,0,0,0
+Biloli,0,0,0,0,0,0,0
+Binzhou,0,0,0,0,0,0,0
+Carnoustie,0,0,0,0,0,0,0
+Brenham,0,0,0,0,0,0,0
+Lerma,0,0,0,0,0,0,0
+Lessines,0,0,0,0,0,0,0
+Mahe,0,0,0,0,0,0,0
+Medicina,0,0,0,0,0,0,0
+Munchenbuchsee,0,0,0,0,0,0,0
+Namagiripettai,0,0,0,0,0,0,0
+Nieuwkoop,0,0,0,0,0,0,0
+Narnaul,0,0,0,0,0,0,0
+Nivelles,0,0,0,0,0,0,0
+Takikawa,0,0,0,0,0,0,0
+Tabuk,0,0,0,0,0,0,0
+Baar,0,0,0,0,0,0,0
+Talagante,0,0,0,0,0,0,0
+Bad Neuenahr Ahrweiler,0,0,0,0,0,0,0
+Baffa,0,0,0,0,0,0,0
+Bad Tolz,0,0,0,0,0,0,0
+Berdsk,0,0,0,0,0,0,0
+Bagepalli,0,0,0,0,0,0,0
+Prague,0,0,0,0,0,0,0
+Raja Jang,0,0,0,0,0,0,0
+Phuntsholing,0,0,0,0,0,0,0
+Northlake,0,0,0,0,0,0,0
+Mospyne,0,0,0,0,0,0,0
+Yelabuga,0,0,0,0,0,0,0
+Zejtun,0,0,0,0,0,0,0
+Nueva Italia De Ruiz,0,0,0,0,0,0,0
+Zelzate,0,0,0,0,0,0,0
+Groton,0,0,0,0,0,0,0
+Urumqi,0,0,0,0,0,0,0
+Varpalota,0,0,0,0,0,0,0
+Vannes,0,0,0,0,0,0,0
+Velur,0,0,0,0,0,0,0
+Tosham,0,0,0,0,0,0,0
+Tyumen,0,0,0,0,0,0,0
+Virton,0,0,0,0,0,0,0
+Xiaoshan,0,0,0,0,0,0,0
+Weihe,0,0,0,0,0,0,0
+Hugo,0,0,0,0,0,0,0
+Chapada Dos Guimaraes,0,0,0,0,0,0,0
+Cheshire,0,0,0,0,0,0,0
+Draper,0,0,0,0,0,0,0
+Toda Raisingh,0,0,0,0,0,0,0
+Toguchin,0,0,0,0,0,0,0
+Mioveni,0,0,0,0,0,0,0
+Ariyalur,0,0,0,0,0,0,0
+Fort Washington,0,0,0,0,0,0,0
+Masterton,0,0,0,0,0,0,0
+Matsubase,0,0,0,0,0,0,0
+Ahaus,0,0,0,0,0,0,0
+Bouc Bel Air,0,0,0,0,0,0,0
+Borsad,0,0,0,0,0,0,0
+Roquebrune Cap Martin,0,0,0,0,0,0,0
+Douala,0,0,0,0,0,0,0
+Elbeuf,0,0,0,0,0,0,0
+East Meadow,0,0,0,0,0,0,0
+Katobu,0,0,0,0,0,0,0
+East Hanover,0,0,0,0,0,0,0
+Eravur,0,0,0,0,0,0,0
+Frankfurt,0,0,0,0,0,0,0
+Panna,0,0,0,0,0,0,0
+Pasacao,0,0,0,0,0,0,0
+Savannah,0,0,0,0,0,0,0
+Sendhwa,0,0,0,0,0,0,0
+Key Biscayne,0,0,0,0,0,0,0
+Punjai Puliyampatti,0,0,0,0,0,0,0
+Kirovsk,0,0,0,0,0,0,0
+Kakanj,0,0,0,0,0,0,0
+Khekra,0,0,0,0,0,0,0
+Kalna,0,0,0,0,0,0,0
+Lulea,0,0,0,0,0,0,0
+Taviano,0,0,0,0,0,0,0
+Suozhen,0,0,0,0,0,0,0
+Szczecin,0,0,0,0,0,0,0
+Tepelene,0,0,0,0,0,0,0
+Thiers,0,0,0,0,0,0,0
+Toktogul,0,0,0,0,0,0,0
+Chichli,0,0,0,0,0,0,0
+Chelmno,0,0,0,0,0,0,0
+Boissy Saint Leger,0,0,0,0,0,0,0
+Szczytno,0,0,0,0,0,0,0
+Tacoronte,0,0,0,0,0,0,0
+Abrego,0,0,0,0,0,0,0
+Tandur,0,0,0,0,0,0,0
+Adelanto,0,0,0,0,0,0,0
+Algeciras,0,0,0,0,0,0,0
+Balen,0,0,0,0,0,0,0
+Caarapo,0,0,0,0,0,0,0
+Barlad,0,0,0,0,0,0,0
+Ladwa,0,0,0,0,0,0,0
+Lubao,0,0,0,0,0,0,0
+Mangrul Pir,0,0,0,0,0,0,0
+Delfzijl,0,0,0,0,0,0,0
+Datong,0,0,0,0,0,0,0
+Demak,0,0,0,0,0,0,0
+Klungkung,0,0,0,0,0,0,0
+Kuching,0,0,0,0,0,0,0
+Miranpur,0,0,0,0,0,0,0
+Miro Khan,0,0,0,0,0,0,0
+Montrouge,0,0,0,0,0,0,0
+West Odessa,0,0,0,0,0,0,0
+Wyoming,0,0,0,0,0,0,0
+Yurecuaro,0,0,0,0,0,0,0
+Zhmerynka,0,0,0,0,0,0,0
+Boldesti Scaeni,0,0,0,0,0,0,0
+Cahors,0,0,0,0,0,0,0
+Schkeuditz,0,0,0,0,0,0,0
+Seltso,0,0,0,0,0,0,0
+Sesto San Giovanni,0,0,0,0,0,0,0
+Berberati,0,0,0,0,0,0,0
+Sume,0,0,0,0,0,0,0
+Agartala,0,0,0,0,0,0,0
+Almenara,0,0,0,0,0,0,0
+Apartado,0,0,0,0,0,0,0
+Bahjoi,0,0,0,0,0,0,0
+Balagtas,0,0,0,0,0,0,0
+Beroun,0,0,0,0,0,0,0
+Bondoukou,0,0,0,0,0,0,0
+Borazjan,0,0,0,0,0,0,0
+Roudnice,0,0,0,0,0,0,0
+Centerville,0,0,0,0,0,0,0
+Santa Comba,0,0,0,0,0,0,0
+Villa Elisa,0,0,0,0,0,0,0
+Vinhedo,0,0,0,0,0,0,0
+Webster,0,0,0,0,0,0,0
+Werota,0,0,0,0,0,0,0
+Xalapa,0,0,0,0,0,0,0
+Yartsevo,0,0,0,0,0,0,0
+Zastron,0,0,0,0,0,0,0
+Zima,0,0,0,0,0,0,0
+Cutler,0,0,0,0,0,0,0
+Bunia,0,0,0,0,0,0,0
+San Narciso,0,0,0,0,0,0,0
+Proddatur,0,0,0,0,0,0,0
+Sacueni,0,0,0,0,0,0,0
+Novominskaya,0,0,0,0,0,0,0
+Salaya,0,0,0,0,0,0,0
+Salur,0,0,0,0,0,0,0
+Tayu,0,0,0,0,0,0,0
+Teluknaga,0,0,0,0,0,0,0
+Tongling,0,0,0,0,0,0,0
+Tuxtepec,0,0,0,0,0,0,0
+Verkhnyaya Sinyachikha,0,0,0,0,0,0,0
+Ushirombo,0,0,0,0,0,0,0
+Villas,0,0,0,0,0,0,0
+Virginia,0,0,0,0,0,0,0
+Vryheid,0,0,0,0,0,0,0
+Vyazma,0,0,0,0,0,0,0
+Waounde,0,0,0,0,0,0,0
+Weinsberg,0,0,0,0,0,0,0
+Francavilla Fontana,0,0,0,0,0,0,0
+Wekiva Springs,0,0,0,0,0,0,0
+Gaborone,0,0,0,0,0,0,0
+Ginowan,0,0,0,0,0,0,0
+Chenzhou,0,0,0,0,0,0,0
+Laja,0,0,0,0,0,0,0
+Luau,0,0,0,0,0,0,0
+Mbalmayo,0,0,0,0,0,0,0
+Alsdorf,0,0,0,0,0,0,0
+Bafra,0,0,0,0,0,0,0
+Bali,0,0,0,0,0,0,0
+Ban Pong,0,0,0,0,0,0,0
+Bargi,0,0,0,0,0,0,0
+Binningen,0,0,0,0,0,0,0
+Boryslav,0,0,0,0,0,0,0
+Martellago,0,0,0,0,0,0,0
+Bluefield,0,0,0,0,0,0,0
+Muri,0,0,0,0,0,0,0
+Mwandiga,0,0,0,0,0,0,0
+Samora Correia,0,0,0,0,0,0,0
+Fujieda,0,0,0,0,0,0,0
+Eragny,0,0,0,0,0,0,0
+Forquilhinha,0,0,0,0,0,0,0
+Guruvayur,0,0,0,0,0,0,0
+Haltern,0,0,0,0,0,0,0
+Digras,0,0,0,0,0,0,0
+Enterprise,0,0,0,0,0,0,0
+Holly Hill,0,0,0,0,0,0,0
+Florina,0,0,0,0,0,0,0
+Greenwich,0,0,0,0,0,0,0
+Kapuvar,0,0,0,0,0,0,0
+Grunstadt,0,0,0,0,0,0,0
+Halifax,0,0,0,0,0,0,0
+Chak,0,0,0,0,0,0,0
+Lucelia,0,0,0,0,0,0,0
+Lamin,0,0,0,0,0,0,0
+La Motte Servolex,0,0,0,0,0,0,0
+Krian,0,0,0,0,0,0,0
+Manturovo,0,0,0,0,0,0,0
+Peniche,0,0,0,0,0,0,0
+Darnah,0,0,0,0,0,0,0
+Wukari,0,0,0,0,0,0,0
+Ximei,0,0,0,0,0,0,0
+Yilan,0,0,0,0,0,0,0
+Zacoalco,0,0,0,0,0,0,0
+Zvolen,0,0,0,0,0,0,0
+Le Moule,0,0,0,0,0,0,0
+Lavras,0,0,0,0,0,0,0
+Lievin,0,0,0,0,0,0,0
+Madaripur,0,0,0,0,0,0,0
+Manggar,0,0,0,0,0,0,0
+Tondabayashi,0,0,0,0,0,0,0
+Turaiyur,0,0,0,0,0,0,0
+Vanadzor,0,0,0,0,0,0,0
+Vandoeuvre Les Nancy,0,0,0,0,0,0,0
+Victorville,0,0,0,0,0,0,0
+Placetas,0,0,0,0,0,0,0
+Shibetsu,0,0,0,0,0,0,0
+Suhum,0,0,0,0,0,0,0
+Poco Verde,0,0,0,0,0,0,0
+Tiassale,0,0,0,0,0,0,0
+Urbana,0,0,0,0,0,0,0
+Varberg,0,0,0,0,0,0,0
+Yurga,0,0,0,0,0,0,0
+Zaragoza,0,0,0,0,0,0,0
+Zomin,0,0,0,0,0,0,0
+Witten,0,0,0,0,0,0,0
+Werdohl,0,0,0,0,0,0,0
+Xingyi,0,0,0,0,0,0,0
+Vocklabruck,0,0,0,0,0,0,0
+Xuanzhou,0,0,0,0,0,0,0
+Waldorf,0,0,0,0,0,0,0
+Omaruru,0,0,0,0,0,0,0
+Palanga,0,0,0,0,0,0,0
+Lehrte,0,0,0,0,0,0,0
+Paralimni,0,0,0,0,0,0,0
+Licheng,0,0,0,0,0,0,0
+Snellville,0,0,0,0,0,0,0
+Agoo,0,0,0,0,0,0,0
+Arequipa,0,0,0,0,0,0,0
+Worgl,0,0,0,0,0,0,0
+Sojat,0,0,0,0,0,0,0
+Alpen,0,0,0,0,0,0,0
+Yingzhong,0,0,0,0,0,0,0
+Yunjinghong,0,0,0,0,0,0,0
+Zarzal,0,0,0,0,0,0,0
+Vesele,0,0,0,0,0,0,0
+Trossingen,0,0,0,0,0,0,0
+Veszprem,0,0,0,0,0,0,0
+Wajima,0,0,0,0,0,0,0
+Vyritsa,0,0,0,0,0,0,0
+Lisse,0,0,0,0,0,0,0
+Long Xuyen,0,0,0,0,0,0,0
+Kolkwitz,0,0,0,0,0,0,0
+Sagauli,0,0,0,0,0,0,0
+Kyzyl Suu,0,0,0,0,0,0,0
+Queimados,0,0,0,0,0,0,0
+Sallanches,0,0,0,0,0,0,0
+Urussanga,0,0,0,0,0,0,0
+Valenzano,0,0,0,0,0,0,0
+Tremelo,0,0,0,0,0,0,0
+Zollikon,0,0,0,0,0,0,0
+Villazon,0,0,0,0,0,0,0
+Zottegem,0,0,0,0,0,0,0
+Pindiga,0,0,0,0,0,0,0
+Saint Petersburg,0,0,0,0,0,0,0
+San Antonio Suchitepequez,0,0,0,0,0,0,0
+San Cristobal Verapaz,0,0,0,0,0,0,0
+Sao Jose,0,0,0,0,0,0,0
+Siddharthanagar,0,0,0,0,0,0,0
+Sidi Qasim,0,0,0,0,0,0,0
+Surigao,0,0,0,0,0,0,0
+Tahta,0,0,0,0,0,0,0
+Tame,0,0,0,0,0,0,0
+Tashtagol,0,0,0,0,0,0,0
+Tampa,0,0,0,0,0,0,0
+Somers Point,0,0,0,0,0,0,0
+Steenwijk,0,0,0,0,0,0,0
+Kalisz,0,0,0,0,0,0,0
+Independencia,0,0,0,0,0,0,0
+Honefoss,0,0,0,0,0,0,0
+Hutang,0,0,0,0,0,0,0
+Halberstadt,0,0,0,0,0,0,0
+Nauta,0,0,0,0,0,0,0
+Nha Trang,0,0,0,0,0,0,0
+Oklahoma City,0,0,0,0,0,0,0
+Tervuren,0,0,0,0,0,0,0
+Schererville,0,0,0,0,0,0,0
+Thetford Mines,0,0,0,0,0,0,0
+Titagarh,0,0,0,0,0,0,0
+Simao Dias,0,0,0,0,0,0,0
+Sungai Besar,0,0,0,0,0,0,0
+Smithtown,0,0,0,0,0,0,0
+Taolanaro,0,0,0,0,0,0,0
+Tarusa,0,0,0,0,0,0,0
+Bataysk,0,0,0,0,0,0,0
+Beausoleil,0,0,0,0,0,0,0
+Berga,0,0,0,0,0,0,0
+Caldwell,0,0,0,0,0,0,0
+Cegrane,0,0,0,0,0,0,0
+Chandigarh,0,0,0,0,0,0,0
+Embu Guacu,0,0,0,0,0,0,0
+Esplanada,0,0,0,0,0,0,0
+Angatuba,0,0,0,0,0,0,0
+Bagno A Ripoli,0,0,0,0,0,0,0
+Madaba,0,0,0,0,0,0,0
+Manzanillo,0,0,0,0,0,0,0
+Kilinochchi,0,0,0,0,0,0,0
+San Estanislao,0,0,0,0,0,0,0
+San Pietro In Casale,0,0,0,0,0,0,0
+Treviso,0,0,0,0,0,0,0
+Ugleuralskiy,0,0,0,0,0,0,0
+Ukrayinka,0,0,0,0,0,0,0
+Teruel,0,0,0,0,0,0,0
+Texarkana,0,0,0,0,0,0,0
+Torrance,0,0,0,0,0,0,0
+Limburgerhof,0,0,0,0,0,0,0
+Krasnoye Selo,0,0,0,0,0,0,0
+Almolonga,0,0,0,0,0,0,0
+Revuca,0,0,0,0,0,0,0
+Kristinehamn,0,0,0,0,0,0,0
+Neu Ulm,0,0,0,0,0,0,0
+Newark,0,0,0,0,0,0,0
+Oberndorf,0,0,0,0,0,0,0
+Mrkonjic Grad,0,0,0,0,0,0,0
+Modica,0,0,0,0,0,0,0
+Pudur,0,0,0,0,0,0,0
+Rose Belle,0,0,0,0,0,0,0
+Rezekne,0,0,0,0,0,0,0
+Pingtung,0,0,0,0,0,0,0
+Polyarnyye Zori,0,0,0,0,0,0,0
+Eutin,0,0,0,0,0,0,0
+Sagaing,0,0,0,0,0,0,0
+Faridkot,0,0,0,0,0,0,0
+Fremont,0,0,0,0,0,0,0
+Sonipat,0,0,0,0,0,0,0
+Narbonne,0,0,0,0,0,0,0
+Grevesmuhlen,0,0,0,0,0,0,0
+Firozabad,0,0,0,0,0,0,0
+Dunakeszi,0,0,0,0,0,0,0
+Port Shepstone,0,0,0,0,0,0,0
+Piuma,0,0,0,0,0,0,0
+Saint Gratien,0,0,0,0,0,0,0
+San Bonifacio,0,0,0,0,0,0,0
+Santa Catarina Ixtahuacan,0,0,0,0,0,0,0
+River Edge,0,0,0,0,0,0,0
+Roanoke Rapids,0,0,0,0,0,0,0
+Petropavl,0,0,0,0,0,0,0
+Colorado Springs,0,0,0,0,0,0,0
+Chibuto,0,0,0,0,0,0,0
+Copiague,0,0,0,0,0,0,0
+Colmenar Viejo,0,0,0,0,0,0,0
+Cutervo,0,0,0,0,0,0,0
+Swinoujscie,0,0,0,0,0,0,0
+Surat,0,0,0,0,0,0,0
+Takaoka,0,0,0,0,0,0,0
+Talah,0,0,0,0,0,0,0
+Hewitt,0,0,0,0,0,0,0
+Ikot Ekpene,0,0,0,0,0,0,0
+Joliette,0,0,0,0,0,0,0
+Ithaca,0,0,0,0,0,0,0
+Kansk,0,0,0,0,0,0,0
+Kasulu,0,0,0,0,0,0,0
+Dijkot,0,0,0,0,0,0,0
+Dumra,0,0,0,0,0,0,0
+Bratislava,0,0,0,0,0,0,0
+Andevoranto,0,0,0,0,0,0,0
+Eisenberg,0,0,0,0,0,0,0
+Calgary,0,0,0,0,0,0,0
+Belaguntha,0,0,0,0,0,0,0
+Curico,0,0,0,0,0,0,0
+Bilari,0,0,0,0,0,0,0
+Chodziez,0,0,0,0,0,0,0
+Dadu,0,0,0,0,0,0,0
+Dalian,0,0,0,0,0,0,0
+Forio,0,0,0,0,0,0,0
+Tiverton,0,0,0,0,0,0,0
+Dapitan,0,0,0,0,0,0,0
+Tobetsu,0,0,0,0,0,0,0
+Tychy,0,0,0,0,0,0,0
+Ubon Ratchathani,0,0,0,0,0,0,0
+Umarkot,0,0,0,0,0,0,0
+Valente,0,0,0,0,0,0,0
+Colon,0,0,0,0,0,0,0
+Rajakhera,0,0,0,0,0,0,0
+Betzdorf,0,0,0,0,0,0,0
+Porto Empedocle,0,0,0,0,0,0,0
+Pirai Do Sul,0,0,0,0,0,0,0
+Sibenik,0,0,0,0,0,0,0
+Auray,0,0,0,0,0,0,0
+Sikandarabad,0,0,0,0,0,0,0
+Amagi,0,0,0,0,0,0,0
+Afikpo,0,0,0,0,0,0,0
+Aprelevka,0,0,0,0,0,0,0
+Suamico,0,0,0,0,0,0,0
+Springboro,0,0,0,0,0,0,0
+Shulin,0,0,0,0,0,0,0
+Colonial Heights,0,0,0,0,0,0,0
+Mandawar,0,0,0,0,0,0,0
+Sorrento,0,0,0,0,0,0,0
+Parede,0,0,0,0,0,0,0
+Belcesti,0,0,0,0,0,0,0
+Pittsburgh,0,0,0,0,0,0,0
+Boca Del Rio,0,0,0,0,0,0,0
+Campo De Criptana,0,0,0,0,0,0,0
+Vitre,0,0,0,0,0,0,0
+Volokonovka,0,0,0,0,0,0,0
+Vyborg,0,0,0,0,0,0,0
+Worms,0,0,0,0,0,0,0
+Xanten,0,0,0,0,0,0,0
+Francisco Beltrao,0,0,0,0,0,0,0
+Illintsi,0,0,0,0,0,0,0
+Dubinino,0,0,0,0,0,0,0
+Enem,0,0,0,0,0,0,0
+Biankouma,0,0,0,0,0,0,0
+Bresso,0,0,0,0,0,0,0
+Bobrov,0,0,0,0,0,0,0
+Chivacoa,0,0,0,0,0,0,0
+Piekary Slaskie,0,0,0,0,0,0,0
+Srikakulam,0,0,0,0,0,0,0
+San Antonio De Los Banos,0,0,0,0,0,0,0
+Sarab,0,0,0,0,0,0,0
+Sankt Ingbert,0,0,0,0,0,0,0
+Lauria,0,0,0,0,0,0,0
+Lavras Da Mangabeira,0,0,0,0,0,0,0
+Idenao,0,0,0,0,0,0,0
+Katerini,0,0,0,0,0,0,0
+Iligan,0,0,0,0,0,0,0
+Mariinsk,0,0,0,0,0,0,0
+Mirandopolis,0,0,0,0,0,0,0
+Mena,0,0,0,0,0,0,0
+Miyoshi,0,0,0,0,0,0,0
+Monte Azul Paulista,0,0,0,0,0,0,0
+Hanno,0,0,0,0,0,0,0
+Amethi,0,0,0,0,0,0,0
+Aparecida Do Taboado,0,0,0,0,0,0,0
+Barka Kana,0,0,0,0,0,0,0
+Assare,0,0,0,0,0,0,0
+Dorfen,0,0,0,0,0,0,0
+Narasingapuram,0,0,0,0,0,0,0
+Maromme,0,0,0,0,0,0,0
+Laksham,0,0,0,0,0,0,0
+Njombe,0,0,0,0,0,0,0
+Ludvika,0,0,0,0,0,0,0
+Manawar,0,0,0,0,0,0,0
+Suzaka,0,0,0,0,0,0,0
+Tan An,0,0,0,0,0,0,0
+Tata,0,0,0,0,0,0,0
+Bom Jesus Dos Perdoes,0,0,0,0,0,0,0
+Busia,0,0,0,0,0,0,0
+Cheb,0,0,0,0,0,0,0
+Caranavi,0,0,0,0,0,0,0
+Nalgonda,0,0,0,0,0,0,0
+Bebington,0,0,0,0,0,0,0
+Chincha Alta,0,0,0,0,0,0,0
+Ciurea,0,0,0,0,0,0,0
+Condado,0,0,0,0,0,0,0
+Cuyotenango,0,0,0,0,0,0,0
+Brzeg,0,0,0,0,0,0,0
+Mason City,0,0,0,0,0,0,0
+Medway,0,0,0,0,0,0,0
+Lynbrook,0,0,0,0,0,0,0
+Abeche,0,0,0,0,0,0,0
+Alindao,0,0,0,0,0,0,0
+Ambarnath,0,0,0,0,0,0,0
+Amantea,0,0,0,0,0,0,0
+Amboasary,0,0,0,0,0,0,0
+Yasnogorsk,0,0,0,0,0,0,0
+Yunyang,0,0,0,0,0,0,0
+Diamantino,0,0,0,0,0,0,0
+Dhari,0,0,0,0,0,0,0
+Telhara,0,0,0,0,0,0,0
+Tikrit,0,0,0,0,0,0,0
+Tirumala,0,0,0,0,0,0,0
+Uniara,0,0,0,0,0,0,0
+Tlaquepaque,0,0,0,0,0,0,0
+Viradouro,0,0,0,0,0,0,0
+Vladimirescu,0,0,0,0,0,0,0
+Vyselki,0,0,0,0,0,0,0
+Wajir,0,0,0,0,0,0,0
+Uppsala,0,0,0,0,0,0,0
+Jevargi,0,0,0,0,0,0,0
+Wadgassen,0,0,0,0,0,0,0
+Vesoul,0,0,0,0,0,0,0
+Vuktyl,0,0,0,0,0,0,0
+West Mifflin,0,0,0,0,0,0,0
+Wagar,0,0,0,0,0,0,0
+Guru Har Sahai,0,0,0,0,0,0,0
+Guaiuba,0,0,0,0,0,0,0
+Hutchinson,0,0,0,0,0,0,0
+Daro,0,0,0,0,0,0,0
+Kalamazoo,0,0,0,0,0,0,0
+Failsworth,0,0,0,0,0,0,0
+Tinaquillo,0,0,0,0,0,0,0
+Tkvarcheli,0,0,0,0,0,0,0
+Bulawayo,0,0,0,0,0,0,0
+Affoltern,0,0,0,0,0,0,0
+Citrus Heights,0,0,0,0,0,0,0
+Vyskov,0,0,0,0,0,0,0
+Zouxian,0,0,0,0,0,0,0
+Suoyarvi,0,0,0,0,0,0,0
+Surbo,0,0,0,0,0,0,0
+Szprotawa,0,0,0,0,0,0,0
+Tala,0,0,0,0,0,0,0
+Tinqueux,0,0,0,0,0,0,0
+Talawdi,0,0,0,0,0,0,0
+Udankudi,0,0,0,0,0,0,0
+Usti,0,0,0,0,0,0,0
+Uzice,0,0,0,0,0,0,0
+Tourlaville,0,0,0,0,0,0,0
+Pszczyna,0,0,0,0,0,0,0
+Pushchino,0,0,0,0,0,0,0
+Puspokladany,0,0,0,0,0,0,0
+Quba,0,0,0,0,0,0,0
+Vriezenveen,0,0,0,0,0,0,0
+Wuzhou,0,0,0,0,0,0,0
+Masatepe,0,0,0,0,0,0,0
+Divinopolis,0,0,0,0,0,0,0
+Mechanicsville,0,0,0,0,0,0,0
+Luchou,0,0,0,0,0,0,0
+Lobez,0,0,0,0,0,0,0
+Kingersheim,0,0,0,0,0,0,0
+Kimovsk,0,0,0,0,0,0,0
+Lormont,0,0,0,0,0,0,0
+Merate,0,0,0,0,0,0,0
+Kuchinarai,0,0,0,0,0,0,0
+La Valette Du Var,0,0,0,0,0,0,0
+Kyaikkami,0,0,0,0,0,0,0
+Xochitepec,0,0,0,0,0,0,0
+Norilsk,0,0,0,0,0,0,0
+Papagos,0,0,0,0,0,0,0
+Mojokerto,0,0,0,0,0,0,0
+Myrtle Beach,0,0,0,0,0,0,0
+Tecalitlan,0,0,0,0,0,0,0
+Temerloh,0,0,0,0,0,0,0
+Totana,0,0,0,0,0,0,0
+Szarvas,0,0,0,0,0,0,0
+Bagaha,0,0,0,0,0,0,0
+Jackson,0,0,0,0,0,0,0
+Hosdurga,0,0,0,0,0,0,0
+Kapellen,0,0,0,0,0,0,0
+Neuwied,0,0,0,0,0,0,0
+El Carmen De Bolivar,0,0,0,0,0,0,0
+Cottonwood,0,0,0,0,0,0,0
+Curitiba,0,0,0,0,0,0,0
+Barrancas,0,0,0,0,0,0,0
+Beaverton,0,0,0,0,0,0,0
+Biswan,0,0,0,0,0,0,0
+Boscotrecase,0,0,0,0,0,0,0
+Bruck An Der Mur,0,0,0,0,0,0,0
+Boston,0,0,0,0,0,0,0
+Calama,0,0,0,0,0,0,0
+Cantel,0,0,0,0,0,0,0
+Cestas,0,0,0,0,0,0,0
+Yigou,0,0,0,0,0,0,0
+Chanderi,0,0,0,0,0,0,0
+Chaupimarca,0,0,0,0,0,0,0
+Zheleznogorsk Ilimskiy,0,0,0,0,0,0,0
+Umrala,0,0,0,0,0,0,0
+Urbandale,0,0,0,0,0,0,0
+Xiaolan,0,0,0,0,0,0,0
+Kottayam,0,0,0,0,0,0,0
+Khoy,0,0,0,0,0,0,0
+Lakshettipet,0,0,0,0,0,0,0
+Cardiff,0,0,0,0,0,0,0
+Koronadal,0,0,0,0,0,0,0
+Capaci,0,0,0,0,0,0,0
+Bang Sai,0,0,0,0,0,0,0
+Baturite,0,0,0,0,0,0,0
+Bikin,0,0,0,0,0,0,0
+Scottsburgh,0,0,0,0,0,0,0
+Chicago Heights,0,0,0,0,0,0,0
+Norvenich,0,0,0,0,0,0,0
+Gori,0,0,0,0,0,0,0
+Guacara,0,0,0,0,0,0,0
+Heiloo,0,0,0,0,0,0,0
+Guanare,0,0,0,0,0,0,0
+Epinay Sur Seine,0,0,0,0,0,0,0
+Kropotkin,0,0,0,0,0,0,0
+Kualakapuas,0,0,0,0,0,0,0
+American Fork,0,0,0,0,0,0,0
+Leixlip,0,0,0,0,0,0,0
+Anshan,0,0,0,0,0,0,0
+Lakeland Highlands,0,0,0,0,0,0,0
+Attayyampatti,0,0,0,0,0,0,0
+Cormeilles En Parisis,0,0,0,0,0,0,0
+Macomb,0,0,0,0,0,0,0
+Malacky,0,0,0,0,0,0,0
+Lautaro,0,0,0,0,0,0,0
+Maplewood,0,0,0,0,0,0,0
+Lichtenfels,0,0,0,0,0,0,0
+Lutz,0,0,0,0,0,0,0
+Haifa,0,0,0,0,0,0,0
+Kamaishi,0,0,0,0,0,0,0
+Honghu,0,0,0,0,0,0,0
+Homei,0,0,0,0,0,0,0
+Koge,0,0,0,0,0,0,0
+Kot Diji,0,0,0,0,0,0,0
+Uniondale,0,0,0,0,0,0,0
+Lomonosov,0,0,0,0,0,0,0
+Vac,0,0,0,0,0,0,0
+Lambari,0,0,0,0,0,0,0
+Macara,0,0,0,0,0,0,0
+Kolomna,0,0,0,0,0,0,0
+Kaliningrad,0,0,0,0,0,0,0
+Biga,0,0,0,0,0,0,0
+Montalto Uffugo,0,0,0,0,0,0,0
+Beitbridge,0,0,0,0,0,0,0
+Geisenheim,0,0,0,0,0,0,0
+Ekazhevo,0,0,0,0,0,0,0
+Abilene,0,0,0,0,0,0,0
+Mariahu,0,0,0,0,0,0,0
+Neosho,0,0,0,0,0,0,0
+Berea,0,0,0,0,0,0,0
+Jhanjharpur,0,0,0,0,0,0,0
+Chengzihe,0,0,0,0,0,0,0
+Cuyahoga Falls,0,0,0,0,0,0,0
+Komoro,0,0,0,0,0,0,0
+Prenzlau,0,0,0,0,0,0,0
+Darmstadt,0,0,0,0,0,0,0
+Deori Khas,0,0,0,0,0,0,0
+Boyolangu,0,0,0,0,0,0,0
+Zitacuaro,0,0,0,0,0,0,0
+Santa Quiteria Do Maranhao,0,0,0,0,0,0,0
+Sapatgram,0,0,0,0,0,0,0
+Balingen,0,0,0,0,0,0,0
+Ingenio,0,0,0,0,0,0,0
+Jagalur,0,0,0,0,0,0,0
+Todi,0,0,0,0,0,0,0
+Turku,0,0,0,0,0,0,0
+Worthington,0,0,0,0,0,0,0
+Vienna,0,0,0,0,0,0,0
+Wroclaw,0,0,0,0,0,0,0
+Talca,0,0,0,0,0,0,0
+Tanete,0,0,0,0,0,0,0
+Wauconda,0,0,0,0,0,0,0
+Xixiang,0,0,0,0,0,0,0
+Ngunut,0,0,0,0,0,0,0
+Talanga,0,0,0,0,0,0,0
+Talant,0,0,0,0,0,0,0
+Tambacounda,0,0,0,0,0,0,0
+Tarime,0,0,0,0,0,0,0
+Vega Baja,0,0,0,0,0,0,0
+Sindelfingen,0,0,0,0,0,0,0
+Surandai,0,0,0,0,0,0,0
+Termiz,0,0,0,0,0,0,0
+Tezze Sul Brenta,0,0,0,0,0,0,0
+Tikhoretsk,0,0,0,0,0,0,0
+Saint Orens De Gameville,0,0,0,0,0,0,0
+Sam Roi Yot,0,0,0,0,0,0,0
+Kudat,0,0,0,0,0,0,0
+Letpadan,0,0,0,0,0,0,0
+Vimodrone,0,0,0,0,0,0,0
+Villanueva De La Serena,0,0,0,0,0,0,0
+Wai,0,0,0,0,0,0,0
+Wallenhorst,0,0,0,0,0,0,0
+Tahlequah,0,0,0,0,0,0,0
+Urbano Santos,0,0,0,0,0,0,0
+Tatui,0,0,0,0,0,0,0
+Aguadilla,0,0,0,0,0,0,0
+Caloundra,0,0,0,0,0,0,0
+Ajnala,0,0,0,0,0,0,0
+Bima,0,0,0,0,0,0,0
+Beruwala,0,0,0,0,0,0,0
+Molo,0,0,0,0,0,0,0
+Mooi River,0,0,0,0,0,0,0
+Kembolcha,0,0,0,0,0,0,0
+Meridian,0,0,0,0,0,0,0
+Rawatbhata,0,0,0,0,0,0,0
+Saint Marys,0,0,0,0,0,0,0
+Rio Real,0,0,0,0,0,0,0
+Drawsko Pomorskie,0,0,0,0,0,0,0
+Lichuan,0,0,0,0,0,0,0
+Rifu,0,0,0,0,0,0,0
+Siero,0,0,0,0,0,0,0
+Yingcheng,0,0,0,0,0,0,0
+Trapiche,0,0,0,0,0,0,0
+Trebur,0,0,0,0,0,0,0
+Ubach Palenberg,0,0,0,0,0,0,0
+Vence,0,0,0,0,0,0,0
+West Monroe,0,0,0,0,0,0,0
+Gubbi,0,0,0,0,0,0,0
+Fantino,0,0,0,0,0,0,0
+Guaramirim,0,0,0,0,0,0,0
+Mohnesee,0,0,0,0,0,0,0
+Portogruaro,0,0,0,0,0,0,0
+Nagaoka,0,0,0,0,0,0,0
+Nizhniy Odes,0,0,0,0,0,0,0
+Revadanda,0,0,0,0,0,0,0
+Santa Ines,0,0,0,0,0,0,0
+Labytnangi,0,0,0,0,0,0,0
+Siruguppa,0,0,0,0,0,0,0
+Manzanares,0,0,0,0,0,0,0
+Sombor,0,0,0,0,0,0,0
+Poperinge,0,0,0,0,0,0,0
+Hove,0,0,0,0,0,0,0
+Tenali,0,0,0,0,0,0,0
+Tirukkoyilur,0,0,0,0,0,0,0
+Szigethalom,0,0,0,0,0,0,0
+Kamze,0,0,0,0,0,0,0
+Wokha,0,0,0,0,0,0,0
+Xuchang,0,0,0,0,0,0,0
+Weatherford,0,0,0,0,0,0,0
+Welahan,0,0,0,0,0,0,0
+Zaruma,0,0,0,0,0,0,0
+Braganca Paulista,0,0,0,0,0,0,0
+Birobidzhan,0,0,0,0,0,0,0
+Sisak,0,0,0,0,0,0,0
+Degtyarsk,0,0,0,0,0,0,0
+Dudley,0,0,0,0,0,0,0
+Cajueiro,0,0,0,0,0,0,0
+Gajendragarh,0,0,0,0,0,0,0
+Finale Emilia,0,0,0,0,0,0,0
+Mianwali,0,0,0,0,0,0,0
+Muncar,0,0,0,0,0,0,0
+Lake Magdalene,0,0,0,0,0,0,0
+Surubim,0,0,0,0,0,0,0
+Ludza,0,0,0,0,0,0,0
+Brigham City,0,0,0,0,0,0,0
+Alibag,0,0,0,0,0,0,0
+Elkhart,0,0,0,0,0,0,0
+Bogo,0,0,0,0,0,0,0
+De Pinte,0,0,0,0,0,0,0
+Erlenbach,0,0,0,0,0,0,0
+Farafenni,0,0,0,0,0,0,0
+Garwolin,0,0,0,0,0,0,0
+Forli,0,0,0,0,0,0,0
+Gutersloh,0,0,0,0,0,0,0
+Totton,0,0,0,0,0,0,0
+Tharad,0,0,0,0,0,0,0
+Sona,0,0,0,0,0,0,0
+Valdepenas,0,0,0,0,0,0,0
+Taiping,0,0,0,0,0,0,0
+Vise,0,0,0,0,0,0,0
+Nong Phai,0,0,0,0,0,0,0
+Phek,0,0,0,0,0,0,0
+Povoa De Santo Adriao,0,0,0,0,0,0,0
+Prokhorovka,0,0,0,0,0,0,0
+Paramaribo,0,0,0,0,0,0,0
+Portadown,0,0,0,0,0,0,0
+Portoviejo,0,0,0,0,0,0,0
+Rajauri,0,0,0,0,0,0,0
+Shiyan,0,0,0,0,0,0,0
+Strzelce Opolskie,0,0,0,0,0,0,0
+San Bartolo Del Llano,0,0,0,0,0,0,0
+Rosa,0,0,0,0,0,0,0
+Godhra,0,0,0,0,0,0,0
+Rutana,0,0,0,0,0,0,0
+Tlalancaleca,0,0,0,0,0,0,0
+Tubize,0,0,0,0,0,0,0
+Urbino,0,0,0,0,0,0,0
+Veternik,0,0,0,0,0,0,0
+Taggia,0,0,0,0,0,0,0
+South Houston,0,0,0,0,0,0,0
+Sulzbach Rosenberg,0,0,0,0,0,0,0
+Zeerust,0,0,0,0,0,0,0
+Oud Beijerland,0,0,0,0,0,0,0
+Maintal,0,0,0,0,0,0,0
+Salas,0,0,0,0,0,0,0
+Santa Maria Di Sala,0,0,0,0,0,0,0
+Kayanza,0,0,0,0,0,0,0
+Keelung,0,0,0,0,0,0,0
+Jabbeke,0,0,0,0,0,0,0
+Kesteren,0,0,0,0,0,0,0
+Ji Parana,0,0,0,0,0,0,0
+Imisli,0,0,0,0,0,0,0
+Kaneohe,0,0,0,0,0,0,0
+San Giuliano Terme,0,0,0,0,0,0,0
+Matara,0,0,0,0,0,0,0
+Sanchazi,0,0,0,0,0,0,0
+Meerssen,0,0,0,0,0,0,0
+Cacak,0,0,0,0,0,0,0
+Darfo,0,0,0,0,0,0,0
+Aiyion,0,0,0,0,0,0,0
+Bushenyi,0,0,0,0,0,0,0
+Odintsovo,0,0,0,0,0,0,0
+Beckum,0,0,0,0,0,0,0
+Faruka,0,0,0,0,0,0,0
+Blegny,0,0,0,0,0,0,0
+Duiven,0,0,0,0,0,0,0
+Hindupur,0,0,0,0,0,0,0
+Warin Chamrap,0,0,0,0,0,0,0
+Torres Vedras,0,0,0,0,0,0,0
+Tupancireta,0,0,0,0,0,0,0
+Westwood,0,0,0,0,0,0,0
+Woodland,0,0,0,0,0,0,0
+Yengema,0,0,0,0,0,0,0
+Koidu,0,0,0,0,0,0,0
+Kumertau,0,0,0,0,0,0,0
+Lacombe,0,0,0,0,0,0,0
+Woonsocket,0,0,0,0,0,0,0
+Dalton,0,0,0,0,0,0,0
+Aburi,0,0,0,0,0,0,0
+Dieburg,0,0,0,0,0,0,0
+Gotera,0,0,0,0,0,0,0
+Ibirite,0,0,0,0,0,0,0
+Barberino Di Mugello,0,0,0,0,0,0,0
+Cugnaux,0,0,0,0,0,0,0
+Rydultowy,0,0,0,0,0,0,0
+Bom Conselho,0,0,0,0,0,0,0
+Torrox,0,0,0,0,0,0,0
+Tel Aviv Yafo,0,0,0,0,0,0,0
+Techiman,0,0,0,0,0,0,0
+Gigant,0,0,0,0,0,0,0
+Trollhattan,0,0,0,0,0,0,0
+Truckee,0,0,0,0,0,0,0
+Umirim,0,0,0,0,0,0,0
+Weehawken,0,0,0,0,0,0,0
+Linqing,0,0,0,0,0,0,0
+Luino,0,0,0,0,0,0,0
+Gimbi,0,0,0,0,0,0,0
+Garden Grove,0,0,0,0,0,0,0
+Mlowo,0,0,0,0,0,0,0
+Mosina,0,0,0,0,0,0,0
+San Jose Iturbide,0,0,0,0,0,0,0
+Sarai Alamgir,0,0,0,0,0,0,0
+Tari,0,0,0,0,0,0,0
+Tulskiy,0,0,0,0,0,0,0
+Uglovoye,0,0,0,0,0,0,0
+Vermilion,0,0,0,0,0,0,0
+Victoria Falls,0,0,0,0,0,0,0
+Superior,0,0,0,0,0,0,0
+Sparks,0,0,0,0,0,0,0
+Oloron Sainte Marie,0,0,0,0,0,0,0
+Weilheim,0,0,0,0,0,0,0
+Pernik,0,0,0,0,0,0,0
+Yaguajay,0,0,0,0,0,0,0
+Riesi,0,0,0,0,0,0,0
+Magole,0,0,0,0,0,0,0
+Margahayu,0,0,0,0,0,0,0
+Kigoma,0,0,0,0,0,0,0
+Bay Shore,0,0,0,0,0,0,0
+Guariba,0,0,0,0,0,0,0
+Zwevegem,0,0,0,0,0,0,0
+Niamtougou,0,0,0,0,0,0,0
+Lushoto,0,0,0,0,0,0,0
+Wallington,0,0,0,0,0,0,0
+Kirsanov,0,0,0,0,0,0,0
+Maranding,0,0,0,0,0,0,0
+Kamenz,0,0,0,0,0,0,0
+Ramjibanpur,0,0,0,0,0,0,0
+Petrinja,0,0,0,0,0,0,0
+Guaratingueta,0,0,0,0,0,0,0
+Banmankhi,0,0,0,0,0,0,0
+Arroio Grande,0,0,0,0,0,0,0
+Weener,0,0,0,0,0,0,0
+Tavagnacco,0,0,0,0,0,0,0
+Woudrichem,0,0,0,0,0,0,0
+Teluk Intan,0,0,0,0,0,0,0
+Tierra Colorada,0,0,0,0,0,0,0
+Venice,0,0,0,0,0,0,0
+Kantemirovka,0,0,0,0,0,0,0
+Uttiramerur,0,0,0,0,0,0,0
+Terzigno,0,0,0,0,0,0,0
+Tyldesley,0,0,0,0,0,0,0
+San Bernardino,0,0,0,0,0,0,0
+Tepoztlan,0,0,0,0,0,0,0
+Talara,0,0,0,0,0,0,0
+Marapanim,0,0,0,0,0,0,0
+Maubeuge,0,0,0,0,0,0,0
+Palkonda,0,0,0,0,0,0,0
+Sault Sainte Marie,0,0,0,0,0,0,0
+Sinjah,0,0,0,0,0,0,0
+Gyula,0,0,0,0,0,0,0
+Hericourt,0,0,0,0,0,0,0
+Jaboatao,0,0,0,0,0,0,0
+Kallithea,0,0,0,0,0,0,0
+Keshorai Patan,0,0,0,0,0,0,0
+Qobustan,0,0,0,0,0,0,0
+Rawang,0,0,0,0,0,0,0
+Viana,0,0,0,0,0,0,0
+Farmingville,0,0,0,0,0,0,0
+Fords,0,0,0,0,0,0,0
+Ndola,0,0,0,0,0,0,0
+Ovada,0,0,0,0,0,0,0
+Umarkhed,0,0,0,0,0,0,0
+Azad Shahr,0,0,0,0,0,0,0
+Aleksin,0,0,0,0,0,0,0
+Staszow,0,0,0,0,0,0,0
+Stirling,0,0,0,0,0,0,0
+Taungdwingyi,0,0,0,0,0,0,0
+Jammal,0,0,0,0,0,0,0
+Thompson,0,0,0,0,0,0,0
+Pinheiro Machado,0,0,0,0,0,0,0
+Surovikino,0,0,0,0,0,0,0
+Iwaki,0,0,0,0,0,0,0
+Dhupgari,0,0,0,0,0,0,0
+La Rioja,0,0,0,0,0,0,0
+Suifenhe,0,0,0,0,0,0,0
+Etampes,0,0,0,0,0,0,0
+Calbuco,0,0,0,0,0,0,0
+Vayalar,0,0,0,0,0,0,0
+Cairo,0,0,0,0,0,0,0
+Zhukovo,0,0,0,0,0,0,0
+Chiang Mai,0,0,0,0,0,0,0
+Dajal,0,0,0,0,0,0,0
+Belgorod,0,0,0,0,0,0,0
+Ochakiv,0,0,0,0,0,0,0
+Poykovskiy,0,0,0,0,0,0,0
+Miyata,0,0,0,0,0,0,0
+Rapid City,0,0,0,0,0,0,0
+Kuppam,0,0,0,0,0,0,0
+Lleida,0,0,0,0,0,0,0
+Sainthia,0,0,0,0,0,0,0
+Novokubansk,0,0,0,0,0,0,0
+Harelbeke,0,0,0,0,0,0,0
+Girard,0,0,0,0,0,0,0
+Prambanan,0,0,0,0,0,0,0
+Rottenburg,0,0,0,0,0,0,0
+Torgau,0,0,0,0,0,0,0
+Trelleborg,0,0,0,0,0,0,0
+Ludwigshafen,0,0,0,0,0,0,0
+Wloszczowa,0,0,0,0,0,0,0
+Macaiba,0,0,0,0,0,0,0
+Maracai,0,0,0,0,0,0,0
+Creil,0,0,0,0,0,0,0
+Tanga,0,0,0,0,0,0,0
+Vigo,0,0,0,0,0,0,0
+Viseu,0,0,0,0,0,0,0
+Mian Channun,0,0,0,0,0,0,0
+Wesselsbron,0,0,0,0,0,0,0
+Willow Grove,0,0,0,0,0,0,0
+Wrentham,0,0,0,0,0,0,0
+Gdynia,0,0,0,0,0,0,0
+Etropole,0,0,0,0,0,0,0
+Fokino,0,0,0,0,0,0,0
+Cocula,0,0,0,0,0,0,0
+Arys,0,0,0,0,0,0,0
+Santa Catarina,0,0,0,0,0,0,0
+Umi,0,0,0,0,0,0,0
+Salina,0,0,0,0,0,0,0
+Mitsukaido,0,0,0,0,0,0,0
+Villeurbanne,0,0,0,0,0,0,0
+Ventspils,0,0,0,0,0,0,0
+West Palm Beach,0,0,0,0,0,0,0
+Vinh,0,0,0,0,0,0,0
+Hochheim,0,0,0,0,0,0,0
+Huetamo,0,0,0,0,0,0,0
+Paullo,0,0,0,0,0,0,0
+Paungde,0,0,0,0,0,0,0
+Sokolow Podlaski,0,0,0,0,0,0,0
+Chalakudi,0,0,0,0,0,0,0
+Meschede,0,0,0,0,0,0,0
+Hazaribag,0,0,0,0,0,0,0
+Brawley,0,0,0,0,0,0,0
+Soyaux,0,0,0,0,0,0,0
+Mandello Del Lario,0,0,0,0,0,0,0
+Madhavaram,0,0,0,0,0,0,0
+Tamluk,0,0,0,0,0,0,0
+Upland,0,0,0,0,0,0,0
+Usulutan,0,0,0,0,0,0,0
+Vetlanda,0,0,0,0,0,0,0
+Alhama De Murcia,0,0,0,0,0,0,0
+Converse,0,0,0,0,0,0,0
+Abalak,0,0,0,0,0,0,0
+Ghatanji,0,0,0,0,0,0,0
+Gafurov,0,0,0,0,0,0,0
+Swidnik,0,0,0,0,0,0,0
+Benton Harbor,0,0,0,0,0,0,0
+Borama,0,0,0,0,0,0,0
+Caete,0,0,0,0,0,0,0
+Lahij,0,0,0,0,0,0,0
+Nakhon Si Thammarat,0,0,0,0,0,0,0
+Kiruna,0,0,0,0,0,0,0
+Yukuhashi,0,0,0,0,0,0,0
+Sungairaya,0,0,0,0,0,0,0
+Vellmar,0,0,0,0,0,0,0
+Hita,0,0,0,0,0,0,0
+Barro,0,0,0,0,0,0,0
+Greytown,0,0,0,0,0,0,0
+Mula,0,0,0,0,0,0,0
+Kabanjahe,0,0,0,0,0,0,0
+Tatarbunary,0,0,0,0,0,0,0
+Coldwater,0,0,0,0,0,0,0
+Nueve De Julio,0,0,0,0,0,0,0
+Tlaltelulco,0,0,0,0,0,0,0
+Union,0,0,0,0,0,0,0
+Bheramara,0,0,0,0,0,0,0
+Guaynabo,0,0,0,0,0,0,0
+Rutesheim,0,0,0,0,0,0,0
+Eberswalde,0,0,0,0,0,0,0
+Chiclayo,0,0,0,0,0,0,0
+Lacarak,0,0,0,0,0,0,0
+Hadejia,0,0,0,0,0,0,0
+Teresa,0,0,0,0,0,0,0
+Vakhsh,0,0,0,0,0,0,0
+Reston,0,0,0,0,0,0,0
+Villa De Cura,0,0,0,0,0,0,0
+Vitoria Da Conquista,0,0,0,0,0,0,0
+Tonala,0,0,0,0,0,0,0
+Takehara,0,0,0,0,0,0,0
+Tres Pontas,0,0,0,0,0,0,0
+Sand Springs,0,0,0,0,0,0,0
+Tatsuno,0,0,0,0,0,0,0
+Haileybury,0,0,0,0,0,0,0
+Viterbo,0,0,0,0,0,0,0
+Wangqing,0,0,0,0,0,0,0
+El Reno,0,0,0,0,0,0,0
+Wattala,0,0,0,0,0,0,0
+Havelian,0,0,0,0,0,0,0
+Urmston,0,0,0,0,0,0,0
+Konnur,0,0,0,0,0,0,0
+Shaoguan,0,0,0,0,0,0,0
+Highland Springs,0,0,0,0,0,0,0
+Gursahaiganj,0,0,0,0,0,0,0
+Martin,0,0,0,0,0,0,0
+Sceaux,0,0,0,0,0,0,0
+Mormugao,0,0,0,0,0,0,0
+Westerville,0,0,0,0,0,0,0
+Marang,0,0,0,0,0,0,0

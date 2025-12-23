@@ -1,0 +1,6 @@
+﻿Country,City,Latitude,Longitude,CO AQI Value,CO AQI Category,Ozone AQI Value,Ozone AQI Category,NO2 AQI Value,NO2 AQI Category,PM2.5 AQI Value,PM2.5 AQI Category,AQI Value,AQI Category,Temperature (Ã‚Â°C),Humidity (%),Wind Speed (m/s),Wind Direction (Ã‚Â°),Weather Description,Road_Count,Industrial_Count,Farmland_Count,Dump_Site_Count,Recycling_Count,Green_Area_Count,Timestamp,,,,
+United Republic of Tanzania,Dar Es Salaam,-6.8235,39.2695,1,Good,23,Good,0,Good,51,Moderate,51,Moderate,26.59,77,4.84,66,clear sky,747,16,4,1,0,163,2025-12-02 17:09:14.842371,,,,
+Belgium,Puurs,51.075,4.29,1,Good,29,Good,7,Good,64,Moderate,64,Moderate,8.15,82,3.09,180,broken clouds,369,9,151,0,13,439,2025-12-02 17:09:14.269707,,,,q
+Russian Federation,Praskoveya,44.7444,44.2031,1,Good,36,Good,0,Good,51,Moderate,51,Moderate,6.73,87,1.63,72,overcast clouds,558,6,2,28,0,158,2025-12-02 17:09:14.200027,,,,
+United States of America,Post Falls,47.718,-116.9516,1,Good,32,Good,3,Good,61,Moderate,61,Moderate,-0.94,96,0,0,overcast clouds,367,2,16,0,0,191,2025-12-02 17:09:14.484739,,,,
+Republic of North Macedonia,Radovis,41.6383,22.4647,1,Good,46,Good,0,Good,83,Moderate,83,Moderate,6.55,85,2.67,125,overcast clouds,284,2,0,0,0,10,2025-12-02 17:09:14.276303,,,,
