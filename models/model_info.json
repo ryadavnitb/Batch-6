@@ -1,12 +1,20 @@
 {
   "best_model_name": "XGBoost",
-  "train_accuracy": 0.9995951963297801,
-  "test_accuracy": 0.991472366148532,
-  "precision": 0.9914744762223592,
-  "recall": 0.991472366148532,
-  "f1_score": 0.9914719332328431,
-  "overfit_gap": 0.008122830181248153,
-  "feature_columns": [
+  "train_accuracy": 0.9630875250323948,
+  "test_accuracy": 0.9225815549497038,
+  "f1_score": 0.9229381756607735,
+  "precision": 0.9290490156604072,
+  "recall": 0.9225815549497038,
+  "overfit_gap": 0.04050597008269097,
+  "status": "Good",
+  "classes": [
+    "Agricultural",
+    "Burning",
+    "Industrial",
+    "Natural",
+    "Vehicular"
+  ],
+  "features": [
     "pm25",
     "pm10",
     "no2",
@@ -15,50 +23,14 @@
     "o3",
     "temperature",
     "humidity",
-    "wind_speed"
+    "wind_speed",
+    "roads_distance_m",
+    "industrial_distance_m",
+    "agricultural_distance_m",
+    "dump_sites_distance_m"
   ],
-  "class_names": [
-    "Agricultural",
-    "Burning",
-    "Industrial",
-    "Natural",
-    "Vehicular"
-  ],
-  "n_classes": 5,
-  "n_features": 9,
-  "train_samples": 37055,
-  "test_samples": 9264,
-  "trained_at": "2025-12-22 15:32:15",
-  "all_model_metrics": {
-    "Train_Accuracy": {
-      "Decision Tree": 0.9996,
-      "Random Forest": 0.9985,
-      "XGBoost": 0.9996
-    },
-    "Test_Accuracy": {
-      "Decision Tree": 0.9652,
-      "Random Forest": 0.9865,
-      "XGBoost": 0.9915
-    },
-    "Precision": {
-      "Decision Tree": 0.9652,
-      "Random Forest": 0.9866,
-      "XGBoost": 0.9915
-    },
-    "Recall": {
-      "Decision Tree": 0.9652,
-      "Random Forest": 0.9865,
-      "XGBoost": 0.9915
-    },
-    "F1_Score": {
-      "Decision Tree": 0.9652,
-      "Random Forest": 0.9865,
-      "XGBoost": 0.9915
-    },
-    "Overfit_Gap": {
-      "Decision Tree": 0.0344,
-      "Random Forest": 0.012,
-      "XGBoost": 0.0081
-    }
-  }
+  "training_samples": 169780,
+  "test_samples": 21274,
+  "balanced_with_smote": true,
+  "trained_at": "2025-12-23 22:34:38"
 }

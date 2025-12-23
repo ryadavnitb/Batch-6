@@ -7,3 +7,7 @@ o3
 temperature
 humidity
 wind_speed
+roads_distance_m
+industrial_distance_m
+agricultural_distance_m
+dump_sites_distance_m
