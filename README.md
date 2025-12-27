@@ -1,4 +1,4 @@
-# 🌍 Pollution Source Classification Using Machine Learning
+# 🌍 EnviroScan:AI-Powered Pollution Source Identifier using Geospatial Analytics
 
 ## Author
 **Pawan Hingane**  
@@ -9,22 +9,22 @@ VIT Bhopal University
 
 ## 1. Introduction
 
-Air pollution is a major environmental and public health concern. Identifying the **source of pollution**—such as traffic, industrial activity, or mixed sources—is essential for effective mitigation and policy planning.
+Air pollution has emerged as a critical environmental and public health challenge worldwide. Identifying the dominant **source of pollution**—such as vehicular emissions, industrial activity, or natural contributors—is essential for informed decision-making, mitigation strategies, and policy development.
 
-This project aims to develop a **machine learning–based system** to classify pollution sources using **air quality indicators, weather conditions, and physical proximity features**. The emphasis is on building a **realistic, robust, and deployable model**, rather than achieving artificially high accuracy.
+This project presents a **machine learning–based approach** to classify pollution sources by integrating **air quality data, meteorological conditions, and spatial proximity features**. The primary focus is on developing a **realistic, robust, and deployable system**, prioritizing generalization and reliability over artificially inflated performance metrics.
 
 ---
 
 ## 2. Problem Statement
 
-Given environmental and atmospheric data collected from multiple sources, the objective is to **predict the primary pollution source (`pollution_source`)** affecting a region.
+Given environmental data collected from multiple heterogeneous sources, the objective is to **predict the primary pollution source (`pollution_source`)** affecting a given geographical location.
 
 ### Objectives
-- Integrate multi-source environmental data
-- Perform preprocessing and feature engineering
-- Train and evaluate multiple classification models
-- Select a stable model for deployment
-- Ensure realistic performance and avoid overfitting
+- Integrate air quality, weather, and spatial data from multiple sources  
+- Perform systematic data preprocessing and feature engineering  
+- Train and evaluate multiple machine learning classification models  
+- Select a stable and interpretable model for deployment  
+- Ensure realistic performance while avoiding overfitting  
 
 ---
 
@@ -32,57 +32,58 @@ Given environmental and atmospheric data collected from multiple sources, the ob
 
 ### 3.1 Weather Data
 - **Source:** OpenWeather API  
-- **Features:** Temperature, humidity, wind speed, weather description  
+- **Features:** Temperature, humidity, wind speed, and general weather conditions  
 
 ### 3.2 Air Pollution Data
-- **Source:** Provided by *Ankit Sir*  
+- **Source:** Dataset provided by *Ankit Sir*  
 - **Features:**  
-  - CO AQI  
-  - NO₂ AQI  
-  - Ozone AQI  
-  - PM2.5 AQI  
-  - Overall AQI  
+  - Carbon Monoxide (CO) AQI  
+  - Nitrogen Dioxide (NO₂) AQI  
+  - Ozone (O₃) AQI  
+  - Particulate Matter (PM2.5) AQI  
+  - Overall Air Quality Index (AQI)  
 
-### 3.3 Physical / Proximity Features
+### 3.3 Physical and Proximity Features
 - **Source:** OpenStreetMap (OSM) library  
 - **Features:**  
   - Distance to nearest road  
-  - Distance to industrial area  
-  - Distance to traffic hotspot  
+  - Distance to industrial regions  
+  - Distance to high-traffic zones  
 
-All datasets were merged using temporal and spatial alignment.
+All datasets were merged using spatial coordinates and timestamps to form a unified dataset suitable for modeling.
 
 ---
 
 ## 4. Data Preprocessing and Cleaning
 
 ### 4.1 Data Cleaning
-- Standardized column names
-- Removed invalid or missing target labels
-- Filled missing numerical values using median
-- Filled missing categorical values using mode
+- Standardized column names for consistency  
+- Removed invalid records and missing target labels  
+- Handled missing numerical values using median imputation  
+- Handled missing categorical values using mode imputation  
 
 ### 4.2 Encoding
-- Label encoding for categorical variables
-- Label encoding for the target variable
+- Label encoding applied to categorical variables  
+- Target variable (`pollution_source`) encoded numerically  
 
 ### 4.3 Feature Scaling
-- Standardization using `StandardScaler`
+- Numerical features standardized using `StandardScaler` to ensure uniform model input  
 
 ---
 
 ## 5. Feature Engineering
 
-The following engineered features were added:
-- **Traffic Pollution Index** (average of CO and NO₂ AQI)
-- **Particulate Ratio** (PM2.5 AQI / overall AQI)
-- **Heat–Humidity Index** (temperature × humidity)
-- **Proximity Features**
-  - Distance to road (km)
-  - Distance to industry (km)
-  - Distance to traffic hotspot (km)
+To enhance model performance and interpretability, several derived features were created:
 
-To simulate real-world uncertainty, **sensor noise** and **label noise (~18%)** were injected.
+- **Traffic Pollution Index:** Mean of CO and NO₂ AQI values  
+- **Particulate Ratio:** Ratio of PM2.5 AQI to overall AQI  
+- **Heat–Humidity Index:** Product of temperature and humidity  
+- **Spatial Proximity Features:**  
+  - Distance to road (km)  
+  - Distance to industrial area (km)  
+  - Distance to traffic hotspot (km)  
+
+To better reflect real-world sensor behavior and uncertainty, controlled **sensor noise** and approximately **18% label noise** were introduced into the dataset.
 
 ---
 
@@ -90,101 +91,103 @@ To simulate real-world uncertainty, **sensor noise** and **label noise (~18%)** 
 
 | Model | Purpose |
 |------|--------|
-| Random Forest | Baseline & deployed model |
-| Decision Tree | Baseline comparison |
-| XGBoost | Advanced benchmarking |
+| Random Forest | Baseline and deployed production model |
+| Decision Tree | Interpretable comparison model |
+| XGBoost | Advanced benchmarking model |
 
 ---
 
 ## 7. Model Architecture and Training
 
 ### 7.1 Random Forest (Baseline Model)
-- Depth-limited trees
-- Minimum sample constraints
-- Balanced class weights
+- Depth-limited decision trees  
+- Minimum sample constraints for splits  
+- Balanced class weights  
 
-Selected for deployment due to **stable and generalized performance**.
+This model was selected for deployment due to its **stable performance, resistance to overfitting, and strong generalization capability**.
 
 ### 7.2 Decision Tree
-- Used for interpretability
-- Hyperparameters tuned using `RandomizedSearchCV`
+- Used primarily for interpretability  
+- Hyperparameters optimized to reduce overfitting  
 
 ### 7.3 XGBoost
-- Gradient boosting model
-- Used only for performance comparison
+- Gradient boosting–based ensemble model  
+- Used strictly for comparative performance analysis  
 
 ---
 
 ## 8. Hyperparameter Tuning
 
-Hyperparameter tuning was performed using **RandomizedSearchCV** on the Decision Tree model.  
-The Random Forest model was intentionally kept unchanged to preserve baseline performance.
+Hyperparameter optimization was performed using **RandomizedSearchCV**, primarily on the Decision Tree model.  
+The Random Forest configuration was intentionally kept unchanged to preserve baseline consistency and avoid unnecessary complexity.
 
 ---
 
 ## 9. Model Evaluation
 
-### Metrics Used
-- Accuracy
-- Precision
-- Recall
-- F1-score (weighted)
-- Confusion Matrix
-- Stratified K-Fold Cross-Validation
+### Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- Weighted F1-score  
+- Confusion Matrix  
+- Stratified K-Fold Cross-Validation  
 
-### Results Summary
-- **Random Forest Accuracy:** ~80–85%
-- Decision Tree: Lower accuracy (expected)
-- XGBoost: Comparable or slightly higher accuracy
+### Performance Summary
+- **Random Forest Accuracy:** ~80–85%  
+- Decision Tree: Lower accuracy, expected due to simplicity  
+- XGBoost: Comparable or marginally higher accuracy  
+
+The results indicate a strong balance between performance and generalization.
 
 ---
 
 ## 10. Overfitting Analysis
 
-Overfitting was controlled using:
-- Depth limitation
-- Minimum sample constraints
-- Noise injection
-- Cross-validation consistency
+Overfitting was mitigated through:
+- Controlled model depth and minimum sample constraints  
+- Introduction of realistic noise into features and labels  
+- Consistent performance across training, validation, and test sets  
 
-Similar performance across training, validation, and test sets confirms **no overfitting**.
+The similarity in evaluation metrics across datasets confirms that the selected model does **not exhibit overfitting**.
 
 ---
 
 ## 11. System Architecture
 
-### System Flow
-1. Data collection from APIs and datasets  
+### System Workflow
+1. Data collection from APIs and curated datasets  
 2. Data preprocessing and cleaning  
-3. Feature engineering  
+3. Feature engineering and transformation  
 4. Model training and evaluation  
-5. Model export using Joblib  
-6. Integration with dashboard  
+5. Model serialization using Joblib  
+6. Integration with a prediction dashboard  
 
 ---
 
 ## 12. Deployment
 
-- **Random Forest** used as production model
-- Saved artifacts:
+- **Random Forest** model selected for production use  
+- Saved artifacts include:
   - `pollution_rf_realistic.pkl`
   - `scaler.pkl`
-  - `target_encoder.pkl`
-- Other models retained for comparison only
+  - `target_encoder.pkl`  
+
+Other trained models are retained for experimentation and comparison purposes.
 
 ---
 
 ## 13. Conclusion
 
-This project demonstrates a **robust and realistic machine learning pipeline** for pollution source classification. By prioritizing generalization and explainability, the model avoids overfitting and is suitable for real-world deployment.
+This project demonstrates an end-to-end **machine learning pipeline for pollution source classification**, integrating environmental, meteorological, and spatial data. By emphasizing realism, interpretability, and generalization, the system provides reliable predictions suitable for practical deployment and future extension.
 
 ---
 
 ## 14. Future Scope
-- Real-time data streaming
-- GIS-based proximity refinement
-- Satellite data integration
-- Cloud-based deployment
+- Real-time data ingestion and streaming  
+- Advanced geospatial visualization and heatmaps  
+- Integration of satellite-based pollution data  
+- Cloud-based scalable deployment  
 
 ---
 
