@@ -1,0 +1,29 @@
+# Core Python Libraries
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# Geospatial & Mapping
+folium
+streamlit-folium
+geopy
+osmnx
+shapely
+
+# Dashboard & Web App
+streamlit
+
+# Data Handling & Utilities
+requests
+python-dateutil
+
+# Optional (recommended for performance)
+tqdm
