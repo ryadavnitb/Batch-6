@@ -213,4 +213,62 @@ This project delivers an end-to-end **pollution source classification system** t
 - OpenWeather API Documentation  
 - OpenStreetMap (OSM)  
 - Scikit-learn Documentation  
-- XGBoost Documentation  
+- XGBoost Documentation
+
+- flowchart TD
+    A[Start] --> B[Data Collection]
+
+    B --> B1[Air Quality Data<br/>OpenAQ / Provided Dataset]
+    B --> B2[Weather Data<br/>OpenWeather API]
+    B --> B3[Spatial Features<br/>OpenStreetMap - OSMnx]
+
+    B1 --> C[Data Integration]
+    B2 --> C
+    B3 --> C
+
+    C --> D[Data Cleaning & Preprocessing]
+    D --> D1[Handle Missing Values]
+    D --> D2[Remove Invalid Records]
+    D --> D3[Standardize Units & Formats]
+
+    D --> E[Feature Engineering]
+    E --> E1[Traffic Pollution Index]
+    E --> E2[Particulate Ratio]
+    E --> E3[Heat-Humidity Index]
+    E --> E4[Proximity Features]
+
+    E --> F[Label Preparation]
+    F --> F1[Pollution Source Labeling]
+    F --> F2[Noise Injection for Realism]
+
+    F --> G[Train-Test Split]
+
+    G --> H[Model Training]
+    H --> H1[Random Forest]
+    H --> H2[Decision Tree]
+    H --> H3[XGBoost]
+
+    H --> I[Model Evaluation]
+    I --> I1[Accuracy, Precision, Recall]
+    I --> I2[F1-Score & Confusion Matrix]
+    I --> I3[Cross-Validation]
+
+    I --> J[Model Selection]
+    J --> J1[Random Forest Selected]
+
+    J --> K[Model Saving]
+    K --> K1[Save Model & Scalers<br/>Joblib]
+
+    K --> L[Prediction Generation]
+
+    L --> M[Geospatial Visualization]
+    M --> M1[Heatmaps using Folium]
+    M --> M2[Source-specific Markers]
+    M --> M3[High-risk Zone Highlighting]
+
+    M --> N[Dashboard Integration]
+    N --> N1[Interactive Maps]
+    N --> N2[Filters & Reports]
+
+    N --> O[End]
+
