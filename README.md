@@ -1,3 +1,11 @@
-🌍 EnviroScan AI-Powered Pollution Source Identifier using Geospatial Analytics
-EnviroScan is an AI-based environmental monitoring system that not only measures pollution levels but also identifies the most likely sources of pollution using Machine Learning, Weather Data, and Geospatial Analytics.
-The system visualizes pollution hotspots, predicts risk zones, and provides alerts to support data-driven environmental decision-making.
+<h1 align="center">🌍 EnviroScan</h1>
+
+<h2 align="center">
+AI-Powered Pollution Source Identifier<br>
+using Geospatial Analytics
+</h2>
+
+<p align="center">
+An AI-driven environmental monitoring system for pollution source prediction,
+geospatial visualization, and real-time alerts
+</p>
