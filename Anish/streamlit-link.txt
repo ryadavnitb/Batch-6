@@ -1,1 +1,6 @@
+Streamlit link:
 https://infosys-assignments-at2uqfsa2ibrlg82xqtwwq.streamlit.app/
+
+
+Personal Repo Link:
+https://github.com/AnishRN/infosys-assignments
