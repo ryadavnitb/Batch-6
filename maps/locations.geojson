@@ -1,0 +1,1034 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.186937,
+          28.563262
+        ]
+      },
+      "properties": {
+        "location_id": 17,
+        "location_name": "R K Puram, Delhi - DPCC",
+        "state": "Haryana",
+        "district": "Faridabad",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Very Poor",
+        "avg_pm25": 243.28,
+        "avg_pm10": 368.58,
+        "avg_severity": 74.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.518167,
+          16.515083
+        ]
+      },
+      "properties": {
+        "location_id": 5408,
+        "location_name": "Secretariat, Amaravati - APPCB",
+        "state": "Andhra Pradesh",
+        "district": "Vijayawada",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Moderate",
+        "avg_pm25": 61.97,
+        "avg_pm10": 129.09,
+        "avg_severity": 20.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.578914,
+          31.321907
+        ]
+      },
+      "properties": {
+        "location_id": 5542,
+        "location_name": "Civil Line, Jalandhar - PPCB",
+        "state": "Punjab",
+        "district": "Jalandhar",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 72.36,
+        "avg_pm10": 148.68,
+        "avg_severity": 24.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.366642,
+          30.349388
+        ]
+      },
+      "properties": {
+        "location_id": 5544,
+        "location_name": "Model Town, Patiala - PPCB",
+        "state": "Punjab",
+        "district": "Patiala",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 60.82,
+        "avg_pm10": 159.3,
+        "avg_severity": 20.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.41467,
+          23.707909
+        ]
+      },
+      "properties": {
+        "location_id": 5546,
+        "location_name": "Tata Stadium - Jorapokhar - JSPCB",
+        "state": "Jharkhand",
+        "district": "Dhanbad",
+        "dominant_source": "Natural",
+        "aqi_category": "Good",
+        "avg_pm25": 1.5,
+        "avg_pm10": 10.35,
+        "avg_severity": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.876512,
+          31.62
+        ]
+      },
+      "properties": {
+        "location_id": 5551,
+        "location_name": "Golden Temple, Amritsar - PPCB",
+        "state": "Punjab",
+        "district": "Amritsar",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 65.43,
+        "avg_pm10": 125.77,
+        "avg_severity": 21.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8086,
+          30.9028
+        ]
+      },
+      "properties": {
+        "location_id": 5569,
+        "location_name": "Punjab Agricultural University, Ludhiana - PPCB",
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 70.45,
+        "avg_pm10": 144.26,
+        "avg_severity": 23.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.63214,
+          24.588617
+        ]
+      },
+      "properties": {
+        "location_id": 5585,
+        "location_name": "Ashok Nagar, Udaipur - RSPCB",
+        "state": "Rajasthan",
+        "district": "Udaipur",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 60.4,
+        "avg_pm10": 127.49,
+        "avg_severity": 20.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.776243,
+          20.007328
+        ]
+      },
+      "properties": {
+        "location_id": 5592,
+        "location_name": "Gangapur Road, Nashik - MPCB",
+        "state": "Maharashtra",
+        "district": "Nashik",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Moderate",
+        "avg_pm25": 66.82,
+        "avg_pm10": 125.27,
+        "avg_severity": 22.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.675238,
+          22.624758
+        ]
+      },
+      "properties": {
+        "location_id": 5603,
+        "location_name": "Sector-2 Industrial Area, Pithampur - MPPCB",
+        "state": "Madhya Pradesh",
+        "district": "Indore",
+        "dominant_source": "Industrial",
+        "aqi_category": "Poor",
+        "avg_pm25": 100.04,
+        "avg_pm10": 184.2,
+        "avg_severity": 33.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.051753,
+          21.152875
+        ]
+      },
+      "properties": {
+        "location_id": 5621,
+        "location_name": "Opp GPO Civil Lines, Nagpur - MPCB",
+        "state": "Maharashtra",
+        "district": "Nagpur",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Moderate",
+        "avg_pm25": 68.78,
+        "avg_pm10": 125.35,
+        "avg_severity": 22.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.308197,
+          17.722682
+        ]
+      },
+      "properties": {
+        "location_id": 5628,
+        "location_name": "GVM Corporation, Visakhapatnam - APPCB",
+        "state": "Andhra Pradesh",
+        "district": "Visakhapatnam",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 78.85,
+        "avg_pm10": 149.79,
+        "avg_severity": 26.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.591912,
+          23.002657
+        ]
+      },
+      "properties": {
+        "location_id": 5631,
+        "location_name": "Maninagar, Ahmedabad - GPCB",
+        "state": "Gujarat",
+        "district": "Ahmedabad",
+        "dominant_source": "Industrial",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 59.1,
+        "avg_pm10": 119.22,
+        "avg_severity": 19.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.511428,
+          23.10844
+        ]
+      },
+      "properties": {
+        "location_id": 5632,
+        "location_name": "Sector-D Industrial Area, Mandideep - MPPCB",
+        "state": "Madhya Pradesh",
+        "district": "Bhopal",
+        "dominant_source": "Industrial",
+        "aqi_category": "Very Poor",
+        "avg_pm25": 128.11,
+        "avg_pm10": 186.23,
+        "avg_severity": 40.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.821256,
+          25.14389
+        ]
+      },
+      "properties": {
+        "location_id": 5636,
+        "location_name": "Shrinath Puram, Kota - RSPCB",
+        "state": "Rajasthan",
+        "district": "Kota",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 86.16,
+        "avg_pm10": 120.82,
+        "avg_severity": 28.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.244448,
+          19.838944
+        ]
+      },
+      "properties": {
+        "location_id": 5642,
+        "location_name": "More Chowk Waluj, Aurangabad - MPCB",
+        "state": "Maharashtra",
+        "district": "Aurangabad",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 67.1,
+        "avg_pm10": 98.0,
+        "avg_severity": 22.37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.943588,
+          8.514909
+        ]
+      },
+      "properties": {
+        "location_id": 5646,
+        "location_name": "Plammoodu, Thiruvananthapuram - Kerala PCB",
+        "state": "Kerala",
+        "district": "Thiruvananthapuram",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Good",
+        "avg_pm25": 19.11,
+        "avg_pm10": 47.81,
+        "avg_severity": 6.37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.35,
+          13.67
+        ]
+      },
+      "properties": {
+        "location_id": 5649,
+        "location_name": "Tirumala, Tirupati - APPCB",
+        "state": "Andhra Pradesh",
+        "district": "Tirupati",
+        "dominant_source": "Burning",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 56.36,
+        "avg_pm10": 68.38,
+        "avg_severity": 18.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1376,
+          25.5941
+        ]
+      },
+      "properties": {
+        "location_id": 5652,
+        "location_name": "IGSC Planetarium Complex, Patna - BSPCB",
+        "state": "Bihar",
+        "district": "Patna",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 71.14,
+        "avg_pm10": 101.67,
+        "avg_severity": 23.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.654328,
+          23.221714
+        ]
+      },
+      "properties": {
+        "location_id": 6937,
+        "location_name": "Sector-10, Gandhinagar - GPCB",
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 47.64,
+        "avg_pm10": 95.52,
+        "avg_severity": 15.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.907758,
+          30.233011
+        ]
+      },
+      "properties": {
+        "location_id": 6939,
+        "location_name": "Hardev Nagar, Bathinda - PPCB",
+        "state": "Punjab",
+        "district": "Bathinda",
+        "dominant_source": "Burning",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 41.96,
+        "avg_pm10": 56.93,
+        "avg_severity": 13.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.975531,
+          29.435587
+        ]
+      },
+      "properties": {
+        "location_id": 6958,
+        "location_name": "Sector-18, Panipat - HSPCB",
+        "state": "Haryana",
+        "district": "Panipat",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 84.26,
+        "avg_pm10": 181.53,
+        "avg_severity": 27.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.778328,
+          30.379589
+        ]
+      },
+      "properties": {
+        "location_id": 6964,
+        "location_name": "Patti Mehar, Ambala - HSPCB",
+        "state": "Haryana",
+        "district": "Ambala",
+        "dominant_source": "Industrial",
+        "aqi_category": "Poor",
+        "avg_pm25": 91.43,
+        "avg_pm10": 151.38,
+        "avg_severity": 30.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.302765,
+          10.073232
+        ]
+      },
+      "properties": {
+        "location_id": 6966,
+        "location_name": "Udyogamandal, Eloor - Kerala PCB",
+        "state": "Kerala",
+        "district": "Kochi",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 40.49,
+        "avg_pm10": 55.6,
+        "avg_severity": 13.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.719284,
+          23.717634
+        ]
+      },
+      "properties": {
+        "location_id": 7880,
+        "location_name": "Sikulpuikawn, Aizawl - Mizoram PCB",
+        "state": "Mizoram",
+        "district": "Aizawl",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Good",
+        "avg_pm25": 8.76,
+        "avg_pm10": 13.42,
+        "avg_severity": 2.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.24085,
+          10.522198
+        ]
+      },
+      "properties": {
+        "location_id": 7901,
+        "location_name": "Corporation Ground, Thrissur- Kerala PCB",
+        "state": "Kerala",
+        "district": "Thrissur",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 30.28,
+        "avg_pm10": 52.13,
+        "avg_severity": 10.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.097923,
+          22.410802
+        ]
+      },
+      "properties": {
+        "location_id": 8171,
+        "location_name": "GIDC, Nandesari - Nandesari Ind. Association",
+        "state": "Gujarat",
+        "district": "Vadodara",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 89.73,
+        "avg_pm10": 164.18,
+        "avg_severity": 29.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.646594,
+          26.470859
+        ]
+      },
+      "properties": {
+        "location_id": 10545,
+        "location_name": "Civil Lines, Ajmer - RSPCB",
+        "state": "Rajasthan",
+        "district": "Ajmer",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 58.53,
+        "avg_pm10": 131.26,
+        "avg_severity": 19.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3732,
+          11.875
+        ]
+      },
+      "properties": {
+        "location_id": 10747,
+        "location_name": "Thavakkara, Kannur - Kerala PCB",
+        "state": "Kerala",
+        "district": "Kannur",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Good",
+        "avg_pm25": 29.31,
+        "avg_pm10": 57.79,
+        "avg_severity": 9.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.8985,
+          25.5586
+        ]
+      },
+      "properties": {
+        "location_id": 10895,
+        "location_name": "Lumpyngngad, Shillong - Meghalaya PCB",
+        "state": "Meghalaya",
+        "district": "Shillong",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Good",
+        "avg_pm25": 0.86,
+        "avg_pm10": 12.71,
+        "avg_severity": 0.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.098988,
+          25.663541
+        ]
+      },
+      "properties": {
+        "location_id": 10901,
+        "location_name": "PWD Juction, Kohima - NPCB",
+        "state": "Nagaland",
+        "district": "Kohima",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 35.39,
+        "avg_pm10": 57.64,
+        "avg_severity": 11.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.193251,
+          26.203442
+        ]
+      },
+      "properties": {
+        "location_id": 10907,
+        "location_name": "City Center, Gwalior - MPPCB",
+        "state": "Madhya Pradesh",
+        "district": "Gwalior",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Moderate",
+        "avg_pm25": 85.21,
+        "avg_pm10": 150.5,
+        "avg_severity": 28.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.932247,
+          23.168606
+        ]
+      },
+      "properties": {
+        "location_id": 10911,
+        "location_name": "Marhatal, Jabalpur - MPPCB",
+        "state": "Madhya Pradesh",
+        "district": "Jabalpur",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Poor",
+        "avg_pm25": 94.84,
+        "avg_pm10": 164.84,
+        "avg_severity": 31.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.853,
+          12.88925
+        ]
+      },
+      "properties": {
+        "location_id": 44513,
+        "location_name": "Kadri, Mangalore - KSPCB",
+        "state": "Karnataka",
+        "district": "Mangaluru",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 38.27,
+        "avg_pm10": 101.67,
+        "avg_severity": 12.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.679645,
+          27.103358
+        ]
+      },
+      "properties": {
+        "location_id": 223146,
+        "location_name": "Naharlagun, Naharlagun - APSPCB",
+        "state": "Arunachal Pradesh",
+        "district": "Itanagar",
+        "dominant_source": "Natural",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 52.75,
+        "avg_pm10": 99.56,
+        "avg_severity": 17.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.13737,
+          22.08815
+        ]
+      },
+      "properties": {
+        "location_id": 236406,
+        "location_name": "Mangala, Bilaspur - CECB",
+        "state": "Chhattisgarh",
+        "district": "Bilaspur",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 46.27,
+        "avg_pm10": 93.71,
+        "avg_severity": 15.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.343175,
+          21.185571
+        ]
+      },
+      "properties": {
+        "location_id": 270708,
+        "location_name": "Civic Center, Bhilai - Bhilai Steel Plant",
+        "state": "Chhattisgarh",
+        "district": "Bhilai",
+        "dominant_source": "Industrial",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 36.48,
+        "avg_pm10": 61.61,
+        "avg_severity": 12.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.012947,
+          25.265194
+        ]
+      },
+      "properties": {
+        "location_id": 270721,
+        "location_name": "Mayaganj, Bhagalpur - BSPCB",
+        "state": "Bihar",
+        "district": "Bhagalpur",
+        "dominant_source": "Agricultural",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 47.11,
+        "avg_pm10": 93.35,
+        "avg_severity": 15.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.541751,
+          15.888653
+        ]
+      },
+      "properties": {
+        "location_id": 358665,
+        "location_name": "Ramteerth Nagar, Belgaum - KSPCB",
+        "state": "Karnataka",
+        "district": "Belgaum",
+        "dominant_source": "Industrial",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 43.3,
+        "avg_pm10": 94.12,
+        "avg_severity": 14.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.614099,
+          27.33853
+        ]
+      },
+      "properties": {
+        "location_id": 3409340,
+        "location_name": "Zero Point GICI, Gangtok - SSPCB",
+        "state": "Sikkim",
+        "district": "Mangan",
+        "dominant_source": "Natural",
+        "aqi_category": "Good",
+        "avg_pm25": 11.26,
+        "avg_pm10": 101.67,
+        "avg_severity": 3.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.578979,
+          21.258815
+        ]
+      },
+      "properties": {
+        "location_id": 3409361,
+        "location_name": "AIIMS, Raipur - CECB",
+        "state": "Chhattisgarh",
+        "district": "Raipur",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 36.28,
+        "avg_pm10": 102.92,
+        "avg_severity": 12.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.746431,
+          22.368195
+        ]
+      },
+      "properties": {
+        "location_id": 3409365,
+        "location_name": "Rampur, Korba - CECB",
+        "state": "Chhattisgarh",
+        "district": "Korba",
+        "dominant_source": "Natural",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 30.57,
+        "avg_pm10": 74.87,
+        "avg_severity": 10.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.40835,
+          21.224231
+        ]
+      },
+      "properties": {
+        "location_id": 3409367,
+        "location_name": "Hathkhoj, Bhilai - CECB",
+        "state": "Chhattisgarh",
+        "district": "Durg",
+        "dominant_source": "Industrial",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 57.82,
+        "avg_pm10": 80.94,
+        "avg_severity": 16.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.795405,
+          21.170046
+        ]
+      },
+      "properties": {
+        "location_id": 3409371,
+        "location_name": "Science Center, Surat - SMC",
+        "state": "Gujarat",
+        "district": "Surat",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 46.74,
+        "avg_pm10": 132.2,
+        "avg_severity": 14.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.87488,
+          26.071318
+        ]
+      },
+      "properties": {
+        "location_id": 3409376,
+        "location_name": "Central Academy for SFS, Byrnihat - PCBA",
+        "state": "Meghalaya",
+        "district": "Nongpoh",
+        "dominant_source": "Industrial",
+        "aqi_category": "Moderate",
+        "avg_pm25": 63.78,
+        "avg_pm10": 93.99,
+        "avg_severity": 21.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.809444,
+          22.220833
+        ]
+      },
+      "properties": {
+        "location_id": 3409382,
+        "location_name": "Raghunathpali, Rourkela - OSPCB",
+        "state": "Odisha",
+        "district": "Rourkela",
+        "dominant_source": "Burning",
+        "aqi_category": "Moderate",
+        "avg_pm25": 74.5,
+        "avg_pm10": 120.08,
+        "avg_severity": 24.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.79525,
+          24.82827
+        ]
+      },
+      "properties": {
+        "location_id": 3409391,
+        "location_name": "Tarapur, Silchar - PCBA",
+        "state": "Assam",
+        "district": "Silchar",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 30.09,
+        "avg_pm10": 57.93,
+        "avg_severity": 10.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.836784,
+          20.24079
+        ]
+      },
+      "properties": {
+        "location_id": 3409505,
+        "location_name": "Lingraj Mandir, Bhubaneswar - OSPCB",
+        "state": "Odisha",
+        "district": "Bhubaneswar",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Satisfactory",
+        "avg_pm25": 51.82,
+        "avg_pm10": 169.26,
+        "avg_severity": 17.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.84768,
+          20.48891
+        ]
+      },
+      "properties": {
+        "location_id": 3409506,
+        "location_name": "CDA Area, Cuttack - OSPCB",
+        "state": "Odisha",
+        "district": "Cuttack",
+        "dominant_source": "Vehicular",
+        "aqi_category": "Poor",
+        "avg_pm25": 105.4,
+        "avg_pm10": 204.34,
+        "avg_severity": 35.13
+      }
+    }
+  ]
+}

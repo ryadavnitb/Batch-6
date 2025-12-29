@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7a39ed22dc0dbcf14890935b2a38935 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f7a39ed22dc0dbcf14890935b2a38935" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f7a39ed22dc0dbcf14890935b2a38935 = L.map(
+                "map_f7a39ed22dc0dbcf14890935b2a38935",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3255fcdf315b627175e98876ef7f843c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3255fcdf315b627175e98876ef7f843c.addTo(map_f7a39ed22dc0dbcf14890935b2a38935);
+        
+    
+            var marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_3433c3f34763f2400563266b2111e288 = L.marker(
+                [28.563262, 77.186937],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_98edb53481e3549c4f22d3c6ecdd8689 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_bd63bc170934d860c9798aa2e5a43ce1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8763e2ea88a02432b2e2e31b803c3f23 = $(`<div id="html_8763e2ea88a02432b2e2e31b803c3f23" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">R K Puram, Delhi - DPCC</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Haryana</td></tr>                 <tr><td><b>District</b></td><td>Faridabad</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Very Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>243.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>368.6 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>74.3 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>17.9°C</td></tr>                 <tr><td><b>Humidity</b></td><td>70.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_bd63bc170934d860c9798aa2e5a43ce1.setContent(html_8763e2ea88a02432b2e2e31b803c3f23);
+            
+        
+
+        marker_3433c3f34763f2400563266b2111e288.bindPopup(popup_bd63bc170934d860c9798aa2e5a43ce1)
+        ;
+
+        
+    
+    
+                marker_3433c3f34763f2400563266b2111e288.setIcon(div_icon_98edb53481e3549c4f22d3c6ecdd8689);
+            
+    
+            var marker_af948339200635cc5eda1ff825b5ca26 = L.marker(
+                [16.515083, 80.518167],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_5cfe3e48e2eb0e7bda869d7d085483d2 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_83b875cdf51d0710c101a3c69a7e64f8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1abc8ea1ffa04c7a4f8df51a4726a4f0 = $(`<div id="html_1abc8ea1ffa04c7a4f8df51a4726a4f0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Secretariat, Amaravati - APPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Andhra Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Vijayawada</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>62.0 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>129.1 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>25.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.5°C</td></tr>                 <tr><td><b>Humidity</b></td><td>68.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_83b875cdf51d0710c101a3c69a7e64f8.setContent(html_1abc8ea1ffa04c7a4f8df51a4726a4f0);
+            
+        
+
+        marker_af948339200635cc5eda1ff825b5ca26.bindPopup(popup_83b875cdf51d0710c101a3c69a7e64f8)
+        ;
+
+        
+    
+    
+                marker_af948339200635cc5eda1ff825b5ca26.setIcon(div_icon_5cfe3e48e2eb0e7bda869d7d085483d2);
+            
+    
+            var marker_dde5590dfca151c3279815141cc708b5 = L.marker(
+                [31.321907, 75.578914],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_d08b35006c901ddbe9cfefeaaccb4ec2 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_c99192da77408cce79d49c38a6ea499a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c6badd25f4a7e1612e73431a08a733ae = $(`<div id="html_c6badd25f4a7e1612e73431a08a733ae" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Civil Line, Jalandhar - PPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Punjab</td></tr>                 <tr><td><b>District</b></td><td>Jalandhar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>72.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>148.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>27.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>19.6°C</td></tr>                 <tr><td><b>Humidity</b></td><td>68.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_c99192da77408cce79d49c38a6ea499a.setContent(html_c6badd25f4a7e1612e73431a08a733ae);
+            
+        
+
+        marker_dde5590dfca151c3279815141cc708b5.bindPopup(popup_c99192da77408cce79d49c38a6ea499a)
+        ;
+
+        
+    
+    
+                marker_dde5590dfca151c3279815141cc708b5.setIcon(div_icon_d08b35006c901ddbe9cfefeaaccb4ec2);
+            
+    
+            var marker_23e6a93c48e885942f3283f90327ed8f = L.marker(
+                [30.349388, 76.366642],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_f266d693b513803d71517ef488cc0a78 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_c63209850b850c8e68fee024df28531d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9fe3fa61f7c3dbbe4d8d5229f844e042 = $(`<div id="html_9fe3fa61f7c3dbbe4d8d5229f844e042" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Model Town, Patiala - PPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Punjab</td></tr>                 <tr><td><b>District</b></td><td>Patiala</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>60.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>159.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>13.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>15.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>65.0%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_c63209850b850c8e68fee024df28531d.setContent(html_9fe3fa61f7c3dbbe4d8d5229f844e042);
+            
+        
+
+        marker_23e6a93c48e885942f3283f90327ed8f.bindPopup(popup_c63209850b850c8e68fee024df28531d)
+        ;
+
+        
+    
+    
+                marker_23e6a93c48e885942f3283f90327ed8f.setIcon(div_icon_f266d693b513803d71517ef488cc0a78);
+            
+    
+            var marker_25ee7e63ca1a14b9d97d9c5370ea61d5 = L.marker(
+                [23.707909, 86.41467],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_17780ef9cceeaf7a2df85147c35eed23 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #9b59b6; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                N\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_9a9cc0f44fa57d0a9bbcc312d2767310 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a9b36ce02043d65e6d8489f52aba0170 = $(`<div id="html_a9b36ce02043d65e6d8489f52aba0170" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #9b59b6;">Tata Stadium - Jorapokhar - JSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Jharkhand</td></tr>                 <tr><td><b>District</b></td><td>Dhanbad</td></tr>                 <tr><td><b>Source</b></td><td style="color: #9b59b6;">Natural</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>1.5 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>10.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>0.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>2.5°C</td></tr>                 <tr><td><b>Humidity</b></td><td>10.9%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_9a9cc0f44fa57d0a9bbcc312d2767310.setContent(html_a9b36ce02043d65e6d8489f52aba0170);
+            
+        
+
+        marker_25ee7e63ca1a14b9d97d9c5370ea61d5.bindPopup(popup_9a9cc0f44fa57d0a9bbcc312d2767310)
+        ;
+
+        
+    
+    
+                marker_25ee7e63ca1a14b9d97d9c5370ea61d5.setIcon(div_icon_17780ef9cceeaf7a2df85147c35eed23);
+            
+    
+            var marker_65a9785364fea5b425f39d36083c001b = L.marker(
+                [31.62, 74.876512],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_54f49b644fcc53e7b264b0b70f071227 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_edaf8699674af1496a2ad588ba5b5477 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92da2875d0762291c689ff60c5bc0a97 = $(`<div id="html_92da2875d0762291c689ff60c5bc0a97" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Golden Temple, Amritsar - PPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Punjab</td></tr>                 <tr><td><b>District</b></td><td>Amritsar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>65.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>125.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>13.7 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>18.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>66.4%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_edaf8699674af1496a2ad588ba5b5477.setContent(html_92da2875d0762291c689ff60c5bc0a97);
+            
+        
+
+        marker_65a9785364fea5b425f39d36083c001b.bindPopup(popup_edaf8699674af1496a2ad588ba5b5477)
+        ;
+
+        
+    
+    
+                marker_65a9785364fea5b425f39d36083c001b.setIcon(div_icon_54f49b644fcc53e7b264b0b70f071227);
+            
+    
+            var marker_ed0c4e56371695c352af3dc349422cb8 = L.marker(
+                [30.9028, 75.8086],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_99b0b7093148130f921e73467a84ba96 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_e77518b581e5a5a6f254106eec2ef007 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ec932a27d008c15511ead943e00d8dcd = $(`<div id="html_ec932a27d008c15511ead943e00d8dcd" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Punjab Agricultural University, Ludhiana - PPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Punjab</td></tr>                 <tr><td><b>District</b></td><td>Ludhiana</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>70.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>144.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>0.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>71.7%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_e77518b581e5a5a6f254106eec2ef007.setContent(html_ec932a27d008c15511ead943e00d8dcd);
+            
+        
+
+        marker_ed0c4e56371695c352af3dc349422cb8.bindPopup(popup_e77518b581e5a5a6f254106eec2ef007)
+        ;
+
+        
+    
+    
+                marker_ed0c4e56371695c352af3dc349422cb8.setIcon(div_icon_99b0b7093148130f921e73467a84ba96);
+            
+    
+            var marker_d0c867534ca9ab9fc81614199c364390 = L.marker(
+                [24.588617, 73.63214],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_c8c31e3576d72646964126edb28f2e6f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_c2ec370c3b82b219158a42ace45fe8dd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c48dc20a8e6de078faf9646427881192 = $(`<div id="html_c48dc20a8e6de078faf9646427881192" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Ashok Nagar, Udaipur - RSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Rajasthan</td></tr>                 <tr><td><b>District</b></td><td>Udaipur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>60.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>127.5 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>37.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>18.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>61.9%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_c2ec370c3b82b219158a42ace45fe8dd.setContent(html_c48dc20a8e6de078faf9646427881192);
+            
+        
+
+        marker_d0c867534ca9ab9fc81614199c364390.bindPopup(popup_c2ec370c3b82b219158a42ace45fe8dd)
+        ;
+
+        
+    
+    
+                marker_d0c867534ca9ab9fc81614199c364390.setIcon(div_icon_c8c31e3576d72646964126edb28f2e6f);
+            
+    
+            var marker_de2bd0c3486cb7ad0f208d35a37f9ff1 = L.marker(
+                [20.007328, 73.776243],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_4529e2ff340e17deb945ec6267cac608 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_c4a88bd3c34187a63cc6e5be37424239 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4ff27e85b81939f69f33dc19fe6a218f = $(`<div id="html_4ff27e85b81939f69f33dc19fe6a218f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Gangapur Road, Nashik - MPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Maharashtra</td></tr>                 <tr><td><b>District</b></td><td>Nashik</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>66.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>125.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>4.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>55.6%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_c4a88bd3c34187a63cc6e5be37424239.setContent(html_4ff27e85b81939f69f33dc19fe6a218f);
+            
+        
+
+        marker_de2bd0c3486cb7ad0f208d35a37f9ff1.bindPopup(popup_c4a88bd3c34187a63cc6e5be37424239)
+        ;
+
+        
+    
+    
+                marker_de2bd0c3486cb7ad0f208d35a37f9ff1.setIcon(div_icon_4529e2ff340e17deb945ec6267cac608);
+            
+    
+            var marker_7e57e0cbbc5b4685db2ae60ec70e658b = L.marker(
+                [22.624758, 75.675238],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_21403d34bccfcea107b53fc87d2adc72 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_def71cba4210aee651da87141807dd4e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0a4ca58c3dec36afcc96346dc4596967 = $(`<div id="html_0a4ca58c3dec36afcc96346dc4596967" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Sector-2 Industrial Area, Pithampur - MPPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Madhya Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Indore</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>100.0 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>184.2 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>23.5 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>21.2°C</td></tr>                 <tr><td><b>Humidity</b></td><td>49.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_def71cba4210aee651da87141807dd4e.setContent(html_0a4ca58c3dec36afcc96346dc4596967);
+            
+        
+
+        marker_7e57e0cbbc5b4685db2ae60ec70e658b.bindPopup(popup_def71cba4210aee651da87141807dd4e)
+        ;
+
+        
+    
+    
+                marker_7e57e0cbbc5b4685db2ae60ec70e658b.setIcon(div_icon_21403d34bccfcea107b53fc87d2adc72);
+            
+    
+            var marker_a370aa2c62fbaceb84835c55bfd32c9e = L.marker(
+                [21.152875, 79.051753],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_c6b99c28da80b8ec6e27ad4ee3ff192f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_18a70af5bee7276b6093bb1c0f22c67b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8cb59c1de4b4c87ca0baad47da5cdd37 = $(`<div id="html_8cb59c1de4b4c87ca0baad47da5cdd37" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Opp GPO Civil Lines, Nagpur - MPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Maharashtra</td></tr>                 <tr><td><b>District</b></td><td>Nagpur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>68.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>125.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>31.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>18.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>71.9%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_18a70af5bee7276b6093bb1c0f22c67b.setContent(html_8cb59c1de4b4c87ca0baad47da5cdd37);
+            
+        
+
+        marker_a370aa2c62fbaceb84835c55bfd32c9e.bindPopup(popup_18a70af5bee7276b6093bb1c0f22c67b)
+        ;
+
+        
+    
+    
+                marker_a370aa2c62fbaceb84835c55bfd32c9e.setIcon(div_icon_c6b99c28da80b8ec6e27ad4ee3ff192f);
+            
+    
+            var marker_3c51fe97704c786cfefffa9f1c515d3f = L.marker(
+                [17.722682, 83.308197],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_c6c9dd2b9168c18b3aa226b1e2db64e1 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_94abe042ec091734576b2262ffa58224 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4c9dcad6a1f1cc0cd8a58ad06c84e804 = $(`<div id="html_4c9dcad6a1f1cc0cd8a58ad06c84e804" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">GVM Corporation, Visakhapatnam - APPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Andhra Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Visakhapatnam</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>78.9 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>149.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>35.3 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>24.1°C</td></tr>                 <tr><td><b>Humidity</b></td><td>64.7%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_94abe042ec091734576b2262ffa58224.setContent(html_4c9dcad6a1f1cc0cd8a58ad06c84e804);
+            
+        
+
+        marker_3c51fe97704c786cfefffa9f1c515d3f.bindPopup(popup_94abe042ec091734576b2262ffa58224)
+        ;
+
+        
+    
+    
+                marker_3c51fe97704c786cfefffa9f1c515d3f.setIcon(div_icon_c6c9dd2b9168c18b3aa226b1e2db64e1);
+            
+    
+            var marker_d92c1116d9ecebb3ae84e1d481a2485a = L.marker(
+                [23.002657, 72.591912],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_8c62093594ea35f1c804ac12b053ea2d = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_1f3e4825b904f34785294a06fe388026 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eadd7c2dc239a90b291d9009d4aa8791 = $(`<div id="html_eadd7c2dc239a90b291d9009d4aa8791" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Maninagar, Ahmedabad - GPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Gujarat</td></tr>                 <tr><td><b>District</b></td><td>Ahmedabad</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>59.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>119.2 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>39.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>25.0°C</td></tr>                 <tr><td><b>Humidity</b></td><td>39.1%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_1f3e4825b904f34785294a06fe388026.setContent(html_eadd7c2dc239a90b291d9009d4aa8791);
+            
+        
+
+        marker_d92c1116d9ecebb3ae84e1d481a2485a.bindPopup(popup_1f3e4825b904f34785294a06fe388026)
+        ;
+
+        
+    
+    
+                marker_d92c1116d9ecebb3ae84e1d481a2485a.setIcon(div_icon_8c62093594ea35f1c804ac12b053ea2d);
+            
+    
+            var marker_684f0980525d634289e2fd0c64b458c5 = L.marker(
+                [23.10844, 77.511428],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_3d9c5b7c3825ef80c42920671133ac48 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_99dbbd10d69063786302a8d58a414e16 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1ef9db24ff0bef31200aa7bff8765d3a = $(`<div id="html_1ef9db24ff0bef31200aa7bff8765d3a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Sector-D Industrial Area, Mandideep - MPPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Madhya Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Bhopal</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Very Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>128.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>186.2 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>85.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>19.9°C</td></tr>                 <tr><td><b>Humidity</b></td><td>53.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_99dbbd10d69063786302a8d58a414e16.setContent(html_1ef9db24ff0bef31200aa7bff8765d3a);
+            
+        
+
+        marker_684f0980525d634289e2fd0c64b458c5.bindPopup(popup_99dbbd10d69063786302a8d58a414e16)
+        ;
+
+        
+    
+    
+                marker_684f0980525d634289e2fd0c64b458c5.setIcon(div_icon_3d9c5b7c3825ef80c42920671133ac48);
+            
+    
+            var marker_56eb89d4d188635973d882dbdb53043f = L.marker(
+                [25.14389, 75.821256],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_7542ee3033ded0809ac7f6fb570ef436 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_67c751938da3bdbb93f815b7f5d9bc38 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7e1205e88dc07e776f7175d641289dc4 = $(`<div id="html_7e1205e88dc07e776f7175d641289dc4" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Shrinath Puram, Kota - RSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Rajasthan</td></tr>                 <tr><td><b>District</b></td><td>Kota</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>86.2 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>120.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>10.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>16.9°C</td></tr>                 <tr><td><b>Humidity</b></td><td>55.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_67c751938da3bdbb93f815b7f5d9bc38.setContent(html_7e1205e88dc07e776f7175d641289dc4);
+            
+        
+
+        marker_56eb89d4d188635973d882dbdb53043f.bindPopup(popup_67c751938da3bdbb93f815b7f5d9bc38)
+        ;
+
+        
+    
+    
+                marker_56eb89d4d188635973d882dbdb53043f.setIcon(div_icon_7542ee3033ded0809ac7f6fb570ef436);
+            
+    
+            var marker_35ec0bd9c08e199f5f59e857dc00be71 = L.marker(
+                [19.838944, 75.244448],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_95f2985a5066c8745fa3a49e1f1f3331 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_a9f9cfae81a3501c54cadb3cc44ec5eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_10a4b82da2176cfc07f252358fc157ab = $(`<div id="html_10a4b82da2176cfc07f252358fc157ab" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">More Chowk Waluj, Aurangabad - MPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Maharashtra</td></tr>                 <tr><td><b>District</b></td><td>Aurangabad</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>67.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>98.0 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>14.7 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>21.1°C</td></tr>                 <tr><td><b>Humidity</b></td><td>41.1%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_a9f9cfae81a3501c54cadb3cc44ec5eb.setContent(html_10a4b82da2176cfc07f252358fc157ab);
+            
+        
+
+        marker_35ec0bd9c08e199f5f59e857dc00be71.bindPopup(popup_a9f9cfae81a3501c54cadb3cc44ec5eb)
+        ;
+
+        
+    
+    
+                marker_35ec0bd9c08e199f5f59e857dc00be71.setIcon(div_icon_95f2985a5066c8745fa3a49e1f1f3331);
+            
+    
+            var marker_c817e756300a16af2bfbab582cb0998c = L.marker(
+                [8.514909, 76.943588],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_8a2a30b1699b7ebddf0359bc523840d8 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_2505a27a177072f504367d339076d7e9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e13f0315155677dbf04457819a0f4f97 = $(`<div id="html_e13f0315155677dbf04457819a0f4f97" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Plammoodu, Thiruvananthapuram - Kerala PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Kerala</td></tr>                 <tr><td><b>District</b></td><td>Thiruvananthapuram</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>19.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>47.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>25.5 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>29.4°C</td></tr>                 <tr><td><b>Humidity</b></td><td>87.6%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_2505a27a177072f504367d339076d7e9.setContent(html_e13f0315155677dbf04457819a0f4f97);
+            
+        
+
+        marker_c817e756300a16af2bfbab582cb0998c.bindPopup(popup_2505a27a177072f504367d339076d7e9)
+        ;
+
+        
+    
+    
+                marker_c817e756300a16af2bfbab582cb0998c.setIcon(div_icon_8a2a30b1699b7ebddf0359bc523840d8);
+            
+    
+            var marker_ad5e018d03cbf75843e38d1fc3927ba1 = L.marker(
+                [13.67, 79.35],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_b30888d5fd05e595ef4edd72603e61be = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #f39c12; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                B\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_d785b402c4c609522f2152adc0f248d4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f9fcad88f969bcfe1bc6358748954d39 = $(`<div id="html_f9fcad88f969bcfe1bc6358748954d39" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #f39c12;">Tirumala, Tirupati - APPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Andhra Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Tirupati</td></tr>                 <tr><td><b>Source</b></td><td style="color: #f39c12;">Burning</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>56.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>68.4 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>14.3 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>21.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>84.4%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_d785b402c4c609522f2152adc0f248d4.setContent(html_f9fcad88f969bcfe1bc6358748954d39);
+            
+        
+
+        marker_ad5e018d03cbf75843e38d1fc3927ba1.bindPopup(popup_d785b402c4c609522f2152adc0f248d4)
+        ;
+
+        
+    
+    
+                marker_ad5e018d03cbf75843e38d1fc3927ba1.setIcon(div_icon_b30888d5fd05e595ef4edd72603e61be);
+            
+    
+            var marker_6fdeeeb5b9b8fe1956f1d1d60fd2f3b0 = L.marker(
+                [25.5941, 85.1376],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_14565425c3ad987b2ff80919f6a91916 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_21a9a74c00d2c2fcc77110c3aab084b8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e58a5680ba5de0f7d722b4c4ade905e7 = $(`<div id="html_e58a5680ba5de0f7d722b4c4ade905e7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">IGSC Planetarium Complex, Patna - BSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Bihar</td></tr>                 <tr><td><b>District</b></td><td>Patna</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>71.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>101.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>10.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>21.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>66.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_21a9a74c00d2c2fcc77110c3aab084b8.setContent(html_e58a5680ba5de0f7d722b4c4ade905e7);
+            
+        
+
+        marker_6fdeeeb5b9b8fe1956f1d1d60fd2f3b0.bindPopup(popup_21a9a74c00d2c2fcc77110c3aab084b8)
+        ;
+
+        
+    
+    
+                marker_6fdeeeb5b9b8fe1956f1d1d60fd2f3b0.setIcon(div_icon_14565425c3ad987b2ff80919f6a91916);
+            
+    
+            var marker_44f2b5a4d68aa37c268993c40d292ff5 = L.marker(
+                [23.221714, 72.654328],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_328679244a3aba790fb5873e35e8d842 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_14e86f442732180c02e013ab2614ac65 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5f82b28cb37ae7f03112732bf69e9fe = $(`<div id="html_b5f82b28cb37ae7f03112732bf69e9fe" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Sector-10, Gandhinagar - GPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Gujarat</td></tr>                 <tr><td><b>District</b></td><td>Gandhinagar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>47.6 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>95.5 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>16.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>72.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_14e86f442732180c02e013ab2614ac65.setContent(html_b5f82b28cb37ae7f03112732bf69e9fe);
+            
+        
+
+        marker_44f2b5a4d68aa37c268993c40d292ff5.bindPopup(popup_14e86f442732180c02e013ab2614ac65)
+        ;
+
+        
+    
+    
+                marker_44f2b5a4d68aa37c268993c40d292ff5.setIcon(div_icon_328679244a3aba790fb5873e35e8d842);
+            
+    
+            var marker_0823da399732fcd3b0aed18aed3202f0 = L.marker(
+                [30.233011, 74.907758],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_5f80cd4f895ce99b637e7d618728c3e9 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #f39c12; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                B\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_2ce1ce1602e967769b0bc91c7fa11369 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7bd0167309a397a24a56728509dd836e = $(`<div id="html_7bd0167309a397a24a56728509dd836e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #f39c12;">Hardev Nagar, Bathinda - PPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Punjab</td></tr>                 <tr><td><b>District</b></td><td>Bathinda</td></tr>                 <tr><td><b>Source</b></td><td style="color: #f39c12;">Burning</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>42.0 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>56.9 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>13.6 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>14.4°C</td></tr>                 <tr><td><b>Humidity</b></td><td>55.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_2ce1ce1602e967769b0bc91c7fa11369.setContent(html_7bd0167309a397a24a56728509dd836e);
+            
+        
+
+        marker_0823da399732fcd3b0aed18aed3202f0.bindPopup(popup_2ce1ce1602e967769b0bc91c7fa11369)
+        ;
+
+        
+    
+    
+                marker_0823da399732fcd3b0aed18aed3202f0.setIcon(div_icon_5f80cd4f895ce99b637e7d618728c3e9);
+            
+    
+            var marker_0c702671e723107ac12684ecef38670d = L.marker(
+                [29.435587, 76.975531],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_f50d1c8c9f51fc316d2f11cb080fad1f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_918065eeb7a38b45dced0aaabfb6f568 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f8d082e70e92f45d1ca3d44e71251f4b = $(`<div id="html_f8d082e70e92f45d1ca3d44e71251f4b" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Sector-18, Panipat - HSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Haryana</td></tr>                 <tr><td><b>District</b></td><td>Panipat</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>84.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>181.5 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>24.5 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.1°C</td></tr>                 <tr><td><b>Humidity</b></td><td>61.2%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_918065eeb7a38b45dced0aaabfb6f568.setContent(html_f8d082e70e92f45d1ca3d44e71251f4b);
+            
+        
+
+        marker_0c702671e723107ac12684ecef38670d.bindPopup(popup_918065eeb7a38b45dced0aaabfb6f568)
+        ;
+
+        
+    
+    
+                marker_0c702671e723107ac12684ecef38670d.setIcon(div_icon_f50d1c8c9f51fc316d2f11cb080fad1f);
+            
+    
+            var marker_28ce9606da779448d4b4dd84bf207ce8 = L.marker(
+                [30.379589, 76.778328],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_e6cb64c89eeb66c6ee50e5225ee194b4 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_5af7eed70cb3b0b6a60d6174235a50c2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_729e788512c8916fa9f1228eeb219bd6 = $(`<div id="html_729e788512c8916fa9f1228eeb219bd6" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Patti Mehar, Ambala - HSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Haryana</td></tr>                 <tr><td><b>District</b></td><td>Ambala</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>91.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>151.4 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>18.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>62.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_5af7eed70cb3b0b6a60d6174235a50c2.setContent(html_729e788512c8916fa9f1228eeb219bd6);
+            
+        
+
+        marker_28ce9606da779448d4b4dd84bf207ce8.bindPopup(popup_5af7eed70cb3b0b6a60d6174235a50c2)
+        ;
+
+        
+    
+    
+                marker_28ce9606da779448d4b4dd84bf207ce8.setIcon(div_icon_e6cb64c89eeb66c6ee50e5225ee194b4);
+            
+    
+            var marker_764618bd63595891e98145a3b2e92189 = L.marker(
+                [10.073232, 76.302765],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_51d2da3b34cb3b82a39914ce11220705 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_da4cf7899064ee3ebfa4aba37e06722a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_51321f041ff513b84f7fcbcb8b44012e = $(`<div id="html_51321f041ff513b84f7fcbcb8b44012e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Udyogamandal, Eloor - Kerala PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Kerala</td></tr>                 <tr><td><b>District</b></td><td>Kochi</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>40.5 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>55.6 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>5.2 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>33.4°C</td></tr>                 <tr><td><b>Humidity</b></td><td>90.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_da4cf7899064ee3ebfa4aba37e06722a.setContent(html_51321f041ff513b84f7fcbcb8b44012e);
+            
+        
+
+        marker_764618bd63595891e98145a3b2e92189.bindPopup(popup_da4cf7899064ee3ebfa4aba37e06722a)
+        ;
+
+        
+    
+    
+                marker_764618bd63595891e98145a3b2e92189.setIcon(div_icon_51d2da3b34cb3b82a39914ce11220705);
+            
+    
+            var marker_40a253ee1d3489d6aeb1471e3b5888a1 = L.marker(
+                [23.717634, 92.719284],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_3214aeacc57d981d2d8520eb85311956 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_e0fb981b3b8a815464db76fd03b608b2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4f2205bdd84324f8d9428fc05d76e38d = $(`<div id="html_4f2205bdd84324f8d9428fc05d76e38d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Sikulpuikawn, Aizawl - Mizoram PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Mizoram</td></tr>                 <tr><td><b>District</b></td><td>Aizawl</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>8.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>13.4 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>0.2 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>62.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_e0fb981b3b8a815464db76fd03b608b2.setContent(html_4f2205bdd84324f8d9428fc05d76e38d);
+            
+        
+
+        marker_40a253ee1d3489d6aeb1471e3b5888a1.bindPopup(popup_e0fb981b3b8a815464db76fd03b608b2)
+        ;
+
+        
+    
+    
+                marker_40a253ee1d3489d6aeb1471e3b5888a1.setIcon(div_icon_3214aeacc57d981d2d8520eb85311956);
+            
+    
+            var marker_b9ccda80188f46677a4968b9e1dc92ae = L.marker(
+                [10.522198, 76.24085],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_ca6720be5e168949fa33dc6bb932c815 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_246cdf7046b132069ea93c2d718bf6d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c3dbc45c664f444be7be79992015f7d3 = $(`<div id="html_c3dbc45c664f444be7be79992015f7d3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Corporation Ground, Thrissur- Kerala PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Kerala</td></tr>                 <tr><td><b>District</b></td><td>Thrissur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>30.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>52.1 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>6.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>27.2°C</td></tr>                 <tr><td><b>Humidity</b></td><td>75.8%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_246cdf7046b132069ea93c2d718bf6d0.setContent(html_c3dbc45c664f444be7be79992015f7d3);
+            
+        
+
+        marker_b9ccda80188f46677a4968b9e1dc92ae.bindPopup(popup_246cdf7046b132069ea93c2d718bf6d0)
+        ;
+
+        
+    
+    
+                marker_b9ccda80188f46677a4968b9e1dc92ae.setIcon(div_icon_ca6720be5e168949fa33dc6bb932c815);
+            
+    
+            var marker_42cc907df7d2ce3c7ab193f46bab9dfd = L.marker(
+                [22.410802, 73.097923],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_8d8476a61db602486c002988562aacda = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_14c8041129d3466ec17f874e691b4420 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5201cc6953fb874c5fe85774caf75012 = $(`<div id="html_5201cc6953fb874c5fe85774caf75012" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">GIDC, Nandesari - Nandesari Ind. Association</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Gujarat</td></tr>                 <tr><td><b>District</b></td><td>Vadodara</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>89.7 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>164.2 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>24.8 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>62.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_14c8041129d3466ec17f874e691b4420.setContent(html_5201cc6953fb874c5fe85774caf75012);
+            
+        
+
+        marker_42cc907df7d2ce3c7ab193f46bab9dfd.bindPopup(popup_14c8041129d3466ec17f874e691b4420)
+        ;
+
+        
+    
+    
+                marker_42cc907df7d2ce3c7ab193f46bab9dfd.setIcon(div_icon_8d8476a61db602486c002988562aacda);
+            
+    
+            var marker_cf50640c425d03bf53404c7f18ca91c4 = L.marker(
+                [26.470859, 74.646594],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_4c9d5918b5c32199d76d57a643c8541d = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_9addc7f97fa8108abdbfd87f0f46c085 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7e0efc2340ec1ba718957a045145eaa3 = $(`<div id="html_7e0efc2340ec1ba718957a045145eaa3" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Civil Lines, Ajmer - RSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Rajasthan</td></tr>                 <tr><td><b>District</b></td><td>Ajmer</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>58.5 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>131.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>19.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>17.0°C</td></tr>                 <tr><td><b>Humidity</b></td><td>54.0%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_9addc7f97fa8108abdbfd87f0f46c085.setContent(html_7e0efc2340ec1ba718957a045145eaa3);
+            
+        
+
+        marker_cf50640c425d03bf53404c7f18ca91c4.bindPopup(popup_9addc7f97fa8108abdbfd87f0f46c085)
+        ;
+
+        
+    
+    
+                marker_cf50640c425d03bf53404c7f18ca91c4.setIcon(div_icon_4c9d5918b5c32199d76d57a643c8541d);
+            
+    
+            var marker_76d933aa35a922815fb208cb20377b27 = L.marker(
+                [11.875, 75.3732],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_1ee1ba332b971f8323db5e083e7ccbe6 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_10e72421ca914e54cb8e13c740c217ac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_99aea196f611483ac408c5862171f84d = $(`<div id="html_99aea196f611483ac408c5862171f84d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Thavakkara, Kannur - Kerala PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Kerala</td></tr>                 <tr><td><b>District</b></td><td>Kannur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>29.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>57.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>12.6 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>26.6°C</td></tr>                 <tr><td><b>Humidity</b></td><td>53.6%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_10e72421ca914e54cb8e13c740c217ac.setContent(html_99aea196f611483ac408c5862171f84d);
+            
+        
+
+        marker_76d933aa35a922815fb208cb20377b27.bindPopup(popup_10e72421ca914e54cb8e13c740c217ac)
+        ;
+
+        
+    
+    
+                marker_76d933aa35a922815fb208cb20377b27.setIcon(div_icon_1ee1ba332b971f8323db5e083e7ccbe6);
+            
+    
+            var marker_ee8f5d88fc1bf531e7c901da3f8f3cc1 = L.marker(
+                [25.5586, 91.8985],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_8f2d6b162601ae7689fb36bffc8fdabd = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_2babfd47c6f0e37f442be38a49380c34 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d6318b2ae039a66b2bac03475658b7fc = $(`<div id="html_d6318b2ae039a66b2bac03475658b7fc" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Lumpyngngad, Shillong - Meghalaya PCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Meghalaya</td></tr>                 <tr><td><b>District</b></td><td>Shillong</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>0.9 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>12.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>0.2 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>14.2°C</td></tr>                 <tr><td><b>Humidity</b></td><td>71.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_2babfd47c6f0e37f442be38a49380c34.setContent(html_d6318b2ae039a66b2bac03475658b7fc);
+            
+        
+
+        marker_ee8f5d88fc1bf531e7c901da3f8f3cc1.bindPopup(popup_2babfd47c6f0e37f442be38a49380c34)
+        ;
+
+        
+    
+    
+                marker_ee8f5d88fc1bf531e7c901da3f8f3cc1.setIcon(div_icon_8f2d6b162601ae7689fb36bffc8fdabd);
+            
+    
+            var marker_f22e115bed41e71d267fd1ab86246d0b = L.marker(
+                [25.663541, 94.098988],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_29a895b6154da75db9f7b5780bcc75e8 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_94d48b76638dab6a0126552143e5b1a0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_23147a39af09d60c5a3219d1ad85977d = $(`<div id="html_23147a39af09d60c5a3219d1ad85977d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">PWD Juction, Kohima - NPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Nagaland</td></tr>                 <tr><td><b>District</b></td><td>Kohima</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>35.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>57.6 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>2.8 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>16.1°C</td></tr>                 <tr><td><b>Humidity</b></td><td>67.6%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_94d48b76638dab6a0126552143e5b1a0.setContent(html_23147a39af09d60c5a3219d1ad85977d);
+            
+        
+
+        marker_f22e115bed41e71d267fd1ab86246d0b.bindPopup(popup_94d48b76638dab6a0126552143e5b1a0)
+        ;
+
+        
+    
+    
+                marker_f22e115bed41e71d267fd1ab86246d0b.setIcon(div_icon_29a895b6154da75db9f7b5780bcc75e8);
+            
+    
+            var marker_118209af0065dad3a8addc96c231506c = L.marker(
+                [26.203442, 78.193251],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_95bb25e6694b4187da0f19bdf32650c8 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_cede0901aab0da752a671d70d2a5887b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9da0849b6ffe1ffd66b3453d5acaeea0 = $(`<div id="html_9da0849b6ffe1ffd66b3453d5acaeea0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">City Center, Gwalior - MPPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Madhya Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Gwalior</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>85.2 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>150.5 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>37.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>17.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>77.6%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_cede0901aab0da752a671d70d2a5887b.setContent(html_9da0849b6ffe1ffd66b3453d5acaeea0);
+            
+        
+
+        marker_118209af0065dad3a8addc96c231506c.bindPopup(popup_cede0901aab0da752a671d70d2a5887b)
+        ;
+
+        
+    
+    
+                marker_118209af0065dad3a8addc96c231506c.setIcon(div_icon_95bb25e6694b4187da0f19bdf32650c8);
+            
+    
+            var marker_a304341b9fcea5fd4524aa599838dfb6 = L.marker(
+                [23.168606, 79.932247],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_7f0506ab439681eccd8e2bd3317bfa30 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_d68daa22f80e6519ebfc314eed0e2d01 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_910feb66138ec6e94e5a971d72e9ba41 = $(`<div id="html_910feb66138ec6e94e5a971d72e9ba41" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Marhatal, Jabalpur - MPPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Madhya Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Jabalpur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>94.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>164.8 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>39.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>18.2°C</td></tr>                 <tr><td><b>Humidity</b></td><td>65.2%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_d68daa22f80e6519ebfc314eed0e2d01.setContent(html_910feb66138ec6e94e5a971d72e9ba41);
+            
+        
+
+        marker_a304341b9fcea5fd4524aa599838dfb6.bindPopup(popup_d68daa22f80e6519ebfc314eed0e2d01)
+        ;
+
+        
+    
+    
+                marker_a304341b9fcea5fd4524aa599838dfb6.setIcon(div_icon_7f0506ab439681eccd8e2bd3317bfa30);
+            
+    
+            var marker_87e6051bacae09c6449e7936980a517f = L.marker(
+                [12.88925, 74.853],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_d4f24107aa95a1fa003c11bf96b6ad50 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_62a545c226ee08238fb603ac3dfaa2f6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2ec69b8bf2a91a0d178f2b308417a9b0 = $(`<div id="html_2ec69b8bf2a91a0d178f2b308417a9b0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Kadri, Mangalore - KSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Karnataka</td></tr>                 <tr><td><b>District</b></td><td>Mangaluru</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>38.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>101.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>6.6 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>62.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_62a545c226ee08238fb603ac3dfaa2f6.setContent(html_2ec69b8bf2a91a0d178f2b308417a9b0);
+            
+        
+
+        marker_87e6051bacae09c6449e7936980a517f.bindPopup(popup_62a545c226ee08238fb603ac3dfaa2f6)
+        ;
+
+        
+    
+    
+                marker_87e6051bacae09c6449e7936980a517f.setIcon(div_icon_d4f24107aa95a1fa003c11bf96b6ad50);
+            
+    
+            var marker_55bca010d761f07db5d8432da66619e2 = L.marker(
+                [27.103358, 93.679645],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_121d9d53ac082762aa378a4fcabe547f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #9b59b6; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                N\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_75bdd6b7cead2e30fa13ced070c9f59a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_70e474fb9c4be16f8a273a0ed830b68f = $(`<div id="html_70e474fb9c4be16f8a273a0ed830b68f" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #9b59b6;">Naharlagun, Naharlagun - APSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Arunachal Pradesh</td></tr>                 <tr><td><b>District</b></td><td>Itanagar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #9b59b6;">Natural</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>52.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>99.6 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>5.0 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.2°C</td></tr>                 <tr><td><b>Humidity</b></td><td>77.1%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_75bdd6b7cead2e30fa13ced070c9f59a.setContent(html_70e474fb9c4be16f8a273a0ed830b68f);
+            
+        
+
+        marker_55bca010d761f07db5d8432da66619e2.bindPopup(popup_75bdd6b7cead2e30fa13ced070c9f59a)
+        ;
+
+        
+    
+    
+                marker_55bca010d761f07db5d8432da66619e2.setIcon(div_icon_121d9d53ac082762aa378a4fcabe547f);
+            
+    
+            var marker_c26437ce3392fa16348ef3b6e0db9823 = L.marker(
+                [22.08815, 82.13737],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_d46925e8318fa445cccec531a7b98348 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_d2e932fb42957750d6bf4987cb1d7f3b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_643a8ae68edaf53989342e22f341bcdf = $(`<div id="html_643a8ae68edaf53989342e22f341bcdf" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Mangala, Bilaspur - CECB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Chhattisgarh</td></tr>                 <tr><td><b>District</b></td><td>Bilaspur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>46.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>93.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>17.9 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>25.0°C</td></tr>                 <tr><td><b>Humidity</b></td><td>54.2%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_d2e932fb42957750d6bf4987cb1d7f3b.setContent(html_643a8ae68edaf53989342e22f341bcdf);
+            
+        
+
+        marker_c26437ce3392fa16348ef3b6e0db9823.bindPopup(popup_d2e932fb42957750d6bf4987cb1d7f3b)
+        ;
+
+        
+    
+    
+                marker_c26437ce3392fa16348ef3b6e0db9823.setIcon(div_icon_d46925e8318fa445cccec531a7b98348);
+            
+    
+            var marker_92e201cfcde45d2658bba45afc2fc74c = L.marker(
+                [21.185571, 81.343175],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_33e5c73602da0e13d238ef3da5712c4c = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_a0589caf4022a52b420f0c5b0a01d22c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2e18b8c2ed9f48621ae8bb1a02ae73ef = $(`<div id="html_2e18b8c2ed9f48621ae8bb1a02ae73ef" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Civic Center, Bhilai - Bhilai Steel Plant</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Chhattisgarh</td></tr>                 <tr><td><b>District</b></td><td>Bhilai</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>36.5 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>61.6 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>16.8 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>62.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_a0589caf4022a52b420f0c5b0a01d22c.setContent(html_2e18b8c2ed9f48621ae8bb1a02ae73ef);
+            
+        
+
+        marker_92e201cfcde45d2658bba45afc2fc74c.bindPopup(popup_a0589caf4022a52b420f0c5b0a01d22c)
+        ;
+
+        
+    
+    
+                marker_92e201cfcde45d2658bba45afc2fc74c.setIcon(div_icon_33e5c73602da0e13d238ef3da5712c4c);
+            
+    
+            var marker_053060b06ccaf4ad17d62879afda8c81 = L.marker(
+                [25.265194, 87.012947],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_5f6fe4c2d9b4a4af59d5584d81704b25 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #2ecc71; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                A\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_cb5e37f26ee349af87a71f0f17e2cafd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6fd840fcf481cffc9d5211985b9fc710 = $(`<div id="html_6fd840fcf481cffc9d5211985b9fc710" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #2ecc71;">Mayaganj, Bhagalpur - BSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Bihar</td></tr>                 <tr><td><b>District</b></td><td>Bhagalpur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #2ecc71;">Agricultural</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>47.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>93.4 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>5.3 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.7°C</td></tr>                 <tr><td><b>Humidity</b></td><td>68.4%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_cb5e37f26ee349af87a71f0f17e2cafd.setContent(html_6fd840fcf481cffc9d5211985b9fc710);
+            
+        
+
+        marker_053060b06ccaf4ad17d62879afda8c81.bindPopup(popup_cb5e37f26ee349af87a71f0f17e2cafd)
+        ;
+
+        
+    
+    
+                marker_053060b06ccaf4ad17d62879afda8c81.setIcon(div_icon_5f6fe4c2d9b4a4af59d5584d81704b25);
+            
+    
+            var marker_87f78eb3e00bcf670719f91d60515432 = L.marker(
+                [15.888653, 74.541751],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_9771926cb3ad838986172f1ab9e982e9 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_af12aa67056642a46f15420711c2ad3d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc4bb0277e728846953678827ace2755 = $(`<div id="html_dc4bb0277e728846953678827ace2755" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Ramteerth Nagar, Belgaum - KSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Karnataka</td></tr>                 <tr><td><b>District</b></td><td>Belgaum</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>43.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>94.1 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>47.5 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>0.0%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_af12aa67056642a46f15420711c2ad3d.setContent(html_dc4bb0277e728846953678827ace2755);
+            
+        
+
+        marker_87f78eb3e00bcf670719f91d60515432.bindPopup(popup_af12aa67056642a46f15420711c2ad3d)
+        ;
+
+        
+    
+    
+                marker_87f78eb3e00bcf670719f91d60515432.setIcon(div_icon_9771926cb3ad838986172f1ab9e982e9);
+            
+    
+            var marker_39f144e2723619d89f4066ca78e452a2 = L.marker(
+                [27.33853, 88.614099],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_a3c7fb8e0ae722925dda475648cf1c44 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #9b59b6; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                N\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_84f28c6f57e11c8999c80cd3d764cd2b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_53b14849fe9408152ab4c43f438c77dd = $(`<div id="html_53b14849fe9408152ab4c43f438c77dd" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #9b59b6;">Zero Point GICI, Gangtok - SSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Sikkim</td></tr>                 <tr><td><b>District</b></td><td>Mangan</td></tr>                 <tr><td><b>Source</b></td><td style="color: #9b59b6;">Natural</td></tr>                 <tr><td><b>AQI</b></td><td>Good</td></tr>                 <tr><td><b>PM2.5</b></td><td>11.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>101.7 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>5.1 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>20.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>0.0%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_84f28c6f57e11c8999c80cd3d764cd2b.setContent(html_53b14849fe9408152ab4c43f438c77dd);
+            
+        
+
+        marker_39f144e2723619d89f4066ca78e452a2.bindPopup(popup_84f28c6f57e11c8999c80cd3d764cd2b)
+        ;
+
+        
+    
+    
+                marker_39f144e2723619d89f4066ca78e452a2.setIcon(div_icon_a3c7fb8e0ae722925dda475648cf1c44);
+            
+    
+            var marker_8040015f81102b94ea30472b5fb8a1b9 = L.marker(
+                [21.258815, 81.578979],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_6ecf8f52df5092a5bec19d8c6df8dab6 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_3e8ca2b3222683959f4468bddc533618 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fb4ca1cbd4896d9c740cde6736312d4e = $(`<div id="html_fb4ca1cbd4896d9c740cde6736312d4e" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">AIIMS, Raipur - CECB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Chhattisgarh</td></tr>                 <tr><td><b>District</b></td><td>Raipur</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>36.3 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>102.9 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>50.8 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>19.4°C</td></tr>                 <tr><td><b>Humidity</b></td><td>51.4%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_3e8ca2b3222683959f4468bddc533618.setContent(html_fb4ca1cbd4896d9c740cde6736312d4e);
+            
+        
+
+        marker_8040015f81102b94ea30472b5fb8a1b9.bindPopup(popup_3e8ca2b3222683959f4468bddc533618)
+        ;
+
+        
+    
+    
+                marker_8040015f81102b94ea30472b5fb8a1b9.setIcon(div_icon_6ecf8f52df5092a5bec19d8c6df8dab6);
+            
+    
+            var marker_ef293e650313502af5414dade54ce985 = L.marker(
+                [22.368195, 82.746431],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_2f2657e5a9692fe3dd554eb3842ef5c0 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #9b59b6; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                N\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_26002d402084af4920250c60d258a263 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_453b7a1fbd5d074fa9287a642f4b9439 = $(`<div id="html_453b7a1fbd5d074fa9287a642f4b9439" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #9b59b6;">Rampur, Korba - CECB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Chhattisgarh</td></tr>                 <tr><td><b>District</b></td><td>Korba</td></tr>                 <tr><td><b>Source</b></td><td style="color: #9b59b6;">Natural</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>30.6 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>74.9 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>15.2 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.9°C</td></tr>                 <tr><td><b>Humidity</b></td><td>72.3%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_26002d402084af4920250c60d258a263.setContent(html_453b7a1fbd5d074fa9287a642f4b9439);
+            
+        
+
+        marker_ef293e650313502af5414dade54ce985.bindPopup(popup_26002d402084af4920250c60d258a263)
+        ;
+
+        
+    
+    
+                marker_ef293e650313502af5414dade54ce985.setIcon(div_icon_2f2657e5a9692fe3dd554eb3842ef5c0);
+            
+    
+            var marker_a143a12c690430037a8b1a2c8ac02988 = L.marker(
+                [21.224231, 81.40835],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_8907bca37d8f2111e2d65b3809b4bba1 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_153507de1353389191e3c7cd757b477d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c89a029c7cb7b8a3438b6fdad59d1816 = $(`<div id="html_c89a029c7cb7b8a3438b6fdad59d1816" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Hathkhoj, Bhilai - CECB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Chhattisgarh</td></tr>                 <tr><td><b>District</b></td><td>Durg</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>57.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>80.9 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>34.7 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>19.0°C</td></tr>                 <tr><td><b>Humidity</b></td><td>57.1%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_153507de1353389191e3c7cd757b477d.setContent(html_c89a029c7cb7b8a3438b6fdad59d1816);
+            
+        
+
+        marker_a143a12c690430037a8b1a2c8ac02988.bindPopup(popup_153507de1353389191e3c7cd757b477d)
+        ;
+
+        
+    
+    
+                marker_a143a12c690430037a8b1a2c8ac02988.setIcon(div_icon_8907bca37d8f2111e2d65b3809b4bba1);
+            
+    
+            var marker_3c1687b6d61f278c54c2a91a5f536965 = L.marker(
+                [21.170046, 72.795405],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_4afafac70302d2fb01feaccc50491cf6 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_848f8f97af5bec775699458b34ad7f4c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e2f154227785fc288e1914e78c512575 = $(`<div id="html_e2f154227785fc288e1914e78c512575" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Science Center, Surat - SMC</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Gujarat</td></tr>                 <tr><td><b>District</b></td><td>Surat</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>46.7 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>132.2 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>7.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>25.8°C</td></tr>                 <tr><td><b>Humidity</b></td><td>58.2%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_848f8f97af5bec775699458b34ad7f4c.setContent(html_e2f154227785fc288e1914e78c512575);
+            
+        
+
+        marker_3c1687b6d61f278c54c2a91a5f536965.bindPopup(popup_848f8f97af5bec775699458b34ad7f4c)
+        ;
+
+        
+    
+    
+                marker_3c1687b6d61f278c54c2a91a5f536965.setIcon(div_icon_4afafac70302d2fb01feaccc50491cf6);
+            
+    
+            var marker_19d8db6a6ffd38dccbb27627f63f8be8 = L.marker(
+                [26.071318, 91.87488],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_9d983f3965a3462efdf32ad710313e14 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #e74c3c; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                I\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_682746fc8928a250cd591f09e3d777cc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_01700cc8f4a8e22b7771d4104b81d2c7 = $(`<div id="html_01700cc8f4a8e22b7771d4104b81d2c7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #e74c3c;">Central Academy for SFS, Byrnihat - PCBA</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Meghalaya</td></tr>                 <tr><td><b>District</b></td><td>Nongpoh</td></tr>                 <tr><td><b>Source</b></td><td style="color: #e74c3c;">Industrial</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>63.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>94.0 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>5.6 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>21.9°C</td></tr>                 <tr><td><b>Humidity</b></td><td>83.9%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_682746fc8928a250cd591f09e3d777cc.setContent(html_01700cc8f4a8e22b7771d4104b81d2c7);
+            
+        
+
+        marker_19d8db6a6ffd38dccbb27627f63f8be8.bindPopup(popup_682746fc8928a250cd591f09e3d777cc)
+        ;
+
+        
+    
+    
+                marker_19d8db6a6ffd38dccbb27627f63f8be8.setIcon(div_icon_9d983f3965a3462efdf32ad710313e14);
+            
+    
+            var marker_3fafa23a374c09b7ee4256e3d6994600 = L.marker(
+                [22.220833, 84.809444],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_44b255b6af69feab5668d773e5316ddf = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #f39c12; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                B\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_552ce6e812b7467d5a638c8e70ad0caa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4efdeae0c09400844b58acc52b849481 = $(`<div id="html_4efdeae0c09400844b58acc52b849481" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #f39c12;">Raghunathpali, Rourkela - OSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Odisha</td></tr>                 <tr><td><b>District</b></td><td>Rourkela</td></tr>                 <tr><td><b>Source</b></td><td style="color: #f39c12;">Burning</td></tr>                 <tr><td><b>AQI</b></td><td>Moderate</td></tr>                 <tr><td><b>PM2.5</b></td><td>74.5 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>120.1 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>9.4 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>24.1°C</td></tr>                 <tr><td><b>Humidity</b></td><td>68.5%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_552ce6e812b7467d5a638c8e70ad0caa.setContent(html_4efdeae0c09400844b58acc52b849481);
+            
+        
+
+        marker_3fafa23a374c09b7ee4256e3d6994600.bindPopup(popup_552ce6e812b7467d5a638c8e70ad0caa)
+        ;
+
+        
+    
+    
+                marker_3fafa23a374c09b7ee4256e3d6994600.setIcon(div_icon_44b255b6af69feab5668d773e5316ddf);
+            
+    
+            var marker_f41b0389f3463baf6d0b71183f20f23f = L.marker(
+                [24.82827, 92.79525],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_83d55a0ce8a50ce436367e888462bfe2 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_d34c5be5db0a4b934e0447db6905f68f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e37cf3a49f24fdf9e86b5bf6d4e45fe0 = $(`<div id="html_e37cf3a49f24fdf9e86b5bf6d4e45fe0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Tarapur, Silchar - PCBA</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Assam</td></tr>                 <tr><td><b>District</b></td><td>Silchar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>30.1 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>57.9 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>15.6 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.3°C</td></tr>                 <tr><td><b>Humidity</b></td><td>77.2%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_d34c5be5db0a4b934e0447db6905f68f.setContent(html_e37cf3a49f24fdf9e86b5bf6d4e45fe0);
+            
+        
+
+        marker_f41b0389f3463baf6d0b71183f20f23f.bindPopup(popup_d34c5be5db0a4b934e0447db6905f68f)
+        ;
+
+        
+    
+    
+                marker_f41b0389f3463baf6d0b71183f20f23f.setIcon(div_icon_83d55a0ce8a50ce436367e888462bfe2);
+            
+    
+            var marker_82339f0d324580caa93fada89dc85a5a = L.marker(
+                [20.24079, 85.836784],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_3e26bf6e39af7b485b27ec8706826f4e = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_825f42a7cc5d181c47864528ca013fc6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fce9af954e5241acb772184ae80a4efe = $(`<div id="html_fce9af954e5241acb772184ae80a4efe" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">Lingraj Mandir, Bhubaneswar - OSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Odisha</td></tr>                 <tr><td><b>District</b></td><td>Bhubaneswar</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Satisfactory</td></tr>                 <tr><td><b>PM2.5</b></td><td>51.8 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>169.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>40.7 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>26.0°C</td></tr>                 <tr><td><b>Humidity</b></td><td>70.7%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_825f42a7cc5d181c47864528ca013fc6.setContent(html_fce9af954e5241acb772184ae80a4efe);
+            
+        
+
+        marker_82339f0d324580caa93fada89dc85a5a.bindPopup(popup_825f42a7cc5d181c47864528ca013fc6)
+        ;
+
+        
+    
+    
+                marker_82339f0d324580caa93fada89dc85a5a.setIcon(div_icon_3e26bf6e39af7b485b27ec8706826f4e);
+            
+    
+            var marker_44f3017342667bd883fd30ceec6920dd = L.marker(
+                [20.48891, 85.84768],
+                {
+}
+            ).addTo(marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790);
+        
+    
+            var div_icon_5b24fd43b258e3f3c6cd0dbd732ad2b9 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"background-color: #3498db; \n                    width: 30px; height: 30px; \n                    border-radius: 50%; \n                    display: flex; \n                    align-items: center; \n                    justify-content: center;\n                    border: 2px solid white;\n                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);\"\u003e\n            \u003cspan style=\"color: white; font-size: 12px; font-weight: bold;\"\u003e\n                V\n            \u003c/span\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+  "className": "empty",
+});
+        
+    
+        var popup_58c763321387f32250d3adbfa8cf8c86 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6b4155af632515e096b4d220a6424b5b = $(`<div id="html_6b4155af632515e096b4d220a6424b5b" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 220px;">             <h4 style="margin: 0 0 10px 0; color: #3498db;">CDA Area, Cuttack - OSPCB</h4>             <table style="width: 100%; font-size: 12px;">                 <tr><td><b>State</b></td><td>Odisha</td></tr>                 <tr><td><b>District</b></td><td>Cuttack</td></tr>                 <tr><td><b>Source</b></td><td style="color: #3498db;">Vehicular</td></tr>                 <tr><td><b>AQI</b></td><td>Poor</td></tr>                 <tr><td><b>PM2.5</b></td><td>105.4 µg/m³</td></tr>                 <tr><td><b>PM10</b></td><td>204.3 µg/m³</td></tr>                 <tr><td><b>NO₂</b></td><td>36.8 µg/m³</td></tr>                 <tr><td><b>Temp</b></td><td>22.6°C</td></tr>                 <tr><td><b>Humidity</b></td><td>61.4%</td></tr>             </table>         </div>         </div>`)[0];
+                popup_58c763321387f32250d3adbfa8cf8c86.setContent(html_6b4155af632515e096b4d220a6424b5b);
+            
+        
+
+        marker_44f3017342667bd883fd30ceec6920dd.bindPopup(popup_58c763321387f32250d3adbfa8cf8c86)
+        ;
+
+        
+    
+    
+                marker_44f3017342667bd883fd30ceec6920dd.setIcon(div_icon_5b24fd43b258e3f3c6cd0dbd732ad2b9);
+            
+    
+            marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790.addTo(map_f7a39ed22dc0dbcf14890935b2a38935);
+        
+    
+            var layer_control_3d4957390c63c0c427f25202325b16cc_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3255fcdf315b627175e98876ef7f843c,
+                },
+                overlays :  {
+                    "Monitoring Stations" : marker_cluster_bf9e8d9a0487bc9dcb3c14fc7332d790,
+                },
+            };
+            let layer_control_3d4957390c63c0c427f25202325b16cc = L.control.layers(
+                layer_control_3d4957390c63c0c427f25202325b16cc_layers.base_layers,
+                layer_control_3d4957390c63c0c427f25202325b16cc_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_f7a39ed22dc0dbcf14890935b2a38935);
+
+        
+</script>
+</html>

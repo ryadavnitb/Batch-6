@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_86d9a844f1cec79b269788ad911cb15b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_86d9a844f1cec79b269788ad911cb15b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_86d9a844f1cec79b269788ad911cb15b = L.map(
+                "map_86d9a844f1cec79b269788ad911cb15b",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2e010dce57d6597e2745eedb934da413 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2e010dce57d6597e2745eedb934da413.addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var circle_marker_2a4cb202bf6d536e774f393bc0a3851e = L.circleMarker(
+                [15.898495061378526, 80.98639023939049],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_8a53b3ebd428a03dc7b6f19a7ce68e33 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_70fc8b0b283f31db551410ee1c099113 = $(`<div id="html_70fc8b0b283f31db551410ee1c099113" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ffff00;">Andhra Pradesh</h3>             <hr>             <p><b>Monitoring Stations:</b> 3</p>             <p><b>Avg PM2.5:</b> 65.3 µg/m³</p>             <p><b>Avg PM10:</b> 114.3 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ffff00;">Moderate</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_8a53b3ebd428a03dc7b6f19a7ce68e33.setContent(html_70fc8b0b283f31db551410ee1c099113);
+            
+        
+
+        circle_marker_2a4cb202bf6d536e774f393bc0a3851e.bindPopup(popup_8a53b3ebd428a03dc7b6f19a7ce68e33)
+        ;
+
+        
+    
+    
+            var marker_e41c5f2f5cc7c2b530e3da7ee1ea5c54 = L.marker(
+                [15.898495061378526, 80.98639023939049],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_b25038314ebf0b0dadf6702d0875e03f = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eAndhra Pra\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_e41c5f2f5cc7c2b530e3da7ee1ea5c54.setIcon(div_icon_b25038314ebf0b0dadf6702d0875e03f);
+            
+    
+            var circle_marker_28d8a53a4fd4c260e109fd22681bccd1 = L.circleMarker(
+                [27.103358, 93.679645],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_67ad2fcac049197d96b9f69a3ac883e4 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_1e78f5d4950c3bb65182aa00f38b3201 = $(`<div id="html_1e78f5d4950c3bb65182aa00f38b3201" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Arunachal Pradesh</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 52.8 µg/m³</p>             <p><b>Avg PM10:</b> 99.6 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #9b59b6;">Natural</span></p>         </div>         </div>`)[0];
+                popup_67ad2fcac049197d96b9f69a3ac883e4.setContent(html_1e78f5d4950c3bb65182aa00f38b3201);
+            
+        
+
+        circle_marker_28d8a53a4fd4c260e109fd22681bccd1.bindPopup(popup_67ad2fcac049197d96b9f69a3ac883e4)
+        ;
+
+        
+    
+    
+            var marker_8fde119027f71438db25420cd2accb4e = L.marker(
+                [27.103358, 93.679645],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_5a9aebb6050003445401e1008149543d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eArunachal \u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_8fde119027f71438db25420cd2accb4e.setIcon(div_icon_5a9aebb6050003445401e1008149543d);
+            
+    
+            var circle_marker_1286bfd90839360f1ec1d40c4dd07f97 = L.circleMarker(
+                [24.82827, 92.79525],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_6a4064c2f80e3d4247cd860285bbc630 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_fd61f6e33be0a0a7355fe63d3f4b9088 = $(`<div id="html_fd61f6e33be0a0a7355fe63d3f4b9088" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Assam</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 30.1 µg/m³</p>             <p><b>Avg PM10:</b> 57.9 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_6a4064c2f80e3d4247cd860285bbc630.setContent(html_fd61f6e33be0a0a7355fe63d3f4b9088);
+            
+        
+
+        circle_marker_1286bfd90839360f1ec1d40c4dd07f97.bindPopup(popup_6a4064c2f80e3d4247cd860285bbc630)
+        ;
+
+        
+    
+    
+            var marker_1acd68e013d4b8dc4cf4a7b9df5dfed2 = L.marker(
+                [24.82827, 92.79525],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_7dc41abf165ad00dda3dfc623e9d9384 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eAssam\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_1acd68e013d4b8dc4cf4a7b9df5dfed2.setIcon(div_icon_7dc41abf165ad00dda3dfc623e9d9384);
+            
+    
+            var circle_marker_ef8f84f186a2cf210de6efcb82675a48 = L.circleMarker(
+                [25.427694527390127, 86.08640605353051],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_e7e4a0e2cd917cabceff573219033be2 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_db407d2e26061c62172e94cdc84a9c77 = $(`<div id="html_db407d2e26061c62172e94cdc84a9c77" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Bihar</h3>             <hr>             <p><b>Monitoring Stations:</b> 2</p>             <p><b>Avg PM2.5:</b> 59.0 µg/m³</p>             <p><b>Avg PM10:</b> 97.5 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #2ecc71;">Agricultural</span></p>         </div>         </div>`)[0];
+                popup_e7e4a0e2cd917cabceff573219033be2.setContent(html_db407d2e26061c62172e94cdc84a9c77);
+            
+        
+
+        circle_marker_ef8f84f186a2cf210de6efcb82675a48.bindPopup(popup_e7e4a0e2cd917cabceff573219033be2)
+        ;
+
+        
+    
+    
+            var marker_c90428f82fc9125b4c9494ae5ace10bf = L.marker(
+                [25.427694527390127, 86.08640605353051],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_3e6e67da071b53f83ab066d58c39df3a = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eBihar\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_c90428f82fc9125b4c9494ae5ace10bf.setIcon(div_icon_3e6e67da071b53f83ab066d58c39df3a);
+            
+    
+            var circle_marker_fe6810fb4be391c703b63b52f3922de8 = L.circleMarker(
+                [21.6694516318746, 81.88788746914923],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_c77223529af647730ae4522183a41a66 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_6ab4f21e95028af9a27a87e1c1feb81c = $(`<div id="html_6ab4f21e95028af9a27a87e1c1feb81c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Chhattisgarh</h3>             <hr>             <p><b>Monitoring Stations:</b> 5</p>             <p><b>Avg PM2.5:</b> 40.1 µg/m³</p>             <p><b>Avg PM10:</b> 82.7 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_c77223529af647730ae4522183a41a66.setContent(html_6ab4f21e95028af9a27a87e1c1feb81c);
+            
+        
+
+        circle_marker_fe6810fb4be391c703b63b52f3922de8.bindPopup(popup_c77223529af647730ae4522183a41a66)
+        ;
+
+        
+    
+    
+            var marker_a3c1719bcfed2d6fc98681a0100df60b = L.marker(
+                [21.6694516318746, 81.88788746914923],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_5bdb9ec4246f5736ba8d7c7f31d2e875 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eChhattisga\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_a3c1719bcfed2d6fc98681a0100df60b.setIcon(div_icon_5bdb9ec4246f5736ba8d7c7f31d2e875);
+            
+    
+            var circle_marker_e7c5a33e9156a01855761e3fb5110a01 = L.circleMarker(
+                [22.423817396677176, 72.7483502005821],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_10490c3c512ffc48728882931f2772ad = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_96c59692378bd80ebd5afa8b0f4bc157 = $(`<div id="html_96c59692378bd80ebd5afa8b0f4bc157" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Gujarat</h3>             <hr>             <p><b>Monitoring Stations:</b> 4</p>             <p><b>Avg PM2.5:</b> 57.4 µg/m³</p>             <p><b>Avg PM10:</b> 124.1 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_10490c3c512ffc48728882931f2772ad.setContent(html_96c59692378bd80ebd5afa8b0f4bc157);
+            
+        
+
+        circle_marker_e7c5a33e9156a01855761e3fb5110a01.bindPopup(popup_10490c3c512ffc48728882931f2772ad)
+        ;
+
+        
+    
+    
+            var marker_93b47776e45c85c3b87a479634bfb588 = L.marker(
+                [22.423817396677176, 72.7483502005821],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_573a97ddb6526a9ca1e397ec1d19ec0e = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eGujarat\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_93b47776e45c85c3b87a479634bfb588.setIcon(div_icon_573a97ddb6526a9ca1e397ec1d19ec0e);
+            
+    
+            var circle_marker_7bdf8e9bac7faac5cc608268a45a4dc5 = L.circleMarker(
+                [29.455229588481675, 76.98246972086761],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_2797bcfcaa543dbdf097fc59918ddb77 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_e7a8ee0b66fa387af9aafa5c6eee5f59 = $(`<div id="html_e7a8ee0b66fa387af9aafa5c6eee5f59" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ff0000;">Haryana</h3>             <hr>             <p><b>Monitoring Stations:</b> 3</p>             <p><b>Avg PM2.5:</b> 147.1 µg/m³</p>             <p><b>Avg PM10:</b> 241.1 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ff0000;">Very Poor</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_2797bcfcaa543dbdf097fc59918ddb77.setContent(html_e7a8ee0b66fa387af9aafa5c6eee5f59);
+            
+        
+
+        circle_marker_7bdf8e9bac7faac5cc608268a45a4dc5.bindPopup(popup_2797bcfcaa543dbdf097fc59918ddb77)
+        ;
+
+        
+    
+    
+            var marker_6d0a2b60c6e5a26fd06b87564cb2e399 = L.marker(
+                [29.455229588481675, 76.98246972086761],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_1dc7ad29e9a7dbd3b84913681f4c04e1 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eHaryana\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_6d0a2b60c6e5a26fd06b87564cb2e399.setIcon(div_icon_1dc7ad29e9a7dbd3b84913681f4c04e1);
+            
+    
+            var circle_marker_2cd569ee04053a5b5c5ab337dfec6996 = L.circleMarker(
+                [23.707909, 86.41467],
+                {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00e400", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_e43012996dafc36ce1a441a3704d20ac = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_df64f29c0f2294609a1dc5f6f621ccb1 = $(`<div id="html_df64f29c0f2294609a1dc5f6f621ccb1" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #00e400;">Jharkhand</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 1.5 µg/m³</p>             <p><b>Avg PM10:</b> 10.3 µg/m³</p>             <p><b>AQI:</b> <span style="color: #00e400;">Good</span></p>             <p><b>Main Source:</b> <span style="color: #9b59b6;">Natural</span></p>         </div>         </div>`)[0];
+                popup_e43012996dafc36ce1a441a3704d20ac.setContent(html_df64f29c0f2294609a1dc5f6f621ccb1);
+            
+        
+
+        circle_marker_2cd569ee04053a5b5c5ab337dfec6996.bindPopup(popup_e43012996dafc36ce1a441a3704d20ac)
+        ;
+
+        
+    
+    
+            var marker_3f82db00952d0fd8423bb7fde427c757 = L.marker(
+                [23.707909, 86.41467],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_b2eb733303fa6b26e7d7a2e1b3b06985 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eJharkhand\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3f82db00952d0fd8423bb7fde427c757.setIcon(div_icon_b2eb733303fa6b26e7d7a2e1b3b06985);
+            
+    
+            var circle_marker_bc010d6bfafb8e20b9ad420179a596d2 = L.circleMarker(
+                [13.9426403336, 74.7436893512],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_83a2252d439eb63c9493ea5556a4b0bb = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_9e2cf86410c7a5a13dda891e9e8af7a8 = $(`<div id="html_9e2cf86410c7a5a13dda891e9e8af7a8" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Karnataka</h3>             <hr>             <p><b>Monitoring Stations:</b> 2</p>             <p><b>Avg PM2.5:</b> 40.0 µg/m³</p>             <p><b>Avg PM10:</b> 99.0 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_83a2252d439eb63c9493ea5556a4b0bb.setContent(html_9e2cf86410c7a5a13dda891e9e8af7a8);
+            
+        
+
+        circle_marker_bc010d6bfafb8e20b9ad420179a596d2.bindPopup(popup_83a2252d439eb63c9493ea5556a4b0bb)
+        ;
+
+        
+    
+    
+            var marker_d9e452171a15824a5696547fff0c44c1 = L.marker(
+                [13.9426403336, 74.7436893512],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_ba1f360094312163bd4ebcb3172810dc = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eKarnataka\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_d9e452171a15824a5696547fff0c44c1.setIcon(div_icon_ba1f360094312163bd4ebcb3172810dc);
+            
+    
+            var circle_marker_3c41fd1adef9e285f976c4eebea0559a = L.circleMarker(
+                [10.27839412777636, 76.19078357110033],
+                {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00e400", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_bf89820c7d1b04613eef42744f9c87ef = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_a32d7cfce96f129310c7ad3748e8d16a = $(`<div id="html_a32d7cfce96f129310c7ad3748e8d16a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #00e400;">Kerala</h3>             <hr>             <p><b>Monitoring Stations:</b> 4</p>             <p><b>Avg PM2.5:</b> 28.7 µg/m³</p>             <p><b>Avg PM10:</b> 53.2 µg/m³</p>             <p><b>AQI:</b> <span style="color: #00e400;">Good</span></p>             <p><b>Main Source:</b> <span style="color: #2ecc71;">Agricultural</span></p>         </div>         </div>`)[0];
+                popup_bf89820c7d1b04613eef42744f9c87ef.setContent(html_a32d7cfce96f129310c7ad3748e8d16a);
+            
+        
+
+        circle_marker_3c41fd1adef9e285f976c4eebea0559a.bindPopup(popup_bf89820c7d1b04613eef42744f9c87ef)
+        ;
+
+        
+    
+    
+            var marker_faacabd133fb33c9d882048372f001d5 = L.marker(
+                [10.27839412777636, 76.19078357110033],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_26fd4b3b741f9f78bd5ed847c38a8ce4 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eKerala\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_faacabd133fb33c9d882048372f001d5.setIcon(div_icon_26fd4b3b741f9f78bd5ed847c38a8ce4);
+            
+    
+            var circle_marker_3e241250f7825bbcef4c2a88b72b2e15 = L.circleMarker(
+                [23.77695951457412, 77.87069072439606],
+                {"bubblingMouseEvents": true, "color": "#ff7e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_77cc543b5bc17daba2dbbefca1bfa9dd = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_2cb5d375e85d9fe0af67617beb71aaa0 = $(`<div id="html_2cb5d375e85d9fe0af67617beb71aaa0" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ff7e00;">Madhya Pradesh</h3>             <hr>             <p><b>Monitoring Stations:</b> 4</p>             <p><b>Avg PM2.5:</b> 101.1 µg/m³</p>             <p><b>Avg PM10:</b> 170.9 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ff7e00;">Poor</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_77cc543b5bc17daba2dbbefca1bfa9dd.setContent(html_2cb5d375e85d9fe0af67617beb71aaa0);
+            
+        
+
+        circle_marker_3e241250f7825bbcef4c2a88b72b2e15.bindPopup(popup_77cc543b5bc17daba2dbbefca1bfa9dd)
+        ;
+
+        
+    
+    
+            var marker_128bc9f41fcdc1f0c918875fad289372 = L.marker(
+                [23.77695951457412, 77.87069072439606],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_516b815707962e475712d7197d6c3ecc = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eMadhya Pra\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_128bc9f41fcdc1f0c918875fad289372.setIcon(div_icon_516b815707962e475712d7197d6c3ecc);
+            
+    
+            var circle_marker_09caa57738517d688ae374225a056e1b = L.circleMarker(
+                [20.39280159280443, 76.21377124538745],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_c6bc2dbab9a76e69e3604a4562088bb8 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_63b393923324202fa5b2bc34e329c53c = $(`<div id="html_63b393923324202fa5b2bc34e329c53c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ffff00;">Maharashtra</h3>             <hr>             <p><b>Monitoring Stations:</b> 3</p>             <p><b>Avg PM2.5:</b> 67.6 µg/m³</p>             <p><b>Avg PM10:</b> 117.2 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ffff00;">Moderate</span></p>             <p><b>Main Source:</b> <span style="color: #2ecc71;">Agricultural</span></p>         </div>         </div>`)[0];
+                popup_c6bc2dbab9a76e69e3604a4562088bb8.setContent(html_63b393923324202fa5b2bc34e329c53c);
+            
+        
+
+        circle_marker_09caa57738517d688ae374225a056e1b.bindPopup(popup_c6bc2dbab9a76e69e3604a4562088bb8)
+        ;
+
+        
+    
+    
+            var marker_bf371e634fc97efbe6ba7b79515ac5ca = L.marker(
+                [20.39280159280443, 76.21377124538745],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_f93cabcff6823119cafe835401ab5ae7 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eMaharashtr\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_bf371e634fc97efbe6ba7b79515ac5ca.setIcon(div_icon_f93cabcff6823119cafe835401ab5ae7);
+            
+    
+            var circle_marker_1ad4fdd4ce62281338246f6361fb3605 = L.circleMarker(
+                [25.798593368752627, 91.8874439353213],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_180a11a5eacae5c3abcc234b7ac8f00b = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_d4f0fc9aa6508af90d2ffe844fb24b4d = $(`<div id="html_d4f0fc9aa6508af90d2ffe844fb24b4d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Meghalaya</h3>             <hr>             <p><b>Monitoring Stations:</b> 2</p>             <p><b>Avg PM2.5:</b> 30.3 µg/m³</p>             <p><b>Avg PM10:</b> 50.8 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #2ecc71;">Agricultural</span></p>         </div>         </div>`)[0];
+                popup_180a11a5eacae5c3abcc234b7ac8f00b.setContent(html_d4f0fc9aa6508af90d2ffe844fb24b4d);
+            
+        
+
+        circle_marker_1ad4fdd4ce62281338246f6361fb3605.bindPopup(popup_180a11a5eacae5c3abcc234b7ac8f00b)
+        ;
+
+        
+    
+    
+            var marker_00f01b07a01eb18055e5a8ffca87e142 = L.marker(
+                [25.798593368752627, 91.8874439353213],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_c1dbb6ef0080ce0d007277290ac96900 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eMeghalaya\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_00f01b07a01eb18055e5a8ffca87e142.setIcon(div_icon_c1dbb6ef0080ce0d007277290ac96900);
+            
+    
+            var circle_marker_8aa39e1b0a5c7a4f3ad09a014d8cf2ff = L.circleMarker(
+                [23.717634, 92.719284],
+                {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00e400", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_b1b4fea7f118c9edfa1b576512487b70 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_cc809f66659a2144710f37b535612955 = $(`<div id="html_cc809f66659a2144710f37b535612955" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #00e400;">Mizoram</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 8.8 µg/m³</p>             <p><b>Avg PM10:</b> 13.4 µg/m³</p>             <p><b>AQI:</b> <span style="color: #00e400;">Good</span></p>             <p><b>Main Source:</b> <span style="color: #2ecc71;">Agricultural</span></p>         </div>         </div>`)[0];
+                popup_b1b4fea7f118c9edfa1b576512487b70.setContent(html_cc809f66659a2144710f37b535612955);
+            
+        
+
+        circle_marker_8aa39e1b0a5c7a4f3ad09a014d8cf2ff.bindPopup(popup_b1b4fea7f118c9edfa1b576512487b70)
+        ;
+
+        
+    
+    
+            var marker_df04ac272f9458f60e85a3a930ce32b1 = L.marker(
+                [23.717634, 92.719284],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_dd62d8f5e02a809ff4044b3f91c6dd95 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eMizoram\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_df04ac272f9458f60e85a3a930ce32b1.setIcon(div_icon_dd62d8f5e02a809ff4044b3f91c6dd95);
+            
+    
+            var circle_marker_b49f15699af6d7202178e97ba82fb52b = L.circleMarker(
+                [25.663541, 94.098988],
+                {"bubblingMouseEvents": true, "color": "#92d050", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92d050", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_c373410d2e86e13cfd0da06d94eac37d = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_13528372eac2c7e90a80faba1bca9d79 = $(`<div id="html_13528372eac2c7e90a80faba1bca9d79" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #92d050;">Nagaland</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 35.4 µg/m³</p>             <p><b>Avg PM10:</b> 57.6 µg/m³</p>             <p><b>AQI:</b> <span style="color: #92d050;">Satisfactory</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_c373410d2e86e13cfd0da06d94eac37d.setContent(html_13528372eac2c7e90a80faba1bca9d79);
+            
+        
+
+        circle_marker_b49f15699af6d7202178e97ba82fb52b.bindPopup(popup_c373410d2e86e13cfd0da06d94eac37d)
+        ;
+
+        
+    
+    
+            var marker_dfe25924aeef14340348055721ff816a = L.marker(
+                [25.663541, 94.098988],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_f40c91244619e82476dca0798fa5fac0 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eNagaland\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_dfe25924aeef14340348055721ff816a.setIcon(div_icon_f40c91244619e82476dca0798fa5fac0);
+            
+    
+            var circle_marker_941cb087dc62d8d1f777735c97560cc0 = L.circleMarker(
+                [20.924237619850462, 85.53272182788447],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_7dec88cc939aa0706675733ac6bfb420 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_628e48c3fbdffc6d887ade23a559a5a4 = $(`<div id="html_628e48c3fbdffc6d887ade23a559a5a4" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ffff00;">Odisha</h3>             <hr>             <p><b>Monitoring Stations:</b> 3</p>             <p><b>Avg PM2.5:</b> 78.0 µg/m³</p>             <p><b>Avg PM10:</b> 167.2 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ffff00;">Moderate</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_7dec88cc939aa0706675733ac6bfb420.setContent(html_628e48c3fbdffc6d887ade23a559a5a4);
+            
+        
+
+        circle_marker_941cb087dc62d8d1f777735c97560cc0.bindPopup(popup_7dec88cc939aa0706675733ac6bfb420)
+        ;
+
+        
+    
+    
+            var marker_0007b044fa6ada14d59a763b46b476b9 = L.marker(
+                [20.924237619850462, 85.53272182788447],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_7ab025968f1ac687e84c72c1fd9bdf1a = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eOdisha\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_0007b044fa6ada14d59a763b46b476b9.setIcon(div_icon_7ab025968f1ac687e84c72c1fd9bdf1a);
+            
+    
+            var circle_marker_3d87f7df1f373dd978208736ebbfeda5 = L.circleMarker(
+                [30.933019972144844, 75.55591485721988],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_599e520b8f865bfea4ad71386667e724 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_761c32ab17c5db30edc65531f08d1095 = $(`<div id="html_761c32ab17c5db30edc65531f08d1095" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ffff00;">Punjab</h3>             <hr>             <p><b>Monitoring Stations:</b> 5</p>             <p><b>Avg PM2.5:</b> 63.7 µg/m³</p>             <p><b>Avg PM10:</b> 132.4 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ffff00;">Moderate</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_599e520b8f865bfea4ad71386667e724.setContent(html_761c32ab17c5db30edc65531f08d1095);
+            
+        
+
+        circle_marker_3d87f7df1f373dd978208736ebbfeda5.bindPopup(popup_599e520b8f865bfea4ad71386667e724)
+        ;
+
+        
+    
+    
+            var marker_088a7dc16862a322a4b7bb4d86559cc6 = L.marker(
+                [30.933019972144844, 75.55591485721988],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_cbdeb4a545e633d439d2573f6a6cdf46 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003ePunjab\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_088a7dc16862a322a4b7bb4d86559cc6.setIcon(div_icon_cbdeb4a545e633d439d2573f6a6cdf46);
+            
+    
+            var circle_marker_b0f8249ee1fc5d0dbdcc2028c6fb5d99 = L.circleMarker(
+                [25.422422554024966, 74.72422223159708],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_88e2611f041ca2ff2e141eb7a26191bc = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_5d3a205660710db2cc0bd215dc136e11 = $(`<div id="html_5d3a205660710db2cc0bd215dc136e11" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #ffff00;">Rajasthan</h3>             <hr>             <p><b>Monitoring Stations:</b> 3</p>             <p><b>Avg PM2.5:</b> 68.5 µg/m³</p>             <p><b>Avg PM10:</b> 126.5 µg/m³</p>             <p><b>AQI:</b> <span style="color: #ffff00;">Moderate</span></p>             <p><b>Main Source:</b> <span style="color: #3498db;">Vehicular</span></p>         </div>         </div>`)[0];
+                popup_88e2611f041ca2ff2e141eb7a26191bc.setContent(html_5d3a205660710db2cc0bd215dc136e11);
+            
+        
+
+        circle_marker_b0f8249ee1fc5d0dbdcc2028c6fb5d99.bindPopup(popup_88e2611f041ca2ff2e141eb7a26191bc)
+        ;
+
+        
+    
+    
+            var marker_5ed7f75a6620a33262fec8134df1f992 = L.marker(
+                [25.422422554024966, 74.72422223159708],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_776a66157e7ae729a2f678331419aa5b = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eRajasthan\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_5ed7f75a6620a33262fec8134df1f992.setIcon(div_icon_776a66157e7ae729a2f678331419aa5b);
+            
+    
+            var circle_marker_8980e92068a48ff361974e5e5caccd6e = L.circleMarker(
+                [27.33853, 88.614099],
+                {"bubblingMouseEvents": true, "color": "#00e400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00e400", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+        var popup_564500597a9074bdf23a69bf7cb89281 = L.popup({
+  "maxWidth": 220,
+});
+
+        
+            
+                var html_ab2a14b8261f2fee6ee0f6b2d397f42d = $(`<div id="html_ab2a14b8261f2fee6ee0f6b2d397f42d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <h3 style="margin: 0; color: #00e400;">Sikkim</h3>             <hr>             <p><b>Monitoring Stations:</b> 1</p>             <p><b>Avg PM2.5:</b> 11.3 µg/m³</p>             <p><b>Avg PM10:</b> 101.7 µg/m³</p>             <p><b>AQI:</b> <span style="color: #00e400;">Good</span></p>             <p><b>Main Source:</b> <span style="color: #9b59b6;">Natural</span></p>         </div>         </div>`)[0];
+                popup_564500597a9074bdf23a69bf7cb89281.setContent(html_ab2a14b8261f2fee6ee0f6b2d397f42d);
+            
+        
+
+        circle_marker_8980e92068a48ff361974e5e5caccd6e.bindPopup(popup_564500597a9074bdf23a69bf7cb89281)
+        ;
+
+        
+    
+    
+            var marker_3e171783d456a23474b86de45ef8a467 = L.marker(
+                [27.33853, 88.614099],
+                {
+}
+            ).addTo(map_86d9a844f1cec79b269788ad911cb15b);
+        
+    
+            var div_icon_8abff484e271461cf8976a9b08ce63f0 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10px; font-weight: bold; color: #333;\"\u003eSikkim\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3e171783d456a23474b86de45ef8a467.setIcon(div_icon_8abff484e271461cf8976a9b08ce63f0);
+            
+</script>
+</html>

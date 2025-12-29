@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b51201fb2edc24ec49aedc6d5bcf8a07 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+                bottom: 20px; left: 20px;
+                background-color: white; padding: 15px;
+                border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+                z-index: 9999; font-family: Arial; font-size: 12px;
+                max-height: 400px; overflow-y: auto;">
+        <h4 style="margin: 0 0 10px 0;">🗺️ EnviroScan Dashboard</h4>
+        
+        <p style="margin: 10px 0 5px 0; font-weight: bold;">Pollution Sources:</p>
+        <p style="margin: 2px 0;"><span style="color: #e74c3c;">●</span> Industrial</p>
+        <p style="margin: 2px 0;"><span style="color: #3498db;">●</span> Vehicular</p>
+        <p style="margin: 2px 0;"><span style="color: #2ecc71;">●</span> Agricultural</p>
+        <p style="margin: 2px 0;"><span style="color: #9b59b6;">●</span> Natural</p>
+        <p style="margin: 2px 0;"><span style="color: #f39c12;">●</span> Burning</p>
+        
+        <p style="margin: 10px 0 5px 0; font-weight: bold;">AQI Categories:</p>
+        <p style="margin: 2px 0;"><span style="color: #00e400;">●</span> Good</p>
+        <p style="margin: 2px 0;"><span style="color: #ffff00;">●</span> Moderate</p>
+        <p style="margin: 2px 0;"><span style="color: #ff7e00;">●</span> Poor</p>
+        <p style="margin: 2px 0;"><span style="color: #ff0000;">●</span> Very Poor</p>
+        <p style="margin: 2px 0;"><span style="color: #99004c;">●</span> Severe</p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_b51201fb2edc24ec49aedc6d5bcf8a07" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b51201fb2edc24ec49aedc6d5bcf8a07 = L.map(
+                "map_b51201fb2edc24ec49aedc6d5bcf8a07",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f86b0c7d7155007ce997a6f43f62d18d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f86b0c7d7155007ce997a6f43f62d18d.addTo(map_b51201fb2edc24ec49aedc6d5bcf8a07);
+        
+    
+            var tile_layer_c488492471246ba199bbfaba25724e04 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c488492471246ba199bbfaba25724e04.addTo(map_b51201fb2edc24ec49aedc6d5bcf8a07);
+        
+    
+            var tile_layer_001794289f96a1b15f17a08d88c08ec5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_001794289f96a1b15f17a08d88c08ec5.addTo(map_b51201fb2edc24ec49aedc6d5bcf8a07);
+        
+    
+            var feature_group_3689a555e6b087f08b7451925eb66613 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var heat_map_3154771ad1b7ba23f5af85e6229436b8 = L.heatLayer(
+                [[28.563262, 77.186937, 74.98392621870883], [16.515083, 80.518167, 20.65576786978061], [31.321907, 75.578914, 24.120404869374916], [30.349388, 76.366642, 20.27225010283834], [23.707909, 86.41467, 0.5004036741600193], [31.62, 74.876512, 21.809287220582032], [30.9028, 75.8086, 23.481907003280558], [24.588617, 73.63214, 20.133665008291874], [20.007328, 73.776243, 22.273043725156164], [22.624758, 75.675238, 33.34612556976916], [21.152875, 79.051753, 22.925387728670877], [17.722682, 83.308197, 26.284420289855074], [23.002657, 72.591912, 19.69987891440501], [23.10844, 77.511428, 40.884635281945165], [25.14389, 75.821256, 28.452897327707454], [19.838944, 75.244448, 22.3658625], [8.514909, 76.943588, 6.369869192602616], [13.67, 79.35, 18.78554968144232], [25.5941, 85.1376, 23.71346261944913], [23.221714, 72.654328, 15.881624742920424], [30.233011, 74.907758, 13.987598197037991], [29.435587, 76.975531, 27.79186332936035], [30.379589, 76.778328, 30.477852240613647], [10.073232, 76.302765, 13.496525821596244], [23.717634, 92.719284, 2.8811580935774486], [10.522198, 76.24085, 10.093647186147187], [22.410802, 73.097923, 29.909992372234935], [26.470859, 74.646594, 19.508668341708542], [11.875, 75.3732, 9.769487725273166], [25.5586, 91.8985, 0.28687195683642586], [25.663541, 94.098988, 11.796047774158524], [26.203442, 78.193251, 28.40220012055455], [23.168606, 79.932247, 31.55994455994456], [12.88925, 74.853, 12.344759556103575], [27.103358, 93.679645, 17.583899868247695], [22.08815, 82.13737, 15.421677376171353], [21.185571, 81.343175, 12.1596004378763], [25.265194, 87.012947, 15.70303279813366], [15.888653, 74.541751, 14.432905593520626], [27.33853, 88.614099, 3.7518137864345906], [21.258815, 81.578979, 12.093785735337459], [22.368195, 82.746431, 10.189445588033484], [21.224231, 81.40835, 16.708922535211265], [21.170046, 72.795405, 14.932598986162489], [26.071318, 91.87488, 21.26020637056976], [22.220833, 84.809444, 24.834947025264874], [24.82827, 92.79525, 10.02836786188579], [20.24079, 85.836784, 17.273333333333333], [20.48891, 85.84768, 35.13433238828136]],
+                {
+  "minOpacity": 0.3,
+  "maxZoom": 18,
+  "radius": 20,
+  "blur": 15,
+  "gradient": {
+  0.2: "blue",
+  0.4: "lime",
+  0.6: "yellow",
+  0.8: "orange",
+  1: "red",
+},
+}
+            );
+        
+    
+            heat_map_3154771ad1b7ba23f5af85e6229436b8.addTo(feature_group_3689a555e6b087f08b7451925eb66613);
+        
+    
+            feature_group_3689a555e6b087f08b7451925eb66613.addTo(map_b51201fb2edc24ec49aedc6d5bcf8a07);
+        
+    
+            var feature_group_4d2e52be0509788a3243cfc0a13e58fe = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_7012d804b5086e618e15d684d0873f7d = L.circleMarker(
+                [28.563262, 77.186937],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_c5c299bc9f8c24e0317ef42435c5bfbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c538cda64ac484fe0ad6ef81611718f8 = $(`<div id="html_c538cda64ac484fe0ad6ef81611718f8" style="width: 100.0%; height: 100.0%;">R K Puram, Delhi - DPCC: Vehicular</div>`)[0];
+                popup_c5c299bc9f8c24e0317ef42435c5bfbe.setContent(html_c538cda64ac484fe0ad6ef81611718f8);
+            
+        
+
+        circle_marker_7012d804b5086e618e15d684d0873f7d.bindPopup(popup_c5c299bc9f8c24e0317ef42435c5bfbe)
+        ;
+
+        
+    
+    
+            var circle_marker_1a71991e96232d52707588d5fb226941 = L.circleMarker(
+                [16.515083, 80.518167],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_be174125bdbc8f0f4ca77e052d6a2cd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcfecc8c15a5ee78588eb78cab266484 = $(`<div id="html_bcfecc8c15a5ee78588eb78cab266484" style="width: 100.0%; height: 100.0%;">Secretariat, Amaravati - APPCB: Agricultural</div>`)[0];
+                popup_be174125bdbc8f0f4ca77e052d6a2cd4.setContent(html_bcfecc8c15a5ee78588eb78cab266484);
+            
+        
+
+        circle_marker_1a71991e96232d52707588d5fb226941.bindPopup(popup_be174125bdbc8f0f4ca77e052d6a2cd4)
+        ;
+
+        
+    
+    
+            var circle_marker_aba3046f5afcbc42b69bec4ae4eb374d = L.circleMarker(
+                [31.321907, 75.578914],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_c7a8591161d206100ed7612328a30bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_057e8561bcc0863742805ff256022477 = $(`<div id="html_057e8561bcc0863742805ff256022477" style="width: 100.0%; height: 100.0%;">Civil Line, Jalandhar - PPCB: Vehicular</div>`)[0];
+                popup_c7a8591161d206100ed7612328a30bfa.setContent(html_057e8561bcc0863742805ff256022477);
+            
+        
+
+        circle_marker_aba3046f5afcbc42b69bec4ae4eb374d.bindPopup(popup_c7a8591161d206100ed7612328a30bfa)
+        ;
+
+        
+    
+    
+            var circle_marker_1106254ef1c86b0e8fb214250992645f = L.circleMarker(
+                [30.349388, 76.366642],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_6aabdbda8f73175852456fe874c73f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b706ef4e5519ba8a45ecdfd271a1c67a = $(`<div id="html_b706ef4e5519ba8a45ecdfd271a1c67a" style="width: 100.0%; height: 100.0%;">Model Town, Patiala - PPCB: Industrial</div>`)[0];
+                popup_6aabdbda8f73175852456fe874c73f6d.setContent(html_b706ef4e5519ba8a45ecdfd271a1c67a);
+            
+        
+
+        circle_marker_1106254ef1c86b0e8fb214250992645f.bindPopup(popup_6aabdbda8f73175852456fe874c73f6d)
+        ;
+
+        
+    
+    
+            var circle_marker_5255bfb2126be7735e146fa3f6d77491 = L.circleMarker(
+                [23.707909, 86.41467],
+                {"bubblingMouseEvents": true, "color": "#9b59b6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9b59b6", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_fb6b6e77c985aa0c88147b4e79c31af2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6093a81a7a7acadd6f75174382ada136 = $(`<div id="html_6093a81a7a7acadd6f75174382ada136" style="width: 100.0%; height: 100.0%;">Tata Stadium - Jorapokhar - JSPCB: Natural</div>`)[0];
+                popup_fb6b6e77c985aa0c88147b4e79c31af2.setContent(html_6093a81a7a7acadd6f75174382ada136);
+            
+        
+
+        circle_marker_5255bfb2126be7735e146fa3f6d77491.bindPopup(popup_fb6b6e77c985aa0c88147b4e79c31af2)
+        ;
+
+        
+    
+    
+            var circle_marker_408422c2f4b6a24bf66ea9846658fe7b = L.circleMarker(
+                [31.62, 74.876512],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_470343fb86ed0a915deae9e10932e1b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35b7ee15420b72b25b66ab0a25a79ab1 = $(`<div id="html_35b7ee15420b72b25b66ab0a25a79ab1" style="width: 100.0%; height: 100.0%;">Golden Temple, Amritsar - PPCB: Vehicular</div>`)[0];
+                popup_470343fb86ed0a915deae9e10932e1b4.setContent(html_35b7ee15420b72b25b66ab0a25a79ab1);
+            
+        
+
+        circle_marker_408422c2f4b6a24bf66ea9846658fe7b.bindPopup(popup_470343fb86ed0a915deae9e10932e1b4)
+        ;
+
+        
+    
+    
+            var circle_marker_d837a78a13235a96daf90b76916fa8fb = L.circleMarker(
+                [30.9028, 75.8086],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_d4b5b369506dedd865dab1e04bb850af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_244b479f430898e0bd3663cc59de6849 = $(`<div id="html_244b479f430898e0bd3663cc59de6849" style="width: 100.0%; height: 100.0%;">Punjab Agricultural University, Ludhiana - PPCB: Industrial</div>`)[0];
+                popup_d4b5b369506dedd865dab1e04bb850af.setContent(html_244b479f430898e0bd3663cc59de6849);
+            
+        
+
+        circle_marker_d837a78a13235a96daf90b76916fa8fb.bindPopup(popup_d4b5b369506dedd865dab1e04bb850af)
+        ;
+
+        
+    
+    
+            var circle_marker_ff3dcccc5a88f9603db902edeef036d4 = L.circleMarker(
+                [24.588617, 73.63214],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_91dcd3d3585e87428e9254a1275c329e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4311057bc65d90e7d74959ae040285d0 = $(`<div id="html_4311057bc65d90e7d74959ae040285d0" style="width: 100.0%; height: 100.0%;">Ashok Nagar, Udaipur - RSPCB: Vehicular</div>`)[0];
+                popup_91dcd3d3585e87428e9254a1275c329e.setContent(html_4311057bc65d90e7d74959ae040285d0);
+            
+        
+
+        circle_marker_ff3dcccc5a88f9603db902edeef036d4.bindPopup(popup_91dcd3d3585e87428e9254a1275c329e)
+        ;
+
+        
+    
+    
+            var circle_marker_2fd17ffacbbe41014e88e8c14bdd3c50 = L.circleMarker(
+                [20.007328, 73.776243],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_0d15c30942d18c0d9d930e8332b18672 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc13dce951905d8fb6b71aeff338946c = $(`<div id="html_fc13dce951905d8fb6b71aeff338946c" style="width: 100.0%; height: 100.0%;">Gangapur Road, Nashik - MPCB: Agricultural</div>`)[0];
+                popup_0d15c30942d18c0d9d930e8332b18672.setContent(html_fc13dce951905d8fb6b71aeff338946c);
+            
+        
+
+        circle_marker_2fd17ffacbbe41014e88e8c14bdd3c50.bindPopup(popup_0d15c30942d18c0d9d930e8332b18672)
+        ;
+
+        
+    
+    
+            var circle_marker_1ce5f6ad6bc0fff3ce46e7aa26049d67 = L.circleMarker(
+                [22.624758, 75.675238],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_84763a72efd785df47e5cd97c38a27fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b34813a855bad4864444023d09035763 = $(`<div id="html_b34813a855bad4864444023d09035763" style="width: 100.0%; height: 100.0%;">Sector-2 Industrial Area, Pithampur - MPPCB: Industrial</div>`)[0];
+                popup_84763a72efd785df47e5cd97c38a27fd.setContent(html_b34813a855bad4864444023d09035763);
+            
+        
+
+        circle_marker_1ce5f6ad6bc0fff3ce46e7aa26049d67.bindPopup(popup_84763a72efd785df47e5cd97c38a27fd)
+        ;
+
+        
+    
+    
+            var circle_marker_a8776bc56ea2b3e03eb8935f6f14ec1f = L.circleMarker(
+                [21.152875, 79.051753],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_30702cf5e49f7f1d8026e6656406d339 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fac66de8cfa8711eb3423bdc599e8e82 = $(`<div id="html_fac66de8cfa8711eb3423bdc599e8e82" style="width: 100.0%; height: 100.0%;">Opp GPO Civil Lines, Nagpur - MPCB: Agricultural</div>`)[0];
+                popup_30702cf5e49f7f1d8026e6656406d339.setContent(html_fac66de8cfa8711eb3423bdc599e8e82);
+            
+        
+
+        circle_marker_a8776bc56ea2b3e03eb8935f6f14ec1f.bindPopup(popup_30702cf5e49f7f1d8026e6656406d339)
+        ;
+
+        
+    
+    
+            var circle_marker_30c6c2671678ca4694d1f6a65b5d9922 = L.circleMarker(
+                [17.722682, 83.308197],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_9ba166bb9c5532c167a04d5b949929ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30996b952ae590d5f41752504c1f08b3 = $(`<div id="html_30996b952ae590d5f41752504c1f08b3" style="width: 100.0%; height: 100.0%;">GVM Corporation, Visakhapatnam - APPCB: Vehicular</div>`)[0];
+                popup_9ba166bb9c5532c167a04d5b949929ff.setContent(html_30996b952ae590d5f41752504c1f08b3);
+            
+        
+
+        circle_marker_30c6c2671678ca4694d1f6a65b5d9922.bindPopup(popup_9ba166bb9c5532c167a04d5b949929ff)
+        ;
+
+        
+    
+    
+            var circle_marker_dbfa4774ab3e84d550acf2b542c380bb = L.circleMarker(
+                [23.002657, 72.591912],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_0b1730a4e0624ee605e62d1411c16fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca2e8457c752593666abfa88a542db71 = $(`<div id="html_ca2e8457c752593666abfa88a542db71" style="width: 100.0%; height: 100.0%;">Maninagar, Ahmedabad - GPCB: Industrial</div>`)[0];
+                popup_0b1730a4e0624ee605e62d1411c16fd7.setContent(html_ca2e8457c752593666abfa88a542db71);
+            
+        
+
+        circle_marker_dbfa4774ab3e84d550acf2b542c380bb.bindPopup(popup_0b1730a4e0624ee605e62d1411c16fd7)
+        ;
+
+        
+    
+    
+            var circle_marker_f076d1089382185b50d9b2121a2bcd5e = L.circleMarker(
+                [23.10844, 77.511428],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_d7f010fd07c1ba157470b9508f2a918f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2844b8b2856a3b44af71572e520c5e42 = $(`<div id="html_2844b8b2856a3b44af71572e520c5e42" style="width: 100.0%; height: 100.0%;">Sector-D Industrial Area, Mandideep - MPPCB: Industrial</div>`)[0];
+                popup_d7f010fd07c1ba157470b9508f2a918f.setContent(html_2844b8b2856a3b44af71572e520c5e42);
+            
+        
+
+        circle_marker_f076d1089382185b50d9b2121a2bcd5e.bindPopup(popup_d7f010fd07c1ba157470b9508f2a918f)
+        ;
+
+        
+    
+    
+            var circle_marker_1446be5b2ec46d52380e785771312017 = L.circleMarker(
+                [25.14389, 75.821256],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_f340fdcf8e1545caad317b8d0d0bb560 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d990ad10348b55b011c87ab069c524cf = $(`<div id="html_d990ad10348b55b011c87ab069c524cf" style="width: 100.0%; height: 100.0%;">Shrinath Puram, Kota - RSPCB: Vehicular</div>`)[0];
+                popup_f340fdcf8e1545caad317b8d0d0bb560.setContent(html_d990ad10348b55b011c87ab069c524cf);
+            
+        
+
+        circle_marker_1446be5b2ec46d52380e785771312017.bindPopup(popup_f340fdcf8e1545caad317b8d0d0bb560)
+        ;
+
+        
+    
+    
+            var circle_marker_216c8e259182f5314ac3a8b6047f75aa = L.circleMarker(
+                [19.838944, 75.244448],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_6bd55a6cdb2c853b2eaa1576e0e689d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_680eca874931f0456e4a1b39cbe2557d = $(`<div id="html_680eca874931f0456e4a1b39cbe2557d" style="width: 100.0%; height: 100.0%;">More Chowk Waluj, Aurangabad - MPCB: Industrial</div>`)[0];
+                popup_6bd55a6cdb2c853b2eaa1576e0e689d0.setContent(html_680eca874931f0456e4a1b39cbe2557d);
+            
+        
+
+        circle_marker_216c8e259182f5314ac3a8b6047f75aa.bindPopup(popup_6bd55a6cdb2c853b2eaa1576e0e689d0)
+        ;
+
+        
+    
+    
+            var circle_marker_ea9f91850b36fbd2ecd731414a5be80a = L.circleMarker(
+                [8.514909, 76.943588],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_9ddc4b9ddcd43faf3412425d7aeed1a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c799f7da50a160f89eeed602a058507 = $(`<div id="html_2c799f7da50a160f89eeed602a058507" style="width: 100.0%; height: 100.0%;">Plammoodu, Thiruvananthapuram - Kerala PCB: Vehicular</div>`)[0];
+                popup_9ddc4b9ddcd43faf3412425d7aeed1a7.setContent(html_2c799f7da50a160f89eeed602a058507);
+            
+        
+
+        circle_marker_ea9f91850b36fbd2ecd731414a5be80a.bindPopup(popup_9ddc4b9ddcd43faf3412425d7aeed1a7)
+        ;
+
+        
+    
+    
+            var circle_marker_c9a8ffb4f718f19c974739cb6a2337af = L.circleMarker(
+                [13.67, 79.35],
+                {"bubblingMouseEvents": true, "color": "#f39c12", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f39c12", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_7497619039a46134184392632fc218b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1b4a12c6579aee69d8132664e09fd16 = $(`<div id="html_d1b4a12c6579aee69d8132664e09fd16" style="width: 100.0%; height: 100.0%;">Tirumala, Tirupati - APPCB: Burning</div>`)[0];
+                popup_7497619039a46134184392632fc218b2.setContent(html_d1b4a12c6579aee69d8132664e09fd16);
+            
+        
+
+        circle_marker_c9a8ffb4f718f19c974739cb6a2337af.bindPopup(popup_7497619039a46134184392632fc218b2)
+        ;
+
+        
+    
+    
+            var circle_marker_04491d8c7ce5b2edb6546326b35b485e = L.circleMarker(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_7b3a38270895ad3656ce9abb320018fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ae3de4c9ef93eb7790d450216bc51e1 = $(`<div id="html_3ae3de4c9ef93eb7790d450216bc51e1" style="width: 100.0%; height: 100.0%;">IGSC Planetarium Complex, Patna - BSPCB: Industrial</div>`)[0];
+                popup_7b3a38270895ad3656ce9abb320018fe.setContent(html_3ae3de4c9ef93eb7790d450216bc51e1);
+            
+        
+
+        circle_marker_04491d8c7ce5b2edb6546326b35b485e.bindPopup(popup_7b3a38270895ad3656ce9abb320018fe)
+        ;
+
+        
+    
+    
+            var circle_marker_7334ff1987e25715e7b8785cefc4fffd = L.circleMarker(
+                [23.221714, 72.654328],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_39820fc1ad2153c595ba363a68032dab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5124f152ed73dd017675147e1e0e89c6 = $(`<div id="html_5124f152ed73dd017675147e1e0e89c6" style="width: 100.0%; height: 100.0%;">Sector-10, Gandhinagar - GPCB: Vehicular</div>`)[0];
+                popup_39820fc1ad2153c595ba363a68032dab.setContent(html_5124f152ed73dd017675147e1e0e89c6);
+            
+        
+
+        circle_marker_7334ff1987e25715e7b8785cefc4fffd.bindPopup(popup_39820fc1ad2153c595ba363a68032dab)
+        ;
+
+        
+    
+    
+            var circle_marker_47995ed123748d89e3ebf6127b71b365 = L.circleMarker(
+                [30.233011, 74.907758],
+                {"bubblingMouseEvents": true, "color": "#f39c12", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f39c12", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_e4766fc0a4e33224505e0eed906ad9e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ab4c28ecf780fbadbd1b8ae73adc95d = $(`<div id="html_4ab4c28ecf780fbadbd1b8ae73adc95d" style="width: 100.0%; height: 100.0%;">Hardev Nagar, Bathinda - PPCB: Burning</div>`)[0];
+                popup_e4766fc0a4e33224505e0eed906ad9e7.setContent(html_4ab4c28ecf780fbadbd1b8ae73adc95d);
+            
+        
+
+        circle_marker_47995ed123748d89e3ebf6127b71b365.bindPopup(popup_e4766fc0a4e33224505e0eed906ad9e7)
+        ;
+
+        
+    
+    
+            var circle_marker_7db9d0d903395593a6cffb914e7a08dc = L.circleMarker(
+                [29.435587, 76.975531],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_06c173c57a89ea6a8790ca158dd4a7ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77015c629a4d1080d6afdcb6ea2a4e61 = $(`<div id="html_77015c629a4d1080d6afdcb6ea2a4e61" style="width: 100.0%; height: 100.0%;">Sector-18, Panipat - HSPCB: Vehicular</div>`)[0];
+                popup_06c173c57a89ea6a8790ca158dd4a7ee.setContent(html_77015c629a4d1080d6afdcb6ea2a4e61);
+            
+        
+
+        circle_marker_7db9d0d903395593a6cffb914e7a08dc.bindPopup(popup_06c173c57a89ea6a8790ca158dd4a7ee)
+        ;
+
+        
+    
+    
+            var circle_marker_0f7313fd039f35403acdebc098d26019 = L.circleMarker(
+                [30.379589, 76.778328],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_edde8e3fb85bed4ec5284b09d08104f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7811e29c9b3be55c0c10bf660e17217b = $(`<div id="html_7811e29c9b3be55c0c10bf660e17217b" style="width: 100.0%; height: 100.0%;">Patti Mehar, Ambala - HSPCB: Industrial</div>`)[0];
+                popup_edde8e3fb85bed4ec5284b09d08104f3.setContent(html_7811e29c9b3be55c0c10bf660e17217b);
+            
+        
+
+        circle_marker_0f7313fd039f35403acdebc098d26019.bindPopup(popup_edde8e3fb85bed4ec5284b09d08104f3)
+        ;
+
+        
+    
+    
+            var circle_marker_4af3f116b66e62ba0004ac7f234863ec = L.circleMarker(
+                [10.073232, 76.302765],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_88f35430ba969bf4c2d771778f87b1a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a51aac4cd5799ac00bf18416f8aec364 = $(`<div id="html_a51aac4cd5799ac00bf18416f8aec364" style="width: 100.0%; height: 100.0%;">Udyogamandal, Eloor - Kerala PCB: Agricultural</div>`)[0];
+                popup_88f35430ba969bf4c2d771778f87b1a0.setContent(html_a51aac4cd5799ac00bf18416f8aec364);
+            
+        
+
+        circle_marker_4af3f116b66e62ba0004ac7f234863ec.bindPopup(popup_88f35430ba969bf4c2d771778f87b1a0)
+        ;
+
+        
+    
+    
+            var circle_marker_7b779b8dd7a24b22c72c65568496e358 = L.circleMarker(
+                [23.717634, 92.719284],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_45745fdc14a5d14351ae6a3723a1bf62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd7d4c2e385040a0190f6b4e3a727bc5 = $(`<div id="html_bd7d4c2e385040a0190f6b4e3a727bc5" style="width: 100.0%; height: 100.0%;">Sikulpuikawn, Aizawl - Mizoram PCB: Agricultural</div>`)[0];
+                popup_45745fdc14a5d14351ae6a3723a1bf62.setContent(html_bd7d4c2e385040a0190f6b4e3a727bc5);
+            
+        
+
+        circle_marker_7b779b8dd7a24b22c72c65568496e358.bindPopup(popup_45745fdc14a5d14351ae6a3723a1bf62)
+        ;
+
+        
+    
+    
+            var circle_marker_326cb1b3b527e33d18ed91bf1378effc = L.circleMarker(
+                [10.522198, 76.24085],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_e332e484756c594554ffbd1a76ab6a6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8771ae12d8e8ada06114b7459b92e5a = $(`<div id="html_b8771ae12d8e8ada06114b7459b92e5a" style="width: 100.0%; height: 100.0%;">Corporation Ground, Thrissur- Kerala PCB: Agricultural</div>`)[0];
+                popup_e332e484756c594554ffbd1a76ab6a6e.setContent(html_b8771ae12d8e8ada06114b7459b92e5a);
+            
+        
+
+        circle_marker_326cb1b3b527e33d18ed91bf1378effc.bindPopup(popup_e332e484756c594554ffbd1a76ab6a6e)
+        ;
+
+        
+    
+    
+            var circle_marker_4522c7e4ad785f71f557b19b7d66e0c7 = L.circleMarker(
+                [22.410802, 73.097923],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_7312cae83007bdc116eed58145b27ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fd6ab61bb97d9d9e45cc961b145b159 = $(`<div id="html_6fd6ab61bb97d9d9e45cc961b145b159" style="width: 100.0%; height: 100.0%;">GIDC, Nandesari - Nandesari Ind. Association: Industrial</div>`)[0];
+                popup_7312cae83007bdc116eed58145b27ce7.setContent(html_6fd6ab61bb97d9d9e45cc961b145b159);
+            
+        
+
+        circle_marker_4522c7e4ad785f71f557b19b7d66e0c7.bindPopup(popup_7312cae83007bdc116eed58145b27ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_2e34f0e9dd81dee5dc2fc0265875d200 = L.circleMarker(
+                [26.470859, 74.646594],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_e6e984316214595f6a9ed20cc1e11a2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea4350ecf7844864665ad52d216376f4 = $(`<div id="html_ea4350ecf7844864665ad52d216376f4" style="width: 100.0%; height: 100.0%;">Civil Lines, Ajmer - RSPCB: Vehicular</div>`)[0];
+                popup_e6e984316214595f6a9ed20cc1e11a2e.setContent(html_ea4350ecf7844864665ad52d216376f4);
+            
+        
+
+        circle_marker_2e34f0e9dd81dee5dc2fc0265875d200.bindPopup(popup_e6e984316214595f6a9ed20cc1e11a2e)
+        ;
+
+        
+    
+    
+            var circle_marker_fac04b5ee62a41d14e367c2431e26467 = L.circleMarker(
+                [11.875, 75.3732],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_18ba377244134f4a335f2cb1edbf3434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b62a093c86a9c77393d9ea9e81c7da56 = $(`<div id="html_b62a093c86a9c77393d9ea9e81c7da56" style="width: 100.0%; height: 100.0%;">Thavakkara, Kannur - Kerala PCB: Vehicular</div>`)[0];
+                popup_18ba377244134f4a335f2cb1edbf3434.setContent(html_b62a093c86a9c77393d9ea9e81c7da56);
+            
+        
+
+        circle_marker_fac04b5ee62a41d14e367c2431e26467.bindPopup(popup_18ba377244134f4a335f2cb1edbf3434)
+        ;
+
+        
+    
+    
+            var circle_marker_470b73396bbc896e8db9fcdcdaea2cec = L.circleMarker(
+                [25.5586, 91.8985],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_a738fb01d4dfacf2fba66ded8f2e1b17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00290f73c3c96cf1f5fc1058afa95736 = $(`<div id="html_00290f73c3c96cf1f5fc1058afa95736" style="width: 100.0%; height: 100.0%;">Lumpyngngad, Shillong - Meghalaya PCB: Agricultural</div>`)[0];
+                popup_a738fb01d4dfacf2fba66ded8f2e1b17.setContent(html_00290f73c3c96cf1f5fc1058afa95736);
+            
+        
+
+        circle_marker_470b73396bbc896e8db9fcdcdaea2cec.bindPopup(popup_a738fb01d4dfacf2fba66ded8f2e1b17)
+        ;
+
+        
+    
+    
+            var circle_marker_7fd70f973bd9e55ff1c41d68617e6e88 = L.circleMarker(
+                [25.663541, 94.098988],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_afa73d6140d6e46b11819c04d19f9052 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7184fc2c074a5d160a5667c017473c9 = $(`<div id="html_c7184fc2c074a5d160a5667c017473c9" style="width: 100.0%; height: 100.0%;">PWD Juction, Kohima - NPCB: Vehicular</div>`)[0];
+                popup_afa73d6140d6e46b11819c04d19f9052.setContent(html_c7184fc2c074a5d160a5667c017473c9);
+            
+        
+
+        circle_marker_7fd70f973bd9e55ff1c41d68617e6e88.bindPopup(popup_afa73d6140d6e46b11819c04d19f9052)
+        ;
+
+        
+    
+    
+            var circle_marker_68e3bac04625a7f17c578d795c460817 = L.circleMarker(
+                [26.203442, 78.193251],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_e87bbe8a124ca74174da41bcec40e5ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a31c1d5544108085afe0d757588d3fe = $(`<div id="html_5a31c1d5544108085afe0d757588d3fe" style="width: 100.0%; height: 100.0%;">City Center, Gwalior - MPPCB: Vehicular</div>`)[0];
+                popup_e87bbe8a124ca74174da41bcec40e5ab.setContent(html_5a31c1d5544108085afe0d757588d3fe);
+            
+        
+
+        circle_marker_68e3bac04625a7f17c578d795c460817.bindPopup(popup_e87bbe8a124ca74174da41bcec40e5ab)
+        ;
+
+        
+    
+    
+            var circle_marker_6731bef23838a88666690affa03f22c4 = L.circleMarker(
+                [23.168606, 79.932247],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_2f34adf45c40f15e978b7e0eba03667e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8d71328b4e69f28851ee8d39348ecd2 = $(`<div id="html_a8d71328b4e69f28851ee8d39348ecd2" style="width: 100.0%; height: 100.0%;">Marhatal, Jabalpur - MPPCB: Vehicular</div>`)[0];
+                popup_2f34adf45c40f15e978b7e0eba03667e.setContent(html_a8d71328b4e69f28851ee8d39348ecd2);
+            
+        
+
+        circle_marker_6731bef23838a88666690affa03f22c4.bindPopup(popup_2f34adf45c40f15e978b7e0eba03667e)
+        ;
+
+        
+    
+    
+            var circle_marker_45894bf413400b711d2110645b5fe86e = L.circleMarker(
+                [12.88925, 74.853],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_f935159fc81522ff56cccea9a4167f76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4794694d1c15476b160bcb2d0bb96a6 = $(`<div id="html_a4794694d1c15476b160bcb2d0bb96a6" style="width: 100.0%; height: 100.0%;">Kadri, Mangalore - KSPCB: Vehicular</div>`)[0];
+                popup_f935159fc81522ff56cccea9a4167f76.setContent(html_a4794694d1c15476b160bcb2d0bb96a6);
+            
+        
+
+        circle_marker_45894bf413400b711d2110645b5fe86e.bindPopup(popup_f935159fc81522ff56cccea9a4167f76)
+        ;
+
+        
+    
+    
+            var circle_marker_8e7af07fca238feb3032a160c0c9bd24 = L.circleMarker(
+                [27.103358, 93.679645],
+                {"bubblingMouseEvents": true, "color": "#9b59b6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9b59b6", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_f77f0e6111a9b77c5783d3ab7f3967e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac97f5f68eecdb14f0c5447989e7ff99 = $(`<div id="html_ac97f5f68eecdb14f0c5447989e7ff99" style="width: 100.0%; height: 100.0%;">Naharlagun, Naharlagun - APSPCB: Natural</div>`)[0];
+                popup_f77f0e6111a9b77c5783d3ab7f3967e4.setContent(html_ac97f5f68eecdb14f0c5447989e7ff99);
+            
+        
+
+        circle_marker_8e7af07fca238feb3032a160c0c9bd24.bindPopup(popup_f77f0e6111a9b77c5783d3ab7f3967e4)
+        ;
+
+        
+    
+    
+            var circle_marker_4992fd0a0560c408adcaface9f8d5bfc = L.circleMarker(
+                [22.08815, 82.13737],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_8ff134a47460a11e83cfcf4aae3599b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656bf202c54552fd2512d4c7b394b993 = $(`<div id="html_656bf202c54552fd2512d4c7b394b993" style="width: 100.0%; height: 100.0%;">Mangala, Bilaspur - CECB: Vehicular</div>`)[0];
+                popup_8ff134a47460a11e83cfcf4aae3599b7.setContent(html_656bf202c54552fd2512d4c7b394b993);
+            
+        
+
+        circle_marker_4992fd0a0560c408adcaface9f8d5bfc.bindPopup(popup_8ff134a47460a11e83cfcf4aae3599b7)
+        ;
+
+        
+    
+    
+            var circle_marker_1fe815a469b0765eb4d87009660790d6 = L.circleMarker(
+                [21.185571, 81.343175],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_dd27090673f430c5022995faf5d5d3c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009679d0df6cb1c5da5cdc7ae8387661 = $(`<div id="html_009679d0df6cb1c5da5cdc7ae8387661" style="width: 100.0%; height: 100.0%;">Civic Center, Bhilai - Bhilai Steel Plant: Industrial</div>`)[0];
+                popup_dd27090673f430c5022995faf5d5d3c0.setContent(html_009679d0df6cb1c5da5cdc7ae8387661);
+            
+        
+
+        circle_marker_1fe815a469b0765eb4d87009660790d6.bindPopup(popup_dd27090673f430c5022995faf5d5d3c0)
+        ;
+
+        
+    
+    
+            var circle_marker_53bf5f5d9b11f9b8679453666aa1f638 = L.circleMarker(
+                [25.265194, 87.012947],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ecc71", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_b2502dce11aa90f4000ef335b5725352 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff89dbf467ce2be17686b892f79632d4 = $(`<div id="html_ff89dbf467ce2be17686b892f79632d4" style="width: 100.0%; height: 100.0%;">Mayaganj, Bhagalpur - BSPCB: Agricultural</div>`)[0];
+                popup_b2502dce11aa90f4000ef335b5725352.setContent(html_ff89dbf467ce2be17686b892f79632d4);
+            
+        
+
+        circle_marker_53bf5f5d9b11f9b8679453666aa1f638.bindPopup(popup_b2502dce11aa90f4000ef335b5725352)
+        ;
+
+        
+    
+    
+            var circle_marker_f8096ceae9e46ff92c885e6b747a4126 = L.circleMarker(
+                [15.888653, 74.541751],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_554bdaef07a39c7faabffa99752ddf26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13100989d442c4b58b0e921ed52f9988 = $(`<div id="html_13100989d442c4b58b0e921ed52f9988" style="width: 100.0%; height: 100.0%;">Ramteerth Nagar, Belgaum - KSPCB: Industrial</div>`)[0];
+                popup_554bdaef07a39c7faabffa99752ddf26.setContent(html_13100989d442c4b58b0e921ed52f9988);
+            
+        
+
+        circle_marker_f8096ceae9e46ff92c885e6b747a4126.bindPopup(popup_554bdaef07a39c7faabffa99752ddf26)
+        ;
+
+        
+    
+    
+            var circle_marker_d8da6bc751f357a314d7633292bbf2b9 = L.circleMarker(
+                [27.33853, 88.614099],
+                {"bubblingMouseEvents": true, "color": "#9b59b6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9b59b6", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_506510e89d00e22dfca36489a4214d34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c54ddfe232cdda0e53803fa99d184af = $(`<div id="html_6c54ddfe232cdda0e53803fa99d184af" style="width: 100.0%; height: 100.0%;">Zero Point GICI, Gangtok - SSPCB: Natural</div>`)[0];
+                popup_506510e89d00e22dfca36489a4214d34.setContent(html_6c54ddfe232cdda0e53803fa99d184af);
+            
+        
+
+        circle_marker_d8da6bc751f357a314d7633292bbf2b9.bindPopup(popup_506510e89d00e22dfca36489a4214d34)
+        ;
+
+        
+    
+    
+            var circle_marker_ce2c86084c23c63c7453c87b741b73a7 = L.circleMarker(
+                [21.258815, 81.578979],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_cde33aff5c99a07a8b293fb5c8ca711f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ab1a00b412dfc00cb38eeeda2b46bd3 = $(`<div id="html_0ab1a00b412dfc00cb38eeeda2b46bd3" style="width: 100.0%; height: 100.0%;">AIIMS, Raipur - CECB: Vehicular</div>`)[0];
+                popup_cde33aff5c99a07a8b293fb5c8ca711f.setContent(html_0ab1a00b412dfc00cb38eeeda2b46bd3);
+            
+        
+
+        circle_marker_ce2c86084c23c63c7453c87b741b73a7.bindPopup(popup_cde33aff5c99a07a8b293fb5c8ca711f)
+        ;
+
+        
+    
+    
+            var circle_marker_ab793f0a86d99dad53ede0af9d0e41d1 = L.circleMarker(
+                [22.368195, 82.746431],
+                {"bubblingMouseEvents": true, "color": "#9b59b6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9b59b6", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_bd577cf908d7296fb20697bef297e2a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34b9bb3115f17645a52dd04ab74ae565 = $(`<div id="html_34b9bb3115f17645a52dd04ab74ae565" style="width: 100.0%; height: 100.0%;">Rampur, Korba - CECB: Natural</div>`)[0];
+                popup_bd577cf908d7296fb20697bef297e2a1.setContent(html_34b9bb3115f17645a52dd04ab74ae565);
+            
+        
+
+        circle_marker_ab793f0a86d99dad53ede0af9d0e41d1.bindPopup(popup_bd577cf908d7296fb20697bef297e2a1)
+        ;
+
+        
+    
+    
+            var circle_marker_ea02537199f7431cf96c207350581b3b = L.circleMarker(
+                [21.224231, 81.40835],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_b11e544309f2ca22ddae8ccad2dcb06b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50373a2281e13535987939ca68db3a7c = $(`<div id="html_50373a2281e13535987939ca68db3a7c" style="width: 100.0%; height: 100.0%;">Hathkhoj, Bhilai - CECB: Industrial</div>`)[0];
+                popup_b11e544309f2ca22ddae8ccad2dcb06b.setContent(html_50373a2281e13535987939ca68db3a7c);
+            
+        
+
+        circle_marker_ea02537199f7431cf96c207350581b3b.bindPopup(popup_b11e544309f2ca22ddae8ccad2dcb06b)
+        ;
+
+        
+    
+    
+            var circle_marker_b9feb2cb7a632df80c8a13a5194c8be9 = L.circleMarker(
+                [21.170046, 72.795405],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_f99884788c6af8bd410d0a7412c15c30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31ac85fefc61060a0ac17a2050d0faa5 = $(`<div id="html_31ac85fefc61060a0ac17a2050d0faa5" style="width: 100.0%; height: 100.0%;">Science Center, Surat - SMC: Vehicular</div>`)[0];
+                popup_f99884788c6af8bd410d0a7412c15c30.setContent(html_31ac85fefc61060a0ac17a2050d0faa5);
+            
+        
+
+        circle_marker_b9feb2cb7a632df80c8a13a5194c8be9.bindPopup(popup_f99884788c6af8bd410d0a7412c15c30)
+        ;
+
+        
+    
+    
+            var circle_marker_b202895197b17d52a68cdad65375c63a = L.circleMarker(
+                [26.071318, 91.87488],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_7a80e0b8c526f364990c6a009831d3e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_951e7df030e9cf1cb89d373f59d9239e = $(`<div id="html_951e7df030e9cf1cb89d373f59d9239e" style="width: 100.0%; height: 100.0%;">Central Academy for SFS, Byrnihat - PCBA: Industrial</div>`)[0];
+                popup_7a80e0b8c526f364990c6a009831d3e8.setContent(html_951e7df030e9cf1cb89d373f59d9239e);
+            
+        
+
+        circle_marker_b202895197b17d52a68cdad65375c63a.bindPopup(popup_7a80e0b8c526f364990c6a009831d3e8)
+        ;
+
+        
+    
+    
+            var circle_marker_5bfa077c177de9b130a69974cff3db24 = L.circleMarker(
+                [22.220833, 84.809444],
+                {"bubblingMouseEvents": true, "color": "#f39c12", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f39c12", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_5f8b7529b7716fd240e734a3b218a37e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f280ef56e53381b1913ab4440ddc413 = $(`<div id="html_3f280ef56e53381b1913ab4440ddc413" style="width: 100.0%; height: 100.0%;">Raghunathpali, Rourkela - OSPCB: Burning</div>`)[0];
+                popup_5f8b7529b7716fd240e734a3b218a37e.setContent(html_3f280ef56e53381b1913ab4440ddc413);
+            
+        
+
+        circle_marker_5bfa077c177de9b130a69974cff3db24.bindPopup(popup_5f8b7529b7716fd240e734a3b218a37e)
+        ;
+
+        
+    
+    
+            var circle_marker_e7bc4332aba1c6dc0f37c0714ddc1ce2 = L.circleMarker(
+                [24.82827, 92.79525],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_3a3a4c4bf9cea7584ed0fe606d3917a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b66c96aa0b956bea7bb2343de7d3e2bf = $(`<div id="html_b66c96aa0b956bea7bb2343de7d3e2bf" style="width: 100.0%; height: 100.0%;">Tarapur, Silchar - PCBA: Vehicular</div>`)[0];
+                popup_3a3a4c4bf9cea7584ed0fe606d3917a2.setContent(html_b66c96aa0b956bea7bb2343de7d3e2bf);
+            
+        
+
+        circle_marker_e7bc4332aba1c6dc0f37c0714ddc1ce2.bindPopup(popup_3a3a4c4bf9cea7584ed0fe606d3917a2)
+        ;
+
+        
+    
+    
+            var circle_marker_3734a0745459314acf98c667520c115e = L.circleMarker(
+                [20.24079, 85.836784],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_309e482b7379e5f49d70b81bbfc0dc4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcbb56ffa7e35cad54d4a2ffab2dee64 = $(`<div id="html_dcbb56ffa7e35cad54d4a2ffab2dee64" style="width: 100.0%; height: 100.0%;">Lingraj Mandir, Bhubaneswar - OSPCB: Vehicular</div>`)[0];
+                popup_309e482b7379e5f49d70b81bbfc0dc4a.setContent(html_dcbb56ffa7e35cad54d4a2ffab2dee64);
+            
+        
+
+        circle_marker_3734a0745459314acf98c667520c115e.bindPopup(popup_309e482b7379e5f49d70b81bbfc0dc4a)
+        ;
+
+        
+    
+    
+            var circle_marker_37b2c9c6e33a7dbf976e8f0db358863e = L.circleMarker(
+                [20.48891, 85.84768],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4d2e52be0509788a3243cfc0a13e58fe);
+        
+    
+        var popup_898a599fd66ac0ecd30896d7d3e335bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c46cae3b66b18ff2daf1b89c5692256 = $(`<div id="html_5c46cae3b66b18ff2daf1b89c5692256" style="width: 100.0%; height: 100.0%;">CDA Area, Cuttack - OSPCB: Vehicular</div>`)[0];
+                popup_898a599fd66ac0ecd30896d7d3e335bb.setContent(html_5c46cae3b66b18ff2daf1b89c5692256);
+            
+        
+
+        circle_marker_37b2c9c6e33a7dbf976e8f0db358863e.bindPopup(popup_898a599fd66ac0ecd30896d7d3e335bb)
+        ;
+
+        
+    
+    
+            var feature_group_8f271188e50988adb8489825c86e3ad2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_0fbd3069f6d983788c3d1936e4138017 = L.circle(
+                [28.563262, 77.186937],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_db276c396e4101f30847e9826c58f0e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbde85cb6e72767f01bb0405f169c741 = $(`<div id="html_dbde85cb6e72767f01bb0405f169c741" style="width: 100.0%; height: 100.0%;">R K Puram, Delhi - DPCC: Very Poor</div>`)[0];
+                popup_db276c396e4101f30847e9826c58f0e7.setContent(html_dbde85cb6e72767f01bb0405f169c741);
+            
+        
+
+        circle_0fbd3069f6d983788c3d1936e4138017.bindPopup(popup_db276c396e4101f30847e9826c58f0e7)
+        ;
+
+        
+    
+    
+            var circle_00d7e2d96fbb09dbe21f324bfe9ab558 = L.circle(
+                [22.624758, 75.675238],
+                {"bubblingMouseEvents": true, "color": "#ff7e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_001675900ae9b688666a48f151ec656f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c05857407e17b0967295cb2b2e426a2b = $(`<div id="html_c05857407e17b0967295cb2b2e426a2b" style="width: 100.0%; height: 100.0%;">Sector-2 Industrial Area, Pithampur - MPPCB: Poor</div>`)[0];
+                popup_001675900ae9b688666a48f151ec656f.setContent(html_c05857407e17b0967295cb2b2e426a2b);
+            
+        
+
+        circle_00d7e2d96fbb09dbe21f324bfe9ab558.bindPopup(popup_001675900ae9b688666a48f151ec656f)
+        ;
+
+        
+    
+    
+            var circle_ee5ed3ce646ab42813f0a8b33b6a30a8 = L.circle(
+                [23.10844, 77.511428],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_5e152d648b26b4ec71ac7a8368a5aa4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ceb164759929d5ce8bf8a5df0d48b0a = $(`<div id="html_4ceb164759929d5ce8bf8a5df0d48b0a" style="width: 100.0%; height: 100.0%;">Sector-D Industrial Area, Mandideep - MPPCB: Very Poor</div>`)[0];
+                popup_5e152d648b26b4ec71ac7a8368a5aa4c.setContent(html_4ceb164759929d5ce8bf8a5df0d48b0a);
+            
+        
+
+        circle_ee5ed3ce646ab42813f0a8b33b6a30a8.bindPopup(popup_5e152d648b26b4ec71ac7a8368a5aa4c)
+        ;
+
+        
+    
+    
+            var circle_cd7167a55cd47a6c83a516514d45f3d2 = L.circle(
+                [30.379589, 76.778328],
+                {"bubblingMouseEvents": true, "color": "#ff7e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_22857da7ed9db5df26fd29654606050b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69b29b1db7887b5266ee137875302f16 = $(`<div id="html_69b29b1db7887b5266ee137875302f16" style="width: 100.0%; height: 100.0%;">Patti Mehar, Ambala - HSPCB: Poor</div>`)[0];
+                popup_22857da7ed9db5df26fd29654606050b.setContent(html_69b29b1db7887b5266ee137875302f16);
+            
+        
+
+        circle_cd7167a55cd47a6c83a516514d45f3d2.bindPopup(popup_22857da7ed9db5df26fd29654606050b)
+        ;
+
+        
+    
+    
+            var circle_1c1e209071af635e6fdd4529838e016b = L.circle(
+                [23.168606, 79.932247],
+                {"bubblingMouseEvents": true, "color": "#ff7e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_df6f02e72a248613f009fcf919a1ef8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b4c5ccc85666b9729f49475ac72f291 = $(`<div id="html_6b4c5ccc85666b9729f49475ac72f291" style="width: 100.0%; height: 100.0%;">Marhatal, Jabalpur - MPPCB: Poor</div>`)[0];
+                popup_df6f02e72a248613f009fcf919a1ef8c.setContent(html_6b4c5ccc85666b9729f49475ac72f291);
+            
+        
+
+        circle_1c1e209071af635e6fdd4529838e016b.bindPopup(popup_df6f02e72a248613f009fcf919a1ef8c)
+        ;
+
+        
+    
+    
+            var circle_6e556488827b8bbda63305fac29f789d = L.circle(
+                [20.48891, 85.84768],
+                {"bubblingMouseEvents": true, "color": "#ff7e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f271188e50988adb8489825c86e3ad2);
+        
+    
+        var popup_2de664898f47378cb611df1b261f464f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1540c66da5c94d66c474faa14c10328 = $(`<div id="html_c1540c66da5c94d66c474faa14c10328" style="width: 100.0%; height: 100.0%;">CDA Area, Cuttack - OSPCB: Poor</div>`)[0];
+                popup_2de664898f47378cb611df1b261f464f.setContent(html_c1540c66da5c94d66c474faa14c10328);
+            
+        
+
+        circle_6e556488827b8bbda63305fac29f789d.bindPopup(popup_2de664898f47378cb611df1b261f464f)
+        ;
+
+        
+    
+    
+            var layer_control_b1e4221b1be98d1ef91c7c5342dea137_layers = {
+                base_layers : {
+                    "Light" : tile_layer_f86b0c7d7155007ce997a6f43f62d18d,
+                    "Dark" : tile_layer_c488492471246ba199bbfaba25724e04,
+                    "Street" : tile_layer_001794289f96a1b15f17a08d88c08ec5,
+                },
+                overlays :  {
+                    "\ud83c\udf21\ufe0f Pollution Heatmap" : feature_group_3689a555e6b087f08b7451925eb66613,
+                    "\ud83d\udccd Source Markers" : feature_group_4d2e52be0509788a3243cfc0a13e58fe,
+                    "\u26a0\ufe0f Risk Zones" : feature_group_8f271188e50988adb8489825c86e3ad2,
+                },
+            };
+            let layer_control_b1e4221b1be98d1ef91c7c5342dea137 = L.control.layers(
+                layer_control_b1e4221b1be98d1ef91c7c5342dea137_layers.base_layers,
+                layer_control_b1e4221b1be98d1ef91c7c5342dea137_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_b51201fb2edc24ec49aedc6d5bcf8a07);
+
+        
+</script>
+</html>
