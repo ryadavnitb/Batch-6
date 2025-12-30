@@ -44,7 +44,7 @@ EnviroScan is an AI-powered real-time air quality monitoring and pollution sourc
 
 ### Demo Video
 
-https://github.com/PRAVEEN1000-7/EnviroScan.ai/blob/PraveenS/assets/videos/EnviroScan.ai-demo-video.mp4
+**[Watch Demo Video](https://github.com/ryadavnitb/Batch-6/blob/PraveenS/assets/videos/EnviroScan.ai-demo-video.mp4)**
 
 > **Note:** If video doesn't play above, [click here to watch/download](https://github.com/PRAVEEN1000-7/EnviroScan.ai/blob/PraveenS/assets/videos/EnviroScan.ai-demo-video.mp4)
 
