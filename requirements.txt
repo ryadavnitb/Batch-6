@@ -1,0 +1,52 @@
+# EnviroScan Project - Complete Requirements
+# Install: pip install -r requirements.txt
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API and Web Requests
+requests>=2.31.0
+python-dotenv>=1.0.0
+urllib3>=2.0.0
+
+# Geospatial Analysis
+osmnx>=1.6.0
+geopandas>=0.14.0
+shapely>=2.0.0
+geopy>=2.4.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+folium>=0.14.0
+plotly>=5.18.0
+branca>=0.6.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+xgboost>=2.0.0
+imbalanced-learn>=0.11.0
+
+# Dashboard
+streamlit>=1.29.0
+streamlit-folium>=0.15.0
+watchdog>=3.0.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Email Support
+secure-smtplib>=0.1.1
+
+# Utilities
+tqdm>=4.66.0
+python-dateutil>=2.8.0
+
+# Optional: For Kaggle dataset download
+# kaggle>=1.5.16
+
+# Optional: For enhanced geospatial processing
+# rtree>=1.0.1
+# pyproj>=3.6.0
