@@ -42,6 +42,7 @@ Existing pollution monitoring systems typically measure pollutant levels but fai
 ## System Architecture
 
 The system integrates data from multiple sources into a unified pipeline:
+<img width="2154" height="601" alt="image" src="https://github.com/user-attachments/assets/0460396f-6b50-4ba2-ae13-06bc9f35771b" />
 
 - **Inputs**:
   - Pollution Sensors/OpenAQ (PM2.5, PM10, NO₂, SO₂, O₃, CO).
@@ -88,6 +89,7 @@ Total datapoints: 14,324.
 - **Agricultural**: Seasonal PM + farmland proximity (5 KM).
 - **Burning**: Extreme PM2 levels + CO (5 KM).
 - **Natural**: Low pollution + remote locations.
+<img width="736" height="587" alt="image" src="https://github.com/user-attachments/assets/febcdc20-df73-453a-94a8-4bb947cf66f3" />
 
 ## Model Training & Tuning
 
@@ -102,6 +104,8 @@ Total datapoints: 14,324.
 
 **Best Model**: XGBoost  
 **Accuracy**: 94%  
+<img width="1152" height="922" alt="image" src="https://github.com/user-attachments/assets/cace627e-14b4-4290-b449-135c4608e162" />
+
 
 Hyper-parameter Tuning: GridSearchCV.
 
@@ -112,6 +116,7 @@ Hyper-parameter Tuning: GridSearchCV.
 - Real-time pollution alerts.
 - Trend charts & source distribution.
 - Downloadable reports (JSON/CSV).
+- 
 
 ## Results
 
