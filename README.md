@@ -35,7 +35,7 @@
 EnviroScan is an AI-powered real-time air quality monitoring and pollution source identification system developed for Indian cities. The project leverages machine learning to classify pollution sources into five categories: **Vehicular, Industrial, Agricultural, Burning, and Natural** with **92.26% accuracy**.
 
 ### Key Achievements
-- Real-time air quality data integration from 165+ districts across India
+- Real-time air quality data integration from 49 locations across India
 - XGBoost classification model with 92.26% test accuracy
 - Interactive Streamlit dashboard with maps, charts, and alerts
 - Email notification system for critical pollution levels
@@ -44,9 +44,9 @@ EnviroScan is an AI-powered real-time air quality monitoring and pollution sourc
 
 ### Demo Video
 
-https://github.com/PRAVEEN1000-7/EnviroScan.ai/raw/main/assets/videos/EnviroScan.ai-demo-video.mp4
+https://github.com/PRAVEEN1000-7/EnviroScan.ai/blob/PraveenS/assets/videos/EnviroScan.ai-demo-video.mp4
 
-> **Note:** If video doesn't play above, [click here to watch/download](https://github.com/PRAVEEN1000-7/EnviroScan.ai/raw/main/assets/videos/EnviroScan.ai-demo-video.mp4)
+> **Note:** If video doesn't play above, [click here to watch/download](https://github.com/PRAVEEN1000-7/EnviroScan.ai/blob/PraveenS/assets/videos/EnviroScan.ai-demo-video.mp4)
 
 ---
 
@@ -154,7 +154,7 @@ The scope of EnviroScan encompasses comprehensive air quality monitoring across 
 
 | Aspect | Coverage |
 |--------|----------|
-| Geographic | 32 states/UTs, 165 districts of India |
+| Geographic | 32 states/UTs, 49 locations of India |
 | Pollutants | PM2.5, PM10, NO2, CO, SO2, O3 |
 | Sources | Vehicular, Industrial, Agricultural, Burning, Natural |
 
@@ -166,7 +166,7 @@ The scope of EnviroScan encompasses comprehensive air quality monitoring across 
 
 | Data Source | API/Service | Purpose | Records |
 |-------------|-------------|---------|---------|
-| OpenAQ | OpenAQ API v3 | Real-time air quality data | ~978,000 |
+| OpenAQ | OpenAQ API v3 | Real-time air quality data | ~109,501 |
 | OpenStreetMap | Overpass API | Geospatial features | 49 locations |
 | Nominatim | Nominatim API | Geocoding | On-demand |
 | Open-Meteo | Open-Meteo API | Weather data | On-demand |
@@ -210,10 +210,10 @@ The scope of EnviroScan encompasses comprehensive air quality monitoring across 
 
 | Metric | Before Cleaning | After Cleaning |
 |--------|-----------------|----------------|
-| Total Records | 978,000 | 106,369 |
+| Total Records | 109,501 | 106,369 |
 | Missing Values | 12.3% | 0% |
 | Duplicate Records | 2,341 | 0 |
-| Valid Locations | 165 | 49 (with OSM data) |
+| Valid Locations | 49 | 49 (with OSM data) |
 
 ---
 
@@ -291,18 +291,18 @@ A rule-based scoring system was developed to label pollution sources. Each recor
 
 | Set | Samples | Percentage |
 |-----|---------|------------|
-| Training | 169,780 | 80% |
+| Training | 85,095 | 80% |
 | Testing | 21,274 | 20% |
 
 ### 7.2 Class Imbalance Handling with SMOTE
 
 | Class | Count | Percentage |
 |-------|-------|------------|
-| Vehicular | 85,234 | 40.2% |
-| Industrial | 42,156 | 19.9% |
-| Agricultural | 31,892 | 15.0% |
-| Natural | 28,456 | 13.4% |
-| Burning | 24,316 | 11.5% |
+| Vehicular | 42,785 | 40.2% |
+| Industrial | 21,178 | 19.9% |
+| Agricultural | 15,955 | 15.0% |
+| Natural | 14,253 | 13.4% |
+| Burning | 12,198 | 11.5% |
 
 **SMOTE (Synthetic Minority Over-sampling Technique)** was applied to balance the training data by generating synthetic samples for minority classes. SMOTE was applied ONLY to training data to prevent data leakage.
 
@@ -431,7 +431,7 @@ The EnviroScan system follows a multi-layered architecture designed for scalabil
 
 ### 13.1 Key Achievements
 
-- **Data Pipeline:** Automated collection from 165+ districts across India
+- **Data Pipeline:** Automated collection from 49 locations across India
 - **ML Model:** XGBoost classifier achieving 92.26% test accuracy
 - **Dashboard:** Real-time monitoring interface built with Streamlit
 - **Geospatial Integration:** OpenStreetMap feature extraction
