@@ -1,4 +1,4 @@
-# 🌍 EnviroScan: AI-Powered Pollution Source Identifier using Geospatial Analytics
+# 🌍 EnviroScan-pro: AI-Powered Pollution Source Identifier using Geospatial Analytics
 
 An AI-driven system to identify and visualize pollution sources using air quality data, weather parameters, and geospatial analytics.
 
