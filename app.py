@@ -80,7 +80,7 @@ st.markdown("""
 # ======================================================
 # 2. CORE LOGIC
 # ======================================================
-API_KEY = "d3cf70bdbdf6d6ba3006a6d61d7b4ddc" 
+API_KEY = "YOUR_API_KEY" 
 
 @st.cache_resource
 def load_models():
@@ -367,3 +367,4 @@ with st.expander("📂 Download Detailed Report", expanded=False):
         st.download_button("⬇️ Download CSV Report", df_export.to_csv(index=False).encode('utf-8'), "enviroscan_report.csv", "text/csv")
     else:
         st.info("No data to export. Analyze a location first.")
+
