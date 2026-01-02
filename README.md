@@ -4,6 +4,12 @@ EnviroScan is an **AI-based environmental monitoring system** that not only meas
 The system visualizes pollution hotspots, predicts risk zones, and provides alerts to support **data-driven environmental decision-making**.
 
 ---
+## 👩‍💻 Author
+
+**P Likhitha**
+B.Tech (Engineering)
+
+---
 
 ## 📌 Project Statement
 
@@ -127,33 +133,48 @@ Evaluation Metrics:
 ## 🗂️ Project Structure
 
 ```
-
 EnviroScan/
 │
-├── AI-Powered Pollution Source Identifier using Geospatial Analytics.ipynb
-├── Dashboard/
-│   └── app.py
 ├── Data/
-│   ├── final_labeled_dataset.csv
-│   ├── india_air_quality.csv
-│   ├── india_weather.csv
-│   ├── india_locations.csv
-│   ├── india_features.csv
-│   └── india_merged_all_rows_columns.csv
+│ ├── final_labeled_dataset.csv
+│ ├── india_air_quality.csv
+│ ├── india_features.csv
+│ ├── india_locations.csv
+│ ├── india_weather.csv
+│ ├── labeled_dataset.csv
+│ └── processed_data_module2.csv
+│
+├── Models/
+│ ├── best_decision_tree_model.pkl
+│ ├── best_random_forest_model.pkl
+│ ├── best_xgboost_model.pkl
+│ ├── decision_tree_model.pkl
+│ ├── random_forest_model.pkl
+│ ├── xgboost_model.pkl
+│ ├── label_encoder.pkl
+│ └── scaler.joblib
+│
+├── Pages/
+│ ├── 1_🌍_Pollution_Dashboard.py
+│ └── 2_🤖_Live_Prediction.py
+│
 ├── Scripts/
-│   ├── pollution.py
-│   ├── weather.py
-│   ├── locations.py
-│   ├── features.py
-│   └── merged_core.py
-├── Model_Dataset/
-├── pollution_dashboard_map.html
+│ ├── features.py
+│ ├── locations.py
+│ ├── merged_core.py
+│ ├── pollution.py
+│ └── weather.py
+│
+├── all_html_files/
+│ ├── pollution_heatmap.html
+│ ├── high_aqi_locations.html
+│ ├── high_risk_zones.html
+│ └── pollution_sources_map.html
+│
+├── Home.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
-````
-
 ---
 
 ## 🖥️ Dashboard Features
@@ -218,10 +239,5 @@ streamlit run Dashboard/app.py
 * Mobile dashboard support
 
 ---
-
-## 👩‍💻 Author
-
-**Likhitha**
-B.Tech (Engineering)
 
 ---
