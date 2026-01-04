@@ -187,7 +187,7 @@ Streamlit Dashboard
 
 ---
 
- ##**12. Future Scope**
+ ## **12. Future Scope**
 
 * Integration with weather APIs
 * Advanced models (XGBoost, Deep Learning)
