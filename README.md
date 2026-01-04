@@ -1,9 +1,10 @@
 # 🌍 **EnviroScan: AI-Powered Pollution Source Identifier using Geospatial Analytics**
 
 **Submitted by:**
-*Shreya N Gowda*
- Computer Science and Engineering
- Jain Institute of Technology,Davangere
+Shreya N Gowda  
+Department of Computer Science and Engineering  
+Jain Institute of Technology, Davanagere
+
 
 ---
 
