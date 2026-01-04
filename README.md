@@ -203,7 +203,7 @@ EnviroScan successfully demonstrates how AI and geospatial analytics can be used
 
 ---
 
-##**14. Dashboard**
+## **14. Dashboard**
 
 * Developed using Streamlit
  Features:
@@ -213,12 +213,19 @@ EnviroScan successfully demonstrates how AI and geospatial analytics can be used
   * Interactive charts
   * AQI alerts
   * Data download options
+## 📸 Dashboard Screenshots
+
+### Pollution Heatmap
+![Heatmap](heatmap.png)
+
+### Analytics Charts
+![Charts](charts.png)
 
 
 
 ---
 
-##**15. References**
+## **15. References**
 
 1. OpenAQ Platform – (https://openaq.org)
 2. Scikit-learn Documentation – (https://scikit-learn.org)
@@ -226,5 +233,3 @@ EnviroScan successfully demonstrates how AI and geospatial analytics can be used
 4. OpenStreetMap – (https://www.openstreetmap.org)
 
 
-
-Just tell me 👍
