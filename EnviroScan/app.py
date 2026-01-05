@@ -15,7 +15,7 @@ import io
 # ==========================
 # OpenWeather configuration
 # ==========================
-OPENWEATHER_API_KEY = "9b436add9e05fcbc145a2671feb4b99d"  # <- put your key here
+OPENWEATHER_API_KEY = "Your OPEN WEATHER API KEY"  # <- put your key here
 OPENWEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 OPENWEATHER_AIR_URL = "https://api.openweathermap.org/data/2.5/air_pollution"  # [web:454]
 
@@ -1039,3 +1039,4 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
+
