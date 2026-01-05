@@ -220,3 +220,8 @@ Mentor: Rahul – Guidance and review
 OpenAQ – Open air quality data
 
 OpenStreetMap Contributors – Geospatial data
+
+📜 License
+
+This project is developed for academic and internship purposes under Infosys SpringBoard Virtual Internship 6.0.
+
