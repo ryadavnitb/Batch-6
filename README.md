@@ -138,43 +138,7 @@ Dummy live prediction demo
 
 Downloadable PDF pollution report with precautions
 
-9️⃣ Project Structure
-AI-EnviroScan/
-│
-
-├── data/
-│    ├── raw/
-│    ├── processed/
-│    └── osm_files/
-│
-
-├── notebooks/
-│    ├── data_collection.ipynb
-│    ├── preprocessing.ipynb
-│    ├── feature_engineering.ipynb
-│    ├── modeling.ipynb
-│
-
-├── models/
-│    ├── pollution_source_random_forest_model.joblib
-│
-
-├── dashboard/
-│  ├── module6_dashboard.py
-│
-
-├── maps/
-│    ├── final_pollution_source_heatmap.html
-│
-
-├── reports/
-│    ├── EnviroScan_Report.pdf
-│
-
-├── README.md
- └── requirements.txt
-
-🔟 How to Run the Project
+9️⃣How to Run the Project
 
 Step 1: Clone the Repository
 
@@ -191,7 +155,7 @@ Step 3: Run the Dashboard
 
 streamlit run dashboard/module6_dashboard.py
 
-1️⃣1️⃣ Results & Insights
+🔟 Results & Insights
 
 Vehicular and industrial sources dominate urban pollution
 
@@ -201,7 +165,7 @@ Spatial proximity significantly improves source classification
 
 Random Forest achieves the best balance of accuracy and robustness
 
-1️⃣2️⃣ Future Enhancements
+1️⃣1️⃣ Future Enhancements
 
 🔄 Real-time sensor data integration
 
@@ -211,7 +175,7 @@ Random Forest achieves the best balance of accuracy and robustness
 
 ☁️ Cloud deployment (Streamlit Cloud / Hugging Face Spaces)
 
-1️⃣3️⃣ Acknowledgements
+1️⃣2️⃣ Acknowledgements
 
 Infosys SpringBoard – Internship platform
 
