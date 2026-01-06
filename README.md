@@ -1,4 +1,4 @@
-🌍 AI-EnviroScan: Pollution Source Identification and Visualization System
+🌍 AI-EnviroScan: Pollution Source Identifier using Geospatial analytics
 
 📌 Author
 
