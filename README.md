@@ -1,4 +1,4 @@
-🌍 AI-EnviroScan: Pollution Source Identification and Visualization System
+🌍 AI-EnviroScan: Pollution Source Identifier using Geospatial analytics
 
 📌 Author
 
@@ -41,7 +41,10 @@ Programming Language: Python
 
 Data Handling: Pandas, NumPy
 
-Machine Learning: Scikit-learn, XGBoost
+Machine Learning:
+• Scikit-learn (final deployed Random Forest model)
+• XGBoost (evaluated for performance comparison)
+
 
 Imbalanced Data Handling: SMOTE (imbalanced-learn)
 
