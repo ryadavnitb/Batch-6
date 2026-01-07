@@ -4,7 +4,7 @@
 ---
 
 ## Author  
-**Naga Jyothi**  
+**Pothula Naga Jyothi**  
 B.Tech – Computer Science  
 S V University,Tirupati
 
