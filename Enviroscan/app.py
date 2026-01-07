@@ -9,14 +9,14 @@ import matplotlib.pyplot as plt
 # PAGE CONFIG
 # --------------------------------------------------
 st.set_page_config(
-    page_title="EnviroScan: Pollution Monitoring",
+    page_title="EnviroScan – Pollution Source Analysis",
     layout="wide"
 )
 
-st.title("🌍 EnviroScan: Real-Time Pollution Source Monitoring")
+st.title("🌍 EnviroScan: Pollution Source Identification System")
 
 # --------------------------------------------------
-# BASE PATH
+# BASE PATHS
 # --------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -24,24 +24,24 @@ DATA_PATH = os.path.join(BASE_DIR, "data_for_training.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "pollution_rf_realistic.pkl")
 SCALER_PATH = os.path.join(BASE_DIR, "scaler.pkl")
 ENCODER_PATH = os.path.join(BASE_DIR, "target_encoder.pkl")
+
 MAP_FILES = {
-    "Main Dashboard Map": "main_dashboard_map.html",
-    "Pollution Heatmap": "pollution_heatmap.html",
-    "High Risk Zones": "high_risk_zones.html",
+    "Overview Map": "main_dashboard_map.html",
+    "Pollution Intensity": "pollution_heatmap.html",
+    "Critical Zones": "high_risk_zones.html",
 }
 
-
 # --------------------------------------------------
-# LOAD MODEL, SCALER, ENCODER
+# LOAD MODEL COMPONENTS
 # --------------------------------------------------
 @st.cache_resource
-def load_model():
+def load_artifacts():
     model = joblib.load(MODEL_PATH)
     scaler = joblib.load(SCALER_PATH)
     encoder = joblib.load(ENCODER_PATH)
     return model, scaler, encoder
 
-model, scaler, target_encoder = load_model()
+model, scaler, target_encoder = load_artifacts()
 
 # --------------------------------------------------
 # LOAD DATA
@@ -51,49 +51,42 @@ def load_data():
     return pd.read_csv(DATA_PATH, encoding="latin1")
 
 df = load_data()
-
-st.success("✅ Data, Model & Scaler Loaded Successfully")
+st.success("✅ System initialized successfully")
 
 # --------------------------------------------------
 # SIDEBAR INPUTS
 # --------------------------------------------------
-st.sidebar.header("🔧 Input Parameters")
+st.sidebar.header("🔧 Environmental Inputs")
 
-co = st.sidebar.number_input("CO AQI Value", 0.0, 500.0, 50.0)
-no2 = st.sidebar.number_input("NO₂ AQI Value", 0.0, 500.0, 40.0)
-ozone = st.sidebar.number_input("Ozone AQI Value", 0.0, 500.0, 30.0)
-pm25 = st.sidebar.number_input("PM2.5 AQI Value", 0.0, 500.0, 60.0)
+co = st.sidebar.number_input("CO AQI", 0.0, 500.0, 50.0)
+no2 = st.sidebar.number_input("NO₂ AQI", 0.0, 500.0, 40.0)
+ozone = st.sidebar.number_input("Ozone AQI", 0.0, 500.0, 30.0)
+pm25 = st.sidebar.number_input("PM2.5 AQI", 0.0, 500.0, 60.0)
 aqi = st.sidebar.number_input("Overall AQI", 0.0, 500.0, 80.0)
+
+st.sidebar.subheader("🌦 Weather Parameters")
 
 temp = st.sidebar.slider("Temperature (°C)", 0.0, 50.0, 30.0)
 humidity = st.sidebar.slider("Humidity (%)", 0.0, 100.0, 60.0)
 wind = st.sidebar.slider("Wind Speed (m/s)", 0.0, 20.0, 3.0)
 
-traffic_index = st.sidebar.slider("Traffic Pollution Index", 0.0, 10.0, 5.0)
-
-
-# --------------------------------------------------
-# WEATHER INPUT (REQUIRED)
-# --------------------------------------------------
-st.sidebar.subheader("🌦 Weather")
+traffic_index = st.sidebar.slider("Traffic Density Index", 0.0, 10.0, 5.0)
 
 weather_options = ["Clear", "Cloudy", "Rain", "Fog", "Haze"]
 weather = st.sidebar.selectbox("Weather Condition", weather_options)
-
-# MUST match training encoding
-weather_map = {w: i for i, w in enumerate(weather_options)}
-weather_enc = weather_map[weather]
+weather_enc = weather_options.index(weather)
 
 # --------------------------------------------------
-# FEATURE ENGINEERING
+# FEATURE ENGINEERING (MODIFIED)
 # --------------------------------------------------
-particulate_ratio = pm25 / (aqi + 1)
-heat_humidity = temp * humidity
+particle_load_factor = pm25 / (aqi + 1)
+wind_dispersion_index = (co + no2) / (wind + 0.5)
+thermal_stress_index = temp * (humidity / 100)
 
 # --------------------------------------------------
-# CREATE INPUT DATAFRAME (EXACT TRAINING FEATURES)
+# INPUT DATAFRAME
 # --------------------------------------------------
-input_df = pd.DataFrame([[
+input_df = pd.DataFrame([[  
     co,
     no2,
     ozone,
@@ -104,8 +97,8 @@ input_df = pd.DataFrame([[
     wind,
     weather_enc,
     traffic_index,
-    particulate_ratio,
-    heat_humidity
+    particle_load_factor,
+    thermal_stress_index
 ]], columns=[
     "co_aqi_value",
     "no2_aqi_value",
@@ -117,119 +110,96 @@ input_df = pd.DataFrame([[
     "wind_speed_m/s",
     "weather_description_enc",
     "traffic_pollution_index",
-    "particulate_ratio",
-    "heat_humidity_index"
+    "particle_load_factor",
+    "thermal_stress_index"
 ])
+
 input_df = input_df[scaler.feature_names_in_]
+
 # --------------------------------------------------
-# SCALE & PREDICT
+# PREDICTION
 # --------------------------------------------------
 X_scaled = scaler.transform(input_df)
-prediction = model.predict(X_scaled)[0]
-confidence = np.max(model.predict_proba(X_scaled))
+pred_class = model.predict(X_scaled)[0]
+probabilities = model.predict_proba(X_scaled)[0]
 
-predicted_label = target_encoder.inverse_transform([prediction])[0]
-
-
-# --------------------------------------------------
-# DISPLAY RESULTS
-# --------------------------------------------------
-st.subheader("📌 Prediction Result")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.metric("Predicted Pollution Source", predicted_label)
-
-with col2:
-    st.metric("Confidence", f"{confidence*100:.2f}%")
-
+confidence = float(np.max(probabilities))
+predicted_label = target_encoder.inverse_transform([pred_class])[0]
 
 # --------------------------------------------------
-# ALERT SYSTEM
+# OUTPUT
 # --------------------------------------------------
-st.subheader("🚦 Pollution Alert Status")
+st.subheader("📌 Prediction Summary")
 
-if confidence >= 0.75:
-    if predicted_label == "Industrial":
-        st.error("🚨 Severe Industrial Pollution Detected!")
-    elif predicted_label == "Vehicular":
-        st.warning("🚗 Severe Vehicular Pollution Detected!")
-    else:
-        st.info("🌿 Natural pollution but elevated levels")
+c1, c2 = st.columns(2)
 
-elif confidence >= 0.5:
-    if predicted_label == "Industrial":
-        st.warning("⚠ Moderate Industrial Pollution Detected")
-    elif predicted_label == "Vehicular":
-        st.warning("⚠ Moderate Vehicular Pollution Detected")
-    else:
-        st.success("🌿 Mostly Natural Pollution")
+with c1:
+    st.metric("Predicted Source", predicted_label)
 
+with c2:
+    st.metric("Prediction Confidence", f"{confidence*100:.1f}%")
+
+# --------------------------------------------------
+# ALERT LOGIC (MODIFIED)
+# --------------------------------------------------
+st.subheader("🚦 Pollution Risk Assessment")
+
+if confidence > 0.8:
+    st.error(f"🚨 High-risk {predicted_label} pollution detected")
+elif confidence > 0.6:
+    st.warning(f"⚠ Moderate {predicted_label} pollution detected")
 else:
-    st.success("✅ Pollution Levels Are Within Safe Limits")
-
-
+    st.success("✅ Pollution levels appear manageable")
 
 # --------------------------------------------------
-# PIE CHART – SOURCE DISTRIBUTION
+# SOURCE DISTRIBUTION
 # --------------------------------------------------
-st.subheader("📊 Pollution Source Distribution")
+st.subheader("📊 Historical Source Distribution")
 
-source_counts = df["pollution_source"].value_counts()
+counts = df["pollution_source"].value_counts()
 
 fig, ax = plt.subplots()
-ax.pie(
-    source_counts.values,
-    labels=source_counts.index,
-    autopct="%1.1f%%",
-    startangle=90
-)
+ax.pie(counts, labels=counts.index, autopct="%1.1f%%", startangle=140)
 ax.axis("equal")
-
 st.pyplot(fig)
 
 # --------------------------------------------------
-# MAP EMBED (MODULE 5 INTEGRATION)
+# MAP VISUALIZATION
 # --------------------------------------------------
-st.subheader("🗺 Interactive Pollution Maps")
+st.subheader("🗺 Spatial Pollution Analysis")
 
 tabs = st.tabs(list(MAP_FILES.keys()))
 
-for tab, (map_name, file_name) in zip(tabs, MAP_FILES.items()):
+for tab, (title, file) in zip(tabs, MAP_FILES.items()):
     with tab:
-        map_path = os.path.join(BASE_DIR, "maps", file_name)
-
-        if os.path.exists(map_path):
-            with open(map_path, "r", encoding="utf-8") as f:
+        path = os.path.join(BASE_DIR, "maps", file)
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
                 st.components.v1.html(f.read(), height=550)
         else:
-            st.error(f"Map file not found: {file_name}")
+            st.warning(f"{file} not available")
 
 # --------------------------------------------------
-# DOWNLOAD REPORT
+# REPORT DOWNLOAD
 # --------------------------------------------------
-st.subheader("📥 Download Pollution Report")
+st.subheader("📥 Export Analysis Report")
 
-report_df = pd.DataFrame({
+report = pd.DataFrame({
     "CO AQI": [co],
     "NO2 AQI": [no2],
-    "Ozone AQI": [ozone],
     "PM2.5 AQI": [pm25],
     "AQI": [aqi],
-    "Temperature (°C)": [temp],
-    "Humidity (%)": [humidity],
-    "Wind Speed (m/s)": [wind],
+    "Temperature": [temp],
+    "Humidity": [humidity],
+    "Wind Speed": [wind],
     "Weather": [weather],
     "Predicted Source": [predicted_label],
     "Confidence": [confidence]
 })
 
-csv = report_df.to_csv(index=False).encode("utf-8")
-
 st.download_button(
-    "Download Pollution Report",
-    csv,
-    "pollution_report.csv",
-    "text/csv"
+    "Download CSV Report",
+    report.to_csv(index=False).encode("utf-8"),
+    file_name="enviroscan_report.csv",
+    mime="text/csv"
 )
