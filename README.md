@@ -6,7 +6,7 @@
 ## Author  
 **Naga Jyothi**  
 B.Tech – Computer Science  
-Individual Project
+S V University,Tirupati
 
 ---
 
