@@ -1,217 +1,182 @@
-# 🌍 EnviroScan:AI-Powered Pollution Source Identifier using Geospatial Analytics
+# 🌍 EnviroScan  
+## AI-Powered Pollution Source Identifier using Geospatial Analytics
 
-## Author
-**Pawan Hingane**  
-B.Tech (Engineering)  
-VIT Bhopal University  
+---
+
+## Author  
+**Naga Jyothi**  
+B.Tech – Computer Science  
+S V University,Tirupati
 
 ---
 
 ## 1. Introduction
 
-Air pollution has emerged as a critical environmental and public health challenge worldwide. Identifying the **source of pollution**—such as vehicular emissions, industrial activity, or natural contributors—is essential for informed decision-making, mitigation strategies, and policy development.
+Air pollution monitoring systems usually report pollutant concentrations but often fail to identify the **source of pollution**. Understanding whether pollution originates from vehicular traffic, industrial activity, agricultural zones, or natural causes is essential for effective mitigation and policy decisions.
 
-This project presents a **machine learning–based approach** to classify pollution sources by integrating **air quality data, meteorological conditions, spatial proximity features, and geospatial visualization**. The primary focus is on developing a **realistic, robust, and deployable system**, prioritizing generalization and interpretability over artificially inflated performance metrics.
+EnviroScan is an **AI-based pollution source identification system** that combines air quality data, weather parameters, spatial context, and machine learning to predict the most likely pollution source for a given scenario. The project emphasizes **practical deployment and interpretability** rather than purely theoretical performance.
 
 ---
 
 ## 2. Problem Statement
 
-Given environmental data collected from multiple heterogeneous sources, the objective is to **predict the primary pollution source (`pollution_source`)** affecting a given geographical location and visually represent pollution patterns for decision support.
-
-### Objectives
-- Integrate air quality, weather, and spatial data from multiple sources  
-- Perform systematic data preprocessing and feature engineering  
-- Train and evaluate multiple machine learning classification models  
-- Select a stable model for deployment  
-- Visualize pollution severity and sources using interactive maps  
-- Ensure realistic performance while avoiding overfitting  
+Given environmental data such as air quality indicators, meteorological conditions, and spatial proximity features, the goal is to **predict the dominant pollution source** affecting a location and present the result through an interactive dashboard.
 
 ---
 
-## 3. Data Sources
+## 3. Objectives
 
-### 3.1 Weather Data
-- **Source:** OpenWeather API  
-- **Features:** Temperature, humidity, wind speed, and weather description  
-
-### 3.2 Air Pollution Data
-- **Source:** Dataset provided by *Ankit Sir*  
-- **Features:**  
-  - Carbon Monoxide (CO) AQI  
-  - Nitrogen Dioxide (NO₂) AQI  
-  - Ozone (O₃) AQI  
-  - Particulate Matter (PM2.5) AQI  
-  - Overall Air Quality Index (AQI)  
-
-### 3.3 Physical and Proximity Features
-- **Source:** OpenStreetMap (OSM) library  
-- **Features:**  
-  - Distance to nearest road  
-  - Distance to industrial areas  
-  - Distance to traffic hotspots  
-
-All datasets were merged using spatial coordinates and timestamps to create a unified dataset.
+- Analyze air quality and weather data  
+- Perform data preprocessing and feature alignment  
+- Train a machine learning model for pollution source classification  
+- Deploy the trained model using a Streamlit dashboard  
+- Visualize pollution trends and high-risk zones  
 
 ---
 
-## 4. Data Preprocessing and Cleaning
+## 4. Data Sources
 
-### 4.1 Data Cleaning
-- Standardized column names for consistency  
-- Removed invalid records and missing target labels  
-- Handled missing numerical values using median imputation  
-- Handled missing categorical values using mode imputation  
+### 4.1 Air Quality Data
+- CO AQI  
+- NO₂ AQI  
+- Ozone AQI  
+- PM2.5 AQI  
+- Overall AQI  
 
-### 4.2 Encoding
-- Label encoding for categorical features  
-- Label encoding for the target variable  
+### 4.2 Weather Data
+- Temperature  
+- Humidity  
+- Wind speed  
+- Wind direction  
 
-### 4.3 Feature Scaling
-- Standardization using `StandardScaler` for uniform model input  
+### 4.3 Spatial and Contextual Features
+- Road, industry, farmland, and dump site indicators  
+- Distance-based proximity features  
+- Location-related attributes derived from OpenStreetMap  
 
----
-
-## 5. Feature Engineering
-
-The following engineered features were derived to improve predictive performance:
-
-- **Traffic Pollution Index:** Average of CO and NO₂ AQI  
-- **Particulate Ratio:** PM2.5 AQI relative to overall AQI  
-- **Heat–Humidity Index:** Combined effect of temperature and humidity  
-- **Spatial Proximity Features:**  
-  - Distance to road (km)  
-  - Distance to industrial area (km)  
-  - Distance to traffic hotspot (km)  
-
-To simulate real-world conditions, controlled **sensor noise** and approximately **18% label noise** were introduced.
+All features were consolidated into a single structured dataset used for both training and inference.
 
 ---
 
-## 6. Machine Learning Models
+## 5. Data Preprocessing
 
-| Model | Purpose |
-|------|--------|
-| Random Forest | Baseline and deployed production model |
-| Decision Tree | Interpretable comparison model |
-| XGBoost | Advanced benchmarking model |
-
----
-
-## 7. Model Architecture and Training
-
-### 7.1 Random Forest (Baseline Model)
-- Depth-limited decision trees  
-- Minimum sample constraints  
-- Balanced class weights  
-
-This model was selected for deployment due to its **robustness, stability, and strong generalization capability**.
-
-### 7.2 Decision Tree
-- Used primarily for interpretability  
-- Hyperparameters optimized to reduce overfitting  
-
-### 7.3 XGBoost
-- Gradient boosting ensemble model  
-- Used for performance comparison only  
+- Standardized and cleaned dataset columns  
+- Removed non-numeric attributes from model input  
+- Handled missing values using median-based strategies  
+- Ensured consistent feature schema between training and deployment  
+- Preserved original column encodings to avoid inference mismatch  
 
 ---
 
-## 8. Hyperparameter Tuning
+## 6. Feature Engineering
 
-Hyperparameter optimization was performed using **RandomizedSearchCV**, primarily on the Decision Tree model.  
-The Random Forest configuration was intentionally preserved to maintain baseline consistency.
+Key features used by the model include:
 
----
+- Pollutant concentration values (CO, NO₂, O₃, PM2.5, AQI)  
+- Weather parameters (temperature, humidity, wind speed, wind direction)  
+- Spatial indicators (road count, industry count, proximity distances)  
 
-## 9. Model Evaluation
-
-### Evaluation Metrics
-- Accuracy  
-- Precision  
-- Recall  
-- Weighted F1-score  
-- Confusion Matrix  
-- Stratified K-Fold Cross-Validation  
-
-### Performance Summary
-- **Random Forest Accuracy:** ~80–85%  
-- Decision Tree: Lower accuracy, expected due to simplicity  
-- XGBoost: Comparable or slightly higher accuracy  
+Some spatial values are set to reasonable defaults during deployment when real-time location data is unavailable. This ensures feature consistency with the trained model.
 
 ---
 
-## 10. Overfitting Analysis
+## 7. Machine Learning Model
 
-Overfitting was controlled through:
-- Model depth constraints  
-- Minimum sample requirements  
-- Noise injection  
-- Cross-validation consistency  
+The problem is formulated as a **multi-class classification task**.
 
-Comparable performance across training and test datasets confirms **no overfitting**.
+### Model Used
+- **Random Forest Classifier**
 
----
+### Justification
+- Handles non-linear feature interactions effectively  
+- Performs well with mixed environmental features  
+- Robust to noise and imperfect real-world data  
 
-## 11. Geospatial Visualization and Mapping
-
-To enhance interpretability and decision support, model predictions were visualized using **interactive geospatial maps**:
-
-- Predictions and location data were loaded into an interactive mapping interface  
-- **Folium** was used to generate dynamic pollution heatmaps  
-- Source-specific markers were overlaid to represent pollution origins (e.g., industrial, vehicular)  
-- High-risk zones were visualized using color gradients based on pollutant severity  
-- Filters were implemented to explore data by:
-  - Date  
-  - Location  
-  - Predicted pollution source  
-
-The maps were embedded into the web dashboard for user interaction and analysis.
+The trained model, scaler, and label encoder are serialized using Joblib for reuse during deployment.
 
 ---
 
-## 12. System Architecture
+## 8. Model Training
 
-### System Workflow
-1. Data collection from APIs and curated datasets  
-2. Data preprocessing and cleaning  
-3. Feature engineering and transformation  
-4. Model training and evaluation  
-5. Prediction generation  
-6. Geospatial visualization and dashboard integration  
-7. Model serialization using Joblib  
+Model training is performed using the `train_model.py` script:
+
+- Target labels are encoded using `LabelEncoder`  
+- Features are scaled using `StandardScaler`  
+- The Random Forest model is trained on aligned numeric features  
+- Trained artifacts are saved as `.pkl` files  
 
 ---
 
-## 13. Deployment
+## 9. Dashboard and Visualization
 
-- **Random Forest** selected as the production model  
-- Saved artifacts include:
+A **Streamlit-based interactive dashboard** was developed to demonstrate the model.
+
+### Dashboard Features
+- User-controlled pollutant and weather inputs  
+- Real-time pollution source prediction  
+- Prediction confidence score  
+- Alert system based on confidence thresholds  
+- Pie chart showing pollution source distribution  
+- Embedded interactive maps:
+  - Overall pollution overview  
+  - Pollution heatmap  
+  - High-risk zone visualization  
+
+---
+
+## 10. System Workflow
+
+1. Load and preprocess dataset  
+2. Train and serialize machine learning model  
+3. Accept user inputs through Streamlit UI  
+4. Align inputs with training feature schema  
+5. Generate pollution source prediction  
+6. Display results, alerts, and visualizations  
+
+---
+
+## 11. Deployment
+
+- Application deployed locally using Streamlit  
+- Required files:
+  - `app.py`
+  - `train_model.py`
   - `pollution_rf_realistic.pkl`
   - `scaler.pkl`
-  - `target_encoder.pkl`  
-
-Other models are retained for experimentation and comparison.
-
----
-
-## 14. Conclusion
-
-This project delivers an end-to-end **pollution source classification system** that integrates machine learning with geospatial visualization. By focusing on realistic data handling, robust modeling, and interactive mapping, the system provides meaningful insights suitable for real-world environmental monitoring and decision-making.
+  - `target_encoder.pkl`
+- Modular structure allows easy future extension  
 
 ---
 
-## 15. Future Scope
-- Real-time data streaming and alerts  
-- Advanced GIS-based spatial analysis  
-- Satellite data integration  
-- Cloud-based scalable deployment  
+## 12. Conclusion
+
+EnviroScan demonstrates how machine learning and environmental data can be combined to identify pollution sources in a structured and interpretable way. The project focuses on real-world constraints such as feature consistency, data quality, and deployment practicality.
 
 ---
 
-## 16. References
-- OpenWeather API Documentation  
-- OpenStreetMap (OSM)  
-- Scikit-learn Documentation  
-- XGBoost Documentation
+## 13. Future Enhancements
 
+- Real-time API-based data ingestion  
+- Automated alert notifications  
+- Advanced GIS-level spatial analysis  
+- Cloud-based deployment  
+
+---
+
+## 14. Technologies Used
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Streamlit  
+- Matplotlib  
+- Folium  
+- OpenStreetMap  
+
+---
+
+## 15. How to Run the Project
+
+```bash
+python train_model.py
+python -m streamlit run app.py
