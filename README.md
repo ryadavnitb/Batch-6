@@ -4,7 +4,7 @@
 ---
 
 ## Author  
-**Naga Jyothi**  
+**Pothula Naga Jyothi**  
 B.Tech – Computer Science  
 S V University,Tirupati
 
@@ -122,7 +122,19 @@ A **Streamlit-based interactive dashboard** was developed to demonstrate the mod
   - Pollution heatmap  
   - High-risk zone visualization  
 
----
+
+## Dashboard Screenshots
+![alt text](<DashboardScreenshots/Screenshot 2026-01-07 185301.png>)
+
+
+![alt text](<DashboardScreenshots/Screenshot 2026-01-07 185319.png>)
+
+
+![alt text](<DashboardScreenshots/Screenshot 2026-01-07 185338.png>)
+
+
+![alt text](<DashboardScreenshots/Screenshot 2026-01-07 185356.png>)
+
 
 ## 10. System Workflow
 
