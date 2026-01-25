@@ -214,9 +214,21 @@ st.markdown(
 # ======================================
 # 2. Load data, model, label encoder
 # ======================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_PATH = os.path.join(
+    BASE_DIR,
+    "EnviroScan",
+    "Air-Quality-Dataset-2021-2023_with_preds.csv"
+)
+
 @st.cache_data
 def load_data():
-    return pd.read_csv("Air-Quality-Dataset-2021-2023_with_preds.csv")
+    return pd.read_csv(DATA_PATH)
+
+# @st.cache_data
+# def load_data():
+#     return pd.read_csv("Air-Quality-Dataset-2021-2023_with_preds.csv")
 
 
 @st.cache_resource
@@ -1043,5 +1055,6 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
+
 
 
