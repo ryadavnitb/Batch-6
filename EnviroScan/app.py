@@ -10,6 +10,10 @@ import numpy as np
 import osmnx as ox
 import plotly.graph_objects as go
 import io
+import streamlit as st
+
+
+st.set_option("deprecation.showPyplotGlobalUse", False)
 
 
 # ==========================
@@ -1039,4 +1043,5 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
+
 
